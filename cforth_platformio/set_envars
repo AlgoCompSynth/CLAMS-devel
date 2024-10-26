@@ -1,0 +1,4 @@
+
+export PLATFORMIO_VENV="$HOME/platformio_venv"
+export CFORTH_URL="https://github.com/MitchBradley/cforth.git"
+export CFORTH_PATH="$HOME/Projects/cforth"

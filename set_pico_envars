@@ -1,0 +1,130 @@
+# All files will be stored in directories below here
+# Change this if you want them stored somewhere else
+export CLAMS_BASE="$HOME/CLAMS_base"
+
+# Container image and name
+export CLAMS_CONTAINER_IMAGE="docker.io/library/ubuntu:24.04"
+export CLAMS_CONTAINER_NAME="CLAMS-devel"
+
+# Don't change anything below here!
+
+# make sure PATH has our binaries
+export PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+# Pico SDK repositories
+export PICO_SDK_REPOS="$CLAMS_BASE/pico_repos"
+
+## SDK
+export PICO_SDK_URL="--recursive --branch 2.0.0 https://github.com/raspberrypi/pico-sdk.git"
+export PICO_SDK_PATH="$PICO_SDK_REPOS/pico-sdk"
+
+## Raspberry Pi sample projects
+export PICO_EXAMPLES_URL="--recursive --branch sdk-2.0.0 https://github.com/raspberrypi/pico-examples.git"
+export PICO_EXAMPLES_PATH="$PICO_SDK_REPOS/pico-examples"
+export PICO_EXTRAS_URL="--recursive --branch sdk-2.0.0 https://github.com/raspberrypi/pico-extras.git"
+export PICO_EXTRAS_PATH="$PICO_SDK_REPOS/pico-extras"
+export PICO_PLAYGROUND_URL="--recursive --branch sdk-2.0.0 https://github.com/raspberrypi/pico-playground.git"
+export PICO_PLAYGROUND_PATH="$PICO_SDK_REPOS/pico-playground"
+
+## FreeRTOS kernel
+export FREERTOS_KERNEL_URL="--recursive https://github.com/raspberrypi/FreeRTOS-Kernel.git"
+export FREERTOS_KERNEL_PATH="$PICO_SDK_REPOS/FreeRTOS-Kernel"
+
+## Utilities
+export PICOTOOL_URL="--recursive --branch 2.0.0 https://github.com/raspberrypi/picotool.git"
+export PICOTOOL_PATH="$PICO_SDK_REPOS/picotool"
+export OPENOCD_URL="--depth=1 https://github.com/raspberrypi/openocd.git"
+export OPENOCD_PATH="$PICO_SDK_REPOS/openocd"
+export DEBUG_PROBE_FIRMWARE="https://github.com/raspberrypi/debugprobe/releases/download/debugprobe-v2.0.1/debugprobe.uf2"
+
+## RISC-V compiler
+## https://www.embecosm.com/resources/tool-chain-downloads/#corev
+## recommended by Raspberry Pi Pico C/C++ SDK documentation
+export RISCV_COMPILER_VERSION="corev-openhw-gcc-ubuntu2204-20240530"
+export RISCV_COMPILER_TARBALL="$RISCV_COMPILER_VERSION.tar.gz"
+export RISCV_COMPILER_URL="https://buildbot.embecosm.com/job/corev-gcc-ubuntu2204/47/artifact/$RISCV_COMPILER_TARBALL"
+export RISCV_COMPILER_PATH="$HOME/.local"
+
+## Arm compiler
+## https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
+export ARM_COMPILER_RELEASE="13.3.rel1"
+export ARM_COMPILER_VERSION="arm-gnu-toolchain-$ARM_COMPILER_RELEASE-x86_64-arm-none-eabi"
+export ARM_COMPILER_TARBALL="$ARM_COMPILER_VERSION.tar.xz"
+export ARM_COMPILER_URL="https://developer.arm.com/-/media/Files/downloads/gnu/$ARM_COMPILER_RELEASE/binrel/$ARM_COMPILER_TARBALL"
+export ARM_COMPILER_PATH="$HOME/.local"
+
+# Arduino
+export ARDUINO_INSTALL_PATH="$HOME/.arduino15"
+export ARDUINO_IDE_PATH="$HOME/Arduino"
+export ARDUINO_CLI_PATH="$HOME/.local/bin"
+export ARDUINO_CLI_URL="https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh"
+export ARDUINO_PICO_PATH="$HOME/Arduino/hardware/pico/rp2040"
+export ARDUINO_PICO_URL="https://github.com/earlephilhower/arduino-pico.git"
+export ARDUINO_PICO_PACKAGE_URL="https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json"
+export ZSH_LOCAL_COMPLETIONS_PATH="$HOME/.zsh_completions"
+
+## Adafruit_TinyUSB_Arduino testing
+export ADAFRUIT_TINYUSB_ARDUINO_PATH="$HOME/.arduino15/packages/rp2040/hardware/rp2040/4.1.1/libraries/Adafruit_TinyUSB_Arduino"
+export ADAFRUIT_TINYUSB_ARDUINO_URL="--recursive --branch Audio https://github.com/pschatzmann/Adafruit_TinyUSB_Arduino.git"
+
+## Arduino Audio Tools
+export ARDUINO_AUDIO_TOOLS_URL="https://github.com/pschatzmann/arduino-audio-tools.git"
+
+## AMY
+export AMY_URL="https://github.com/shorepine/amy.git"
+
+## Teensyduino
+export TEENSYDUINO_PACKAGE_URL="https://www.pjrc.com/teensy/package_teensy_index.json"
+
+## teensy_loader_cli
+export TEENSY_LOADER_CLI_URL="https://github.com/PaulStoffregen/teensy_loader_cli.git"
+export TEENSY_LOADER_CLI_PATH="$HOME/Projects/teensy_loader_cli"
+
+## Daisyduino
+export DAISYDUINO_PACKAGE_URL="https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json"
+
+# Arduino for ESP32
+export ARDUINO_ESP32_PACKAGE_URL="https://espressif.github.io/arduino-esp32/package_esp32_index.json"
+
+# PlatformIO
+export SYSTEM_UDEV_PATH="/etc/udev/rules.d"
+export PLATFORMIO_UDEV_RULES_PATH="$SYSTEM_UDEV_PATH/99-platformio-udev.rules"
+export PLATFORMIO_UDEV_RULES_URL="https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules"
+
+## Virtual environment for PlatformIO
+export PLATFORMIO_VENV="$CLAMS_BASE/platformio_venv"
+export ACTIVATE_PLATFORMIO_VENV="$PLATFORMIO_VENV/bin/activate"
+
+## cforth
+export CFORTH_URL="https://github.com/MitchBradley/cforth.git"
+export CFORTH_PATH="$HOME/Projects/cforth"
+
+## Zephyr OS
+export ZEPHYR_OS_PROJECT="$CLAMS_BASE/zephyr_os_project"
+export ZEPHYR_OS_VENV="$ZEPHYR_OS_PROJECT/.venv"
+export ACTIVATE_ZEPHYR_OS_VENV="$ZEPHYR_OS_VENV/bin/activate"
+export ZEPHYR_OS_SDK_VERSION="0.16.8"
+export ZEPHYR_OS_SDK_TARBALL="zephyr-sdk-${ZEPHYR_OS_SDK_VERSION}_linux-x86_64.tar.xz"
+export ZEPHYR_OS_SDK_REPO="https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v$ZEPHYR_OS_SDK_VERSION"
+export ZEPHYR_OS_SDK_URL="$ZEPHYR_OS_SDK_REPO/$ZEPHYR_OS_SDK_TARBALL"
+export ZEPHYR_OS_SDK_SHASUM="$ZEPHYR_OS_SDK_REPO/sha256.sum"
+export ZEPHYR_OS_SDK_DEST="$HOME/.local"
+
+## TinyVision.ai pico-ice
+export PICO_ICE_PATH="$CLAMS_BASE/pico_ice_tools"
+export PICO_ICE_VERSION="1.6.1"
+export PICO_ICE_FIRMWARE_UF2="pico_ice_default_firmware_v${PICO_ICE_VERSION}.uf2"
+export PICO_ICE_FIRMWARE_URL="https://github.com/tinyvision-ai-inc/pico-ice/releases/download/pico-ice-default-v${PICO_ICE_FIRMWARE_VERSION}/$PICO_ICE_FIRMWARE_UF2"
+
+export PICO_ICE_SDK_URL="--recursive --branch v$PICO_ICE_VERSION https://github.com/tinyvision-ai-inc/pico-ice-sdk.git"
+export PICO_ICE_SDK_PATH="$PICO_ICE_PATH/pico-ice-sdk"
+
+## Virtual environment for apio
+export APIO_VENV="$CLAMS_BASE/apio_venv"
+export ACTIVATE_APIO_VENV="$APIO_VENV/bin/activate"
+export OSS_CAD_SUITE="$HOME/.apio/packages/tools-oss-cad-suite"
+
+## Zeptoforth
+#export ZEPTOFORTH_URL="--branch v1.8.1.2 https://github.com/tabemann/zeptoforth.git"
+export ZEPTOFORTH_URL="--branch v1.9.0-alpha.1 https://github.com/tabemann/zeptoforth.git"
+export ZEPTOFORTH_PATH="$CLAMS_BASE/zeptoforth"
