@@ -13,6 +13,7 @@ for script in \
   23_daisyduino.sh \
   30_arduino_audio_tools.sh \
   31_amy.sh \
+  32_adafruit.sh \
   90_adafruit_tinyusb_arduino_pico.sh
 do
   ./$script

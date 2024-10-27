@@ -10,14 +10,12 @@ rm --force $LOGFILE
 
 echo "Enabling GitHub library installs"
 arduino-cli config set library.enable_unsafe_install true
-arduino-cli config dump
 
-# installing AMY library
+echo "Installing AMY library"
 arduino-cli lib install --git-url $AMY_URL \
   >> $LOGFILE 2>&1
 
 echo "Disabling GitHub library installs"
 arduino-cli config set library.enable_unsafe_install false
-arduino-cli config dump
 
 echo "Finished"
