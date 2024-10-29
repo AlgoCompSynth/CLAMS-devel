@@ -14,6 +14,7 @@ for script in \
   30_arduino_audio_tools.sh \
   31_amy.sh \
   32_adafruit.sh \
+  33_m5unified.sh \
   90_adafruit_tinyusb_arduino_pico.sh
 do
   ./$script

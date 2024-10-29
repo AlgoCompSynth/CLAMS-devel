@@ -1,6 +1,5 @@
 Board Name                                         FQBN
 0xCB Helios                                        rp2040:rp2040:0xcb_helios
-3D printer boards                                  STMicroelectronics:stm32:3dprinter
 4D Systems gen4-ESP32 16MB Modules (ESP32-S3R8n16) esp32:esp32:gen4-ESP32-S3R8n16
 AI Thinker ESP32-CAM                               esp32:esp32:esp32cam
 ALKS ESP32                                         esp32:esp32:alksesp32
@@ -68,7 +67,6 @@ Bee S3                                             esp32:esp32:Bee_S3
 BharatPi A7672S 4G Module                          esp32:esp32:BharatPi-A7672S-4G
 BharatPi LoRa Module                               esp32:esp32:BharatPi-LoRa
 BharatPi Node Wifi Module                          esp32:esp32:BharatPi-Node-Wifi
-Blues boards                                       STMicroelectronics:stm32:Blues
 Breadstick Raspberry                               rp2040:rp2040:breadstick_raspberry
 BridgeTek IDM2040-43A                              rp2040:rp2040:bridgetek_idm2040_43a
 BridgeTek IDM2040-7A                               rp2040:rp2040:bridgetek_idm2040_7a
@@ -106,9 +104,7 @@ Deneyap Mini                                       esp32:esp32:deneyapmini
 Deneyap Mini v2                                    esp32:esp32:deneyapminiv2
 Denky                                              esp32:esp32:ch_denky
 Department of Alchemy MiniMain ESP32-S2            esp32:esp32:department_of_alchemy_minimain_esp32s2
-Discovery                                          STMicroelectronics:stm32:Disco
 Dongsen Tech Pocket 32                             esp32:esp32:pocket_32
-ELV Modular System boards                          STMicroelectronics:stm32:ELV_Modular_System
 ESP-C3-M1-I-Kit                                    esp32:esp32:esp32c3m1IKit
 ESP32 Dev Module                                   esp32:esp32:esp32
 ESP32 FM DevKit                                    esp32:esp32:fm-devkit
@@ -134,12 +130,9 @@ ESPectro32                                         esp32:esp32:espectro32
 ET-Board                                           esp32:esp32:ET-Board
 EVN Alpha                                          rp2040:rp2040:evn_alpha
 Edgebox-ESP-100                                    esp32:esp32:Edgebox-ESP-100
-Elecgator boards                                   STMicroelectronics:stm32:Elecgator
 Elecrow CrowPanel 7.0P                             esp32:esp32:elecrow_crowpanel_7
 Electronic SweetPeas - ESP320                      esp32:esp32:esp320
-Electronic speed controllers                       STMicroelectronics:stm32:ESC_board
 ElectronicCats HunterCat NFC RP2040                rp2040:rp2040:electroniccats_huntercat_nfc
-Eval                                               STMicroelectronics:stm32:Eval
 ExtremeElectronics RC2040                          rp2040:rp2040:extelec_rc2040
 FireBeetle 2 ESP32-E                               esp32:esp32:dfrobot_firebeetle2_esp32e
 FireBeetle-ESP32                                   esp32:esp32:firebeetle32
@@ -147,30 +140,9 @@ Franzininho WiFi                                   esp32:esp32:franzininho_wifi_
 Franzininho WiFi MSC                               esp32:esp32:franzininho_wifi_msc_esp32s2
 Fri3d Badge 2024 (ESP32-S3-WROOM-1)                esp32:esp32:fri3d_2024_esp32s3
 Frog Board ESP32                                   esp32:esp32:frogboard
-Garatronic-McHobby                                 STMicroelectronics:stm32:Garatronic
 Geekble Mini ESP32-C3                              esp32:esp32:Geekble_ESP32C3
-Generic Flight Controllers                         STMicroelectronics:stm32:GenFlight
 Generic RP2040                                     rp2040:rp2040:generic
 Generic RP2350                                     rp2040:rp2040:generic_rp2350
-Generic STM32C0 series                             STMicroelectronics:stm32:GenC0
-Generic STM32F0 series                             STMicroelectronics:stm32:GenF0
-Generic STM32F1 series                             STMicroelectronics:stm32:GenF1
-Generic STM32F2 series                             STMicroelectronics:stm32:GenF2
-Generic STM32F3 series                             STMicroelectronics:stm32:GenF3
-Generic STM32F4 series                             STMicroelectronics:stm32:GenF4
-Generic STM32F7 series                             STMicroelectronics:stm32:GenF7
-Generic STM32G0 series                             STMicroelectronics:stm32:GenG0
-Generic STM32G4 series                             STMicroelectronics:stm32:GenG4
-Generic STM32H5 series                             STMicroelectronics:stm32:GenH5
-Generic STM32H7 Series                             STMicroelectronics:stm32:GenH7
-Generic STM32L0 series                             STMicroelectronics:stm32:GenL0
-Generic STM32L1 series                             STMicroelectronics:stm32:GenL1
-Generic STM32L4 series                             STMicroelectronics:stm32:GenL4
-Generic STM32L5 series                             STMicroelectronics:stm32:GenL5
-Generic STM32U5 series                             STMicroelectronics:stm32:GenU5
-Generic STM32WB series                             STMicroelectronics:stm32:GenWB
-Generic STM32WBA series                            STMicroelectronics:stm32:GenWBA
-Generic STM32WL series                             STMicroelectronics:stm32:GenWL
 Generic Sea-Picro                                  rp2040:rp2040:sea_picro
 GroundStudio Marble Pico                           rp2040:rp2040:groundstudio_marble_pico
 HONEYLemon                                         esp32:esp32:honeylemon
@@ -201,7 +173,6 @@ IOXESP32                                           esp32:esp32:ioxesp32
 IOXESP32-C6                                        esp32:esp32:ioxesp32c6
 IOXESP32PS                                         esp32:esp32:ioxesp32ps
 IntoRobot Fig                                      esp32:esp32:intorobot-fig
-IoT continuum boards                               STMicroelectronics:stm32:IotContinuum
 KB32-FT                                            esp32:esp32:kb32
 KITS ESP32 EDU                                     esp32:esp32:kits-edu
 L'atelier d'Arnoz DudesCab                         rp2040:rp2040:DudesCab
@@ -226,7 +197,6 @@ Lion:Bit Dev Board                                 esp32:esp32:lionbit
 Lion:Bit S3 STEM Dev Board                         esp32:esp32:lionbits3
 LoPy                                               esp32:esp32:lopy
 LoPy4                                              esp32:esp32:lopy4
-LoRa boards                                        STMicroelectronics:stm32:LoRa
 M5Atom                                             esp32:esp32:m5stack_atom
 M5AtomS3                                           esp32:esp32:m5stack_atoms3
 M5Capsule                                          esp32:esp32:m5stack_capsule
@@ -263,7 +233,6 @@ Melopero Cookie RP2040                             rp2040:rp2040:melopero_cookie
 Melopero Shake RP2040                              rp2040:rp2040:melopero_shake_rp2040
 Metro ESP-32                                       esp32:esp32:metro_esp-32
 Microduino-CoreESP32                               esp32:esp32:CoreESP32
-Midatronics boards                                 STMicroelectronics:stm32:Midatronics
 Namino Arancio                                     esp32:esp32:namino_arancio
 Namino Bianco                                      esp32:esp32:namino_bianco
 Namino Rosso                                       esp32:esp32:namino_rosso
@@ -276,9 +245,6 @@ NodeMCU-32S                                        esp32:esp32:nodemcu-32s
 Noduino Quantum                                    esp32:esp32:quantum
 Nologo ESP32C3 Super Mini                          esp32:esp32:nologo_esp32c3_super_mini
 Nologo ESP32S3 Pico                                esp32:esp32:nologo_esp32s3_pico
-Nucleo-144                                         STMicroelectronics:stm32:Nucleo_144
-Nucleo-32                                          STMicroelectronics:stm32:Nucleo_32
-Nucleo-64                                          STMicroelectronics:stm32:Nucleo_64
 ODROID ESP32                                       esp32:esp32:odroid_esp32
 OLIMEX ESP32-C3-DevKit-Lipo                        esp32:esp32:esp32c3-devkitlipo
 OLIMEX ESP32-C6-EVB                                esp32:esp32:esp32c6-evb
@@ -313,7 +279,6 @@ Raspberry Pi Pico W                                rp2040:rp2040:rpipicow
 RedPill(+) ESP32-S3                                esp32:esp32:redpill_esp32s3
 RoboHeart Hercules                                 esp32:esp32:roboheart_hercules
 S.ODI Ultra v1                                     esp32:esp32:S_ODI_Ultra
-STM32MP1 series coprocessor                        STMicroelectronics:stm32:STM32MP1
 Seeed INDICATOR RP2040                             rp2040:rp2040:seeed_indicator_rp2040
 Seeed XIAO RP2040                                  rp2040:rp2040:seeed_xiao_rp2040
 Senses's WEIZEN                                    esp32:esp32:sensesiot_weizen
@@ -323,7 +288,6 @@ Solder Party RP2040 Stamp                          rp2040:rp2040:solderparty_rp2
 Solder Party RP2350 Stamp                          rp2040:rp2040:solderparty_rp2350_stamp
 Solder Party RP2350 Stamp XL                       rp2040:rp2040:solderparty_rp2350_stamp_xl
 Sonoff DUALR3                                      esp32:esp32:sonoff_dualr3
-SparkFun Boards                                    STMicroelectronics:stm32:SparkFun
 SparkFun ESP32 IoT RedBoard                        esp32:esp32:sparkfun_esp32_iot_redboard
 SparkFun ESP32 MicroMod                            esp32:esp32:esp32micromod
 SparkFun ESP32 Thing                               esp32:esp32:esp32thing
