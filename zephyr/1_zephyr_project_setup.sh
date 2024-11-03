@@ -43,8 +43,9 @@ popd
 echo "Installing Zephyr OS SDK"
 pushd /tmp
   rm --force --recursive zephyr*
-  echo "Downloading tarball"
-  wget --quiet $ZEPHYR_OS_SDK_URL
+  echo "Downloading tarball - takes about half an hour"
+  /usr/bin/time wget --quiet $ZEPHYR_OS_SDK_URL \
+    >> $LOGFILE 2>&1
   echo "Validating checksum"
   wget --quiet -O - $ZEPHYR_OS_SDK_SHASUM | shasum --check --ignore-missing
 popd
