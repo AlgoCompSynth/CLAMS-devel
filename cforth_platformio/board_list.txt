@@ -1445,6 +1445,7 @@ pimoroni_tiny2350               RP2350  150MHz       4MB      512KB  Tiny2350
 adafruit_trinkeyrp2040qt        RP2040  133MHz       8MB      256KB  Trinkey RP2040 QT
 wiznet_5100s_evb_pico           RP2040  133MHz       2MB      256KB  W5100S-EVB-Pico
 wiznet_5500_evb_pico            RP2040  133MHz       2MB      256KB  W5500-EVB-Pico
+wiznet_55rp20_evb_pico          RP2040  133MHz       2MB      256KB  W55RP20-EVB-Pico
 wiznet_wizfi360_evb_pico        RP2040  133MHz       2MB      256KB  WizFi360-EVB-Pico
 seeed_xiao_rp2040               RP2040  133MHz       2MB      256KB  XIAO RP2040
 seeed_xiao_rp2350               RP2350  150MHz       16MB     512KB  XIAO RP2350
