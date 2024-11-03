@@ -25,7 +25,10 @@ pushd /tmp
   mkdir --parents $HOME/.fonts
   cp *.ttf $HOME/.fonts
 
-  popd
+popd
+
+echo "Copying debugging scripts to $HOME/.local/bin"
+cp ../debugging_scripts/* $HOME/.local/bin
 
 # https://starship.rs/guide/#%F0%9F%9A%80-installation
 echo "Installing Starship"
