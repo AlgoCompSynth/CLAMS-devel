@@ -43,7 +43,7 @@ popd
 echo "Installing Zephyr OS SDK"
 pushd /tmp
   rm --force --recursive zephyr*
-  echo "Downloading tarball - takes about half an hour"
+  echo "Downloading tarball"
   /usr/bin/time wget --quiet $ZEPHYR_OS_SDK_URL \
     >> $LOGFILE 2>&1
   echo "Validating checksum"
@@ -57,7 +57,19 @@ pushd $ZEPHYR_OS_SDK_DEST
     >> $LOGFILE 2>&1
   echo "Setting up"
   cd zephyr-sdk*
-    ./setup.sh -t all -h -c
+    echo "Host tools"
+    ./setup.sh -h -c
+    echo "aarch64"
+    ./setup.sh -t aarch64-zephyr-elf
+    echo "arm"
+    ./setup.sh -t arm-zephyr-eabi
+    echo "riscv64"
+    ./setup.sh -t riscv64-zephyr-elf
+    echo "x86_64"
+    ./setup.sh -t x86_64-zephyr-elf
+    echo "xtensa-espressif_esp32s3"
+    ./setup.sh -t xtensa-espressif_esp32s3_zephyr-elf
+
   cd ..
 popd
 
