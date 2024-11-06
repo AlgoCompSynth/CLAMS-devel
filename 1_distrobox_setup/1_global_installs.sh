@@ -35,8 +35,10 @@ export DEBIAN_FRONTEND=noninteractive
   libftdi-dev \
   libgtk-3-0 \
   libmagic1 \
+  libnss3 \
   libpam-systemd \
   libsdl2-dev \
+  libsecret-1-0 \
   libtool \
   libusb-1.0-0-dev \
   lsb-release \
