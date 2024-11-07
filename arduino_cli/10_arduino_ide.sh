@@ -5,14 +5,24 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
-export LOGFILE=$PWD/10_arduino_cli.log
+export LOGFILE=$PWD/10_arduino_ide.log
 rm -f $LOGFILE
 
-echo "Installing locally via 'curl'"
+echo "Installing IDE via 'curl'"
+mkdir --parents $ARDUINO_IDE_PATH
+pushd $ARDUINO_IDE_PATH/..
+  rm -fr arduino*
+  curl -sOL $ARDUINO_IDE_URL
+  unzip $ARDUINO_IDE_ZIPFILE
+  rm -f $ARDUINO_IDE_ZIPFILE
+popd
+
+echo "Copying 'start_arduino_ide.sh' to $HOME/.local/bin/"
+cp start_arduino_ide.sh $HOME/.local/bin/
+
 # https://arduino.github.io/arduino-cli/0.20/installation/
-/usr/bin/time --output=$LOGFILE --append \
-  curl -fsSL $ARDUINO_CLI_URL | BINDIR=$ARDUINO_CLI_PATH sh \
-  >> $LOGFILE 2>&1
+echo "Copying $ARDUINO_CLI_EXECUTABLE to $HOME/.local/bin"
+cp $ARDUINO_CLI_EXECUTABLE $HOME/.local/bin/
 arduino-cli version
 
 echo "Creating fresh configuration file"
