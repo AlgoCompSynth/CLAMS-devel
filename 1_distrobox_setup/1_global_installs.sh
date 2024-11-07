@@ -20,6 +20,7 @@ export DEBIAN_FRONTEND=noninteractive
   automake \
   build-essential \
   ccache \
+  clang \
   cmake \
   dfu-util \
   device-tree-compiler \
