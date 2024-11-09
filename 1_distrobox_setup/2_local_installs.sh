@@ -33,6 +33,20 @@ popd
 echo "Copying debugging scripts to $HOME/.local/bin"
 cp ../debugging_scripts/* $HOME/.local/bin
 
+echo "Installing e4thcom"
+export E4THCOM_VERSION="0.8.5.2"
+export E4THCOM_TARBALL="e4thcom-$E4THCOM_VERSION.tar.gz"
+export E4THCOM_PATH="$HOME/.local/e4thcom-$E4THCOM_VERSION"
+export E4THCOM_URL="https://wiki.forth-ev.de/lib/exe/fetch.php/projects:e4thcom:$E4THCOM_TARBALL"
+mkdir --parents $E4THCOM_PATH
+pushd $E4THCOM_PATH/..
+  rm --force --recursive $E4THCOM_PATH
+  curl -sL $E4THCOM_URL > $E4THCOM_TARBALL
+  tar xf $E4THCOM_TARBALL
+  rm --force $E4THCOM_TARBALL
+  cp $E4THCOM_PATH/e4thcom $E4THCOM_PATH/e4thcom.i ./bin
+popd
+
 # https://starship.rs/guide/#%F0%9F%9A%80-installation
 echo "Installing Starship"
 export BIN_DIR=$HOME/.local/bin
