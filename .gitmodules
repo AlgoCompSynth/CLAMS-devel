@@ -1,0 +1,3 @@
+[submodule "arduino_ide/c3"]
+	path = arduino_ide/c3
+	url = git@github.com:AlgoCompSynth/c3
