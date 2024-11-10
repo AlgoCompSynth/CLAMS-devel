@@ -75,6 +75,16 @@ SparkFun MicroMod RP2040             rp2040:rp2040:sparkfun_micromodrp2040
 SparkFun ProMicro RP2040             rp2040:rp2040:sparkfun_promicrorp2040
 SparkFun ProMicro RP2350             rp2040:rp2040:sparkfun_promicrorp2350
 SparkFun Thing Plus RP2040           rp2040:rp2040:sparkfun_thingplusrp2040
+Teensy 2.0                           teensy:avr:teensy2
+Teensy 3.0                           teensy:avr:teensy30
+Teensy 3.2 / 3.1                     teensy:avr:teensy31
+Teensy 3.5                           teensy:avr:teensy35
+Teensy 3.6                           teensy:avr:teensy36
+Teensy 4.0                           teensy:avr:teensy40
+Teensy 4.1                           teensy:avr:teensy41
+Teensy LC                            teensy:avr:teensyLC
+Teensy MicroMod                      teensy:avr:teensyMM
+Teensy++ 2.0                         teensy:avr:teensypp2
 VCC-GND YD RP2040                    rp2040:rp2040:vccgnd_yd_rp2040
 Viyalab Mizu RP2040                  rp2040:rp2040:viyalab_mizu
 WIZnet W5100S-EVB-Pico               rp2040:rp2040:wiznet_5100s_evb_pico

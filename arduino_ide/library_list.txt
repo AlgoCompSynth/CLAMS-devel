@@ -1,3 +1,1 @@
-Name        Installed     Available         Location Description
-audio-tools 0.9.9         -                 user     -
-
+No libraries installed.
