@@ -13,4 +13,10 @@ rm --force --recursive c3
 /usr/bin/time git clone https://github.com/AlgoCompSynth/c3.git \
   >> $LOGFILE 2>&1
 
+echo "Copying Forth files for upload"
+pushd c3
+  mkdir --parents data
+  cp *.fth data/
+popd
+
 echo "Finished"

@@ -69,6 +69,9 @@ export ARDUINO_IDE_PATH="$HOME/.local/arduino-ide_${ARDUINO_IDE_VERSION}_Linux_6
 export ARDUINO_IDE_URL="https://downloads.arduino.cc/arduino-ide/$ARDUINO_IDE_ZIPFILE"
 export ARDUINO_CLI_EXECUTABLE="$ARDUINO_IDE_PATH/resources/app/lib/backend/resources/arduino-cli"
 export ARDUINO_IDE_EXECUTABLE="$ARDUINO_IDE_PATH/arduino-ide"
+export ARDUINO_LITTLEFS_UPLOAD_VERSION="1.3.0"
+export ARDUINO_LITTLEFS_UPLOAD_PLUGIN="arduino-littlefs-upload-$ARDUINO_LITTLEFS_UPLOAD_VERSION.vsix"
+export ARDUINO_LITTLEFS_UPLOAD_URL="https://github.com/earlephilhower/arduino-littlefs-upload/releases/download/$ARDUINO_LITTLEFS_UPLOAD_VERSION/$ARDUINO_LITTLEFS_UPLOAD_PLUGIN"
 
 ## Adafruit_TinyUSB_Arduino testing
 export ADAFRUIT_TINYUSB_ARDUINO_PATH="$HOME/.arduino15/packages/rp2040/hardware/rp2040/*/libraries/Adafruit_TinyUSB_Arduino"
