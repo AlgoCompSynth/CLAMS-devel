@@ -10,7 +10,7 @@ rm --force $LOGFILE
 
 echo "Cloning fresh c3 project repository"
 rm --force --recursive c3
-/usr/bin/time git clone https://github.com/AlgoCompSynth/c3.git \
+/usr/bin/time git clone https://github.com/CCurl/c3.git \
   >> $LOGFILE 2>&1
 
 echo "Copying Forth files for upload"
