@@ -17,8 +17,8 @@ pushd $ARDUINO_IDE_PATH/..
   rm -f $ARDUINO_IDE_ZIPFILE
 popd
 
-echo "Copying 'start_arduino_ide.sh' to $HOME/.local/bin/"
-cp start_arduino_ide.sh $HOME/.local/bin/
+echo "Copying 'arduino-ide' to $HOME/.local/bin/"
+cp arduino-ide $HOME/.local/bin/
 
 # https://arduino.github.io/arduino-cli/0.20/installation/
 echo "Copying $ARDUINO_CLI_EXECUTABLE to $HOME/.local/bin"
