@@ -5,7 +5,10 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
-export LOGFILE=$PWD/32_adafruit.log
+
+echo "Defining LOGFILE"
+mkdir --parents $PWD/Logs
+export LOGFILE=$PWD/Logs/adafruit.log
 rm --force $LOGFILE
 
 echo "Installing Adafruit libraries"

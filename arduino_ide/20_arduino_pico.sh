@@ -5,7 +5,10 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
-export LOGFILE=$PWD/20_arduino_pico.log
+
+echo "Defining LOGFILE"
+mkdir --parents $PWD/Logs
+export LOGFILE=$PWD/Logs/20_arduino_pico.log
 rm --force $LOGFILE
 
 # https://arduino-pico.readthedocs.io/en/latest/install.html#installing-via-arduino-cli

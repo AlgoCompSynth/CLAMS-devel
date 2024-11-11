@@ -5,7 +5,10 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
-export LOGFILE=$PWD/15_clone_c3.log
+
+echo "Defining LOGFILE"
+mkdir --parents $PWD/Logs
+export LOGFILE=$PWD/Logs/15_clone_c3.log
 rm --force $LOGFILE
 
 echo "Cloning fresh c3 project repository"

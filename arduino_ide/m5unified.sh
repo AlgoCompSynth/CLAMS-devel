@@ -5,7 +5,10 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
-export LOGFILE=$PWD/34_m5unified.log
+
+echo "Defining LOGFILE"
+mkdir --parents $PWD/Logs
+export LOGFILE=$PWD/Logs/m5unified.log
 rm --force $LOGFILE
 
 echo "Installing M5Unified library"

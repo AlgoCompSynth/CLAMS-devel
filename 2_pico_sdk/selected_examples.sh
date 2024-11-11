@@ -5,7 +5,10 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
-export LOGFILE=$PWD/selected_examples.log
+
+echo "Defining LOGFILE"
+mkdir --parents $PWD/Logs
+export LOGFILE=$PWD/Logs/selected_examples.log
 rm --force $LOGFILE
 
 echo "Creating $CLAMS_BASE/selected_examples.zip"

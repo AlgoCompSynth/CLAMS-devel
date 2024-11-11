@@ -3,7 +3,8 @@
 set -e
 
 echo "Defining LOGFILE"
-export LOGFILE=$PWD/1_global_installs.log
+mkdir --parents $PWD/Logs
+export LOGFILE=$PWD/Logs/1_global_installs.log
 rm --force $LOGFILE
 
 echo "Adding git PPA"

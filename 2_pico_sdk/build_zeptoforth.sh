@@ -4,7 +4,11 @@ set -e
 
 echo "Setting environment variables"
 source ../set_pico_envars
-export LOGFILE=$PWD/build_zeptoforth.log
+
+echo "Defining LOGFILE"
+mkdir --parents $PWD/Logs
+export LOGFILE=$PWD/Logs/build_zeptoforth.log
+rm --force $LOGFILE
 
 echo "Prepending RISC-V and Arm compiler locations to PATH"
 export PATH=$RISCV_COMPILER_PATH/bin:$ARM_COMPILER_PATH/bin:$PATH

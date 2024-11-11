@@ -6,6 +6,11 @@ echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
 
+echo "Defining LOGFILE"
+mkdir --parents $PWD/Logs
+export LOGFILE=$PWD/Logs/1_install_compilers.log
+rm --force $LOGFILE
+
 pushd /tmp
 
   echo ""
@@ -19,7 +24,7 @@ pushd /tmp
     --file $ARM_COMPILER_TARBALL \
     --strip-components=1 \
     --directory=$ARM_COMPILER_PATH \
-    > arm-extract.log 2>&1
+    >> $LOGFILE 2>&1
   $ARM_COMPILER_PATH/bin/arm-none-eabi-gcc --version
   echo "Install complete"
 
@@ -34,13 +39,13 @@ pushd /tmp
     --file $RISCV_COMPILER_TARBALL \
     --strip-components=1 \
     --directory=$RISCV_COMPILER_PATH \
-    > risc-v-extract.log 2>&1
+    >> $LOGFILE 2>&1
   $RISCV_COMPILER_PATH/bin/riscv32-corev-elf-gcc --version
   echo "Install complete"
 
 popd
 
 echo "Generating compiler 'man' pages"
-mandb $HOME/.local/share/man
+mandb $HOME/.local/share/man > /dev/null 2>&1
 
 echo "Finished"

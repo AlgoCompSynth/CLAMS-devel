@@ -5,8 +5,11 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
-export LOGFILE=$PWD/10_arduino_ide.log
-rm -f $LOGFILE
+
+echo "Defining LOGFILE"
+mkdir --parents $PWD/Logs
+export LOGFILE=$PWD/Logs/10_arduino_ide.log
+rm --force $LOGFILE
 
 echo "Installing IDE via 'curl'"
 mkdir --parents $ARDUINO_IDE_PATH

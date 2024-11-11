@@ -2,7 +2,8 @@
 
 set -e
 
-export LOGFILE=$PWD/unminimize.log
+mkdir --parents $PWD/Logs
+export LOGFILE=$PWD/Logs/unminimize.log
 rm --force $LOGFILE
 
 echo "Updating package cache"
