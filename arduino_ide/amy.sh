@@ -11,14 +11,8 @@ mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/amy.log
 rm --force $LOGFILE
 
-echo "Enabling GitHub library installs"
-arduino-cli config set library.enable_unsafe_install true
-
 echo "Installing AMY library"
-arduino-cli lib install --git-url $AMY_URL \
+arduino-cli lib install "AMY Synthesizer" \
   >> $LOGFILE 2>&1
-
-echo "Disabling GitHub library installs"
-arduino-cli config set library.enable_unsafe_install false
 
 echo "Finished"
