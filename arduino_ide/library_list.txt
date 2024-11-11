@@ -1,1 +1,8 @@
-No libraries installed.
+Name                     Installed Available Location Description
+Adafruit NeoPixel        1.12.3    -         user     -
+Adafruit SPIFlash        5.0.0     -         user     -
+Adafruit TinyUSB Library 3.4.0     -         user     -
+Audio - Adafruit Fork    1.3.1     -         user     -
+MIDI Library             5.0.2     -         user     -
+SdFat - Adafruit Fork    2.2.3     -         user     -
+

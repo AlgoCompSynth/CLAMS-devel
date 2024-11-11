@@ -59,6 +59,19 @@ Examples for library AccelStepper (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/AccelStepper/examples/Quickstop
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/AccelStepper/examples/Random
 
+Examples for library Adafruit NeoPixel
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_NeoPixel/examples/buttoncycler
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_NeoPixel/examples/RGBWstrandtest
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_NeoPixel/examples/simple
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_NeoPixel/examples/simple_new_operator
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_NeoPixel/examples/strandtest
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_NeoPixel/examples/strandtest_nodelay
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_NeoPixel/examples/strandtest_wheel
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_NeoPixel/examples/StrandtestArduinoBLE
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_NeoPixel/examples/StrandtestArduinoBLECallback
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_NeoPixel/examples/StrandtestBLE
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_NeoPixel/examples/StrandtestBLE_nodelay
+
 Examples for library Adafruit NeoPixel (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Adafruit_NeoPixel/examples/buttoncycler
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Adafruit_NeoPixel/examples/RGBWstrandtest
@@ -67,10 +80,31 @@ Examples for library Adafruit NeoPixel (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Adafruit_NeoPixel/examples/strandtest
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Adafruit_NeoPixel/examples/StrandtestBLE
 
+Examples for library Adafruit SPIFlash
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/flash_erase
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/flash_erase_express
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/flash_info
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/flash_manipulator
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/flash_sector_dump
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/flash_speedtest
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/SdFat_circuitpython
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/SdFat_circuitpython_backupFiles
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/SdFat_datalogging
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/SdFat_Flash_and_SDcard
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/SdFat_format
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/SdFat_full_usage
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/SdFat_OpenNext
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/SdFat_print_file
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_SPIFlash/examples/SdFat_ReadWrite
+
 Examples for library Adafruit STMPE610 (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Adafruit_STMPE610/examples/TouchTest
 
 Examples for library Adafruit TinyUSB Library (rp2040:rp2040@4.2.0)
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/Adafruit_TinyUSB_Arduino/examples/Audio/audio_headset
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/Adafruit_TinyUSB_Arduino/examples/Audio/audio_microphone
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/Adafruit_TinyUSB_Arduino/examples/Audio/audio_microphone_stream
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/Adafruit_TinyUSB_Arduino/examples/Audio/audio_speaker
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/Adafruit_TinyUSB_Arduino/examples/CDC/cdc_multi
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/Adafruit_TinyUSB_Arduino/examples/CDC/no_serial
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/Adafruit_TinyUSB_Arduino/examples/CDC/serial_echo
@@ -107,6 +141,44 @@ Examples for library Adafruit TinyUSB Library (rp2040:rp2040@4.2.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/Adafruit_TinyUSB_Arduino/examples/Video/video_capture
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/Adafruit_TinyUSB_Arduino/examples/WebUSB/webusb_rgb
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/Adafruit_TinyUSB_Arduino/examples/WebUSB/webusb_serial
+
+Examples for library Adafruit TinyUSB Library
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/CDC/cdc_multi
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/CDC/no_serial
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/CDC/serial_echo
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/Composite/mouse_ramdisk
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/DualRole/CDC/serial_host_bridge
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/DualRole/HID/hid_device_report
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/DualRole/HID/hid_mouse_log_filter
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/DualRole/HID/hid_mouse_tremor_filter
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/DualRole/HID/hid_remapper
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/DualRole/MassStorage/msc_data_logger
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/DualRole/MassStorage/msc_file_explorer
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/DualRole/Simple/device_info
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/DualRole/Simple/device_info_max3421e
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/HID/hid_boot_keyboard
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/HID/hid_boot_mouse
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/HID/hid_composite
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/HID/hid_composite_joy_featherwing
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/HID/hid_dual_interfaces
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/HID/hid_gamepad
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/HID/hid_generic_inout
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/Host/Simple/host_device_info
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/MassStorage/msc_esp32_file_browser
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/MassStorage/msc_external_flash
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/MassStorage/msc_external_flash_sdcard
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/MassStorage/msc_internal_flash_samd
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/MassStorage/msc_ramdisk
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/MassStorage/msc_ramdisk_dual
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/MassStorage/msc_sd
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/MassStorage/msc_sdfat
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/MIDI/midi_multi_ports
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/MIDI/midi_pizza_box_dj
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/MIDI/midi_test
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/Vendor/i2c_tiny_usb_adapter
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/Video/video_capture
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/WebUSB/webusb_rgb
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Adafruit_TinyUSB_Library/examples/WebUSB/webusb_serial
 
 Examples for library Adafruit_nRF8001 (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Adafruit_nRF8001/examples/callbackEcho
@@ -247,6 +319,69 @@ Examples for library Audio (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Audio/examples/WavFilePlayer
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Audio/examples/WavFilePlayerPause
 
+Examples for library Audio - Adafruit Fork
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/DialTone_7segment
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/DialTone_Serial
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/FFT
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/NoteFrequency
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/PeakAndRMSMeterStereo
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/PeakMeterMono
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/PeakMeterStereo
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/SpectrumAnalyzerBasic
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/WaterfallSpectrum
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Bitcrusher
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Chorus
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Delay
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Filter
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Filter_FIR
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Flange
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Mid_Side
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/AK4558/PassthroughTest
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/AK4558/SineOutTest
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/PassThroughMono
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/PassThroughQuad
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/PassThroughStereo
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/PassThroughUSB
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/PT8211Sine
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SdCardTest
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/balanceDAC
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/balanceHP
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/CalcBiquadToneControlDAP
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/dap_avc_agc
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/dap_bass_enhance
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/QuadChannelOutput
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/VolumeRamp
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/ToneSweep
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/TrellisTalkthrough
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/WavFilePlayerUSB
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/WM8731MikroSine
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/MemoryAndCpuUsage
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Recorder
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/SamplePlayer
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Synthesis/Guitar
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Synthesis/PlaySynthMusic
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Synthesis/pulseWidth
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Synthesis/SimpleDrum
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_1_02_Hardware_Test
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_1_03_Playing_Music
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_1_04_Blink_While_Playing
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_1_05_Do_More_While_Playing
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_01_First_Design_Tool_Use
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_02_Mixers
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_03_Samples
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_04_Microphone_Check
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_05_Simple_Delay
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_06_Feedback_Delay
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_07_Filters
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_08_Oscillators
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_3_01_Peak_Detection
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_3_02_Fourier_Transform
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_3_03_TFT_Display
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Reference
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/TestTutorialKit
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/WavFilePlayer
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/WavFilePlayerMulti
+
 Examples for library AudioBufferManager (rp2040:rp2040@4.2.0)
 
 Examples for library BluetoothAudio (rp2040:rp2040@4.2.0)
@@ -317,6 +452,11 @@ Examples for library EasyTransferI2C (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EasyTransferI2C/examples/EasyTransfer_RX_Example
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EasyTransferI2C/examples/EasyTransfer_TX_Example
 
+Examples for library EEPROM (rp2040:rp2040@4.2.0)
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/EEPROM/examples/eeprom_clear
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/EEPROM/examples/eeprom_read
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/EEPROM/examples/eeprom_write
+
 Examples for library EEPROM (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EEPROM/examples/eeprom_clear
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EEPROM/examples/eeprom_crc
@@ -328,11 +468,6 @@ Examples for library EEPROM (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EEPROM/examples/eeprom_read
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EEPROM/examples/eeprom_update
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EEPROM/examples/eeprom_write
-
-Examples for library EEPROM (rp2040:rp2040@4.2.0)
-  - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/EEPROM/examples/eeprom_clear
-  - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/EEPROM/examples/eeprom_read
-  - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/EEPROM/examples/eeprom_write
 
 Examples for library Encoder (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Encoder/examples/Basic
@@ -798,6 +933,17 @@ Examples for library MIDI Library (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/RPN_NRPN
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/SimpleSynth
 
+Examples for library MIDI Library
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/AltPinSerial
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/Basic_IO
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/Bench
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/Callbacks
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/DualMerger
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/ErrorCallback
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/Input
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/RPN_NRPN
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/SimpleSynth
+
 Examples for library Mouse (rp2040:rp2040@4.2.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/Mouse/examples/Circle
 
@@ -1109,6 +1255,68 @@ Examples for library SdFat (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UserChipSelectFunction
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UserSPIDriver
 
+Examples for library SdFat - Adafruit Fork
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/AvrAdcLogger
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/BackwardCompatibility
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/bench
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/BufferedPrint
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/DirectoryFunctions
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/AnalogLogger
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/append
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/average
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/BaseExtCaseTest
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/benchSD
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/bufstream
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/cin_cout
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/eventlog
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/fgetsRewrite
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/HelloWorld
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/MiniSerial
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/PrintBenchmarkSD
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/readlog
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/SD_Size
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/SdFatSize
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/#attic/StreamParseInt
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/AnalogBinLogger
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/dataLogger
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/fgets
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/formatting
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/getline
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/LongFileName
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/PrintBenchmark
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/RawWrite
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/ReadCsv
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/ReadCsvArray
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/ReadCsvStream
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/ReadWrite
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/StdioBench
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/STM32Test
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/Timestamp
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/TwoCards
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/VolumeFreeSpace
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/examplesV1/wipe
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/ExFatLogger
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/MinimumSizeSdReader
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/OpenNext
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/QuickStart
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/ReadCsvFile
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/rename
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/RtcTimestampTest
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/SdErrorCodes
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/SdFormatter
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/SdInfo
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/SoftwareSpi
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/TeensyDmaAdcLogger
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/TeensyRtcTimestamp
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/TeensySdioDemo
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/TeensySdioLogger
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/UnicodeFilenames
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/UserChipSelectFunction
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/SdFat_-_Adafruit_Fork/examples/UserSPIDriver
+
 Examples for library SDFS (rp2040:rp2040@4.2.0)
 
 Examples for library SerialBT (rp2040:rp2040@4.2.0)
@@ -1165,12 +1373,12 @@ Examples for library SoftwareSerial (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SoftwareSerial/examples/SoftwareSerialExample
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SoftwareSerial/examples/TwoPortReceive
 
-Examples for library SPI (rp2040:rp2040@4.2.0)
-  - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/SPI/examples/SPItoMyselfAsync
-
 Examples for library SPI (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SPI/examples/BarometricPressureSensor
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SPI/examples/DigitalPotControl
+
+Examples for library SPI (rp2040:rp2040@4.2.0)
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/SPI/examples/SPItoMyselfAsync
 
 Examples for library SPIFlash (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SPIFlash/examples/SPIFlash_ReadWrite
