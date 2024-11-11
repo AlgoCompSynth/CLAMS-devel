@@ -11,8 +11,12 @@ mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/amy.log
 rm --force $LOGFILE
 
-echo "Installing AMY library"
+echo "Installing AMY Synthesizer"
 arduino-cli lib install "AMY Synthesizer" \
+  >> $LOGFILE 2>&1
+
+echo "Installing "MIDI Library"
+arduino-cli lib install "MIDI Library" \
   >> $LOGFILE 2>&1
 
 echo "Finished"
