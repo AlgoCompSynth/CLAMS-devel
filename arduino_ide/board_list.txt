@@ -1,110 +1,12 @@
-Board Name                           FQBN
-0xCB Helios                          rp2040:rp2040:0xcb_helios
-Adafruit Feather RP2040              rp2040:rp2040:adafruit_feather
-Adafruit Feather RP2040 Adalogger    rp2040:rp2040:adafruit_feather_adalogger
-Adafruit Feather RP2040 CAN          rp2040:rp2040:adafruit_feather_can
-Adafruit Feather RP2040 DVI          rp2040:rp2040:adafruit_feather_dvi
-Adafruit Feather RP2040 Prop-Maker   rp2040:rp2040:adafruit_feather_prop_maker
-Adafruit Feather RP2040 RFM          rp2040:rp2040:adafruit_feather_rfm
-Adafruit Feather RP2040 SCORPIO      rp2040:rp2040:adafruit_feather_scorpio
-Adafruit Feather RP2040 ThinkINK     rp2040:rp2040:adafruit_feather_thinkink
-Adafruit Feather RP2040 USB Host     rp2040:rp2040:adafruit_feather_usb_host
-Adafruit Feather RP2350 HSTX         rp2040:rp2040:adafruit_feather_rp2350_hstx
-Adafruit ItsyBitsy RP2040            rp2040:rp2040:adafruit_itsybitsy
-Adafruit KB2040                      rp2040:rp2040:adafruit_kb2040
-Adafruit MacroPad RP2040             rp2040:rp2040:adafruit_macropad2040
-Adafruit Metro RP2040                rp2040:rp2040:adafruit_metro
-Adafruit QT Py RP2040                rp2040:rp2040:adafruit_qtpy
-Adafruit STEMMA Friend RP2040        rp2040:rp2040:adafruit_stemmafriend
-Adafruit Trinkey RP2040 QT           rp2040:rp2040:adafruit_trinkeyrp2040qt
-Amken BunnyBoard                     rp2040:rp2040:amken_bunny
-Amken Revelop                        rp2040:rp2040:amken_revelop
-Amken Revelop Plus                   rp2040:rp2040:amken_revelop_plus
-Amken Revelop eS                     rp2040:rp2040:amken_revelop_es
-Architeuthis Flux Jumperless         rp2040:rp2040:jumperless_v1
-Architeuthis Flux Jumperless V5      rp2040:rp2040:jumperless_v5
-Arduino Nano RP2040 Connect          rp2040:rp2040:arduino_nano_connect
-ArtronShop RP2 Nano                  rp2040:rp2040:artronshop_rp2_nano
-Breadstick Raspberry                 rp2040:rp2040:breadstick_raspberry
-BridgeTek IDM2040-43A                rp2040:rp2040:bridgetek_idm2040_43a
-BridgeTek IDM2040-7A                 rp2040:rp2040:bridgetek_idm2040_7a
-Cytron IRIV IO Controller            rp2040:rp2040:cytron_iriv_io_controller
-Cytron Maker Nano RP2040             rp2040:rp2040:cytron_maker_nano_rp2040
-Cytron Maker Pi RP2040               rp2040:rp2040:cytron_maker_pi_rp2040
-Cytron Maker Uno RP2040              rp2040:rp2040:cytron_maker_uno_rp2040
-Cytron Motion 2350 Pro               rp2040:rp2040:cytron_motion_2350_pro
-DFRobot Beetle RP2040                rp2040:rp2040:dfrobot_beetle_rp2040
-DatanoiseTV PicoADK                  rp2040:rp2040:datanoisetv_picoadk
-DatanoiseTV PicoADK v2               rp2040:rp2040:datanoisetv_picoadk_v2
-DeRuiLab FlyBoard2040Core            rp2040:rp2040:flyboard2040_core
-Degz Robotics Suibo RP2040           rp2040:rp2040:degz_suibo
-EVN Alpha                            rp2040:rp2040:evn_alpha
-ElectronicCats HunterCat NFC RP2040  rp2040:rp2040:electroniccats_huntercat_nfc
-ExtremeElectronics RC2040            rp2040:rp2040:extelec_rc2040
-Generic RP2040                       rp2040:rp2040:generic
-Generic RP2350                       rp2040:rp2040:generic_rp2350
-Generic Sea-Picro                    rp2040:rp2040:sea_picro
-GroundStudio Marble Pico             rp2040:rp2040:groundstudio_marble_pico
-L'atelier d'Arnoz DudesCab           rp2040:rp2040:DudesCab
-METE HOCA Akana R1                   rp2040:rp2040:akana_r1
-Melopero Cookie RP2040               rp2040:rp2040:melopero_cookie_rp2040
-Melopero Shake RP2040                rp2040:rp2040:melopero_shake_rp2040
-Neko Systems BL2040 Mini             rp2040:rp2040:nekosystems_bl2040_mini
-Newsan Archi                         rp2040:rp2040:newsan_archi
-Olimex RP2040-Pico30 16MB            rp2040:rp2040:olimex_rp2040pico30_16mb
-Olimex RP2040-Pico30 2MB             rp2040:rp2040:olimex_rp2040pico30_2mb
-Pimoroni PGA2040                     rp2040:rp2040:pimoroni_pga2040
-Pimoroni PGA2350                     rp2040:rp2040:pimoroni_pga2350
-Pimoroni PicoPlus2                   rp2040:rp2040:pimoroni_pico_plus_2
-Pimoroni Plasma2040                  rp2040:rp2040:pimoroni_plasma2040
-Pimoroni Tiny2040                    rp2040:rp2040:pimoroni_tiny2040
-Pimoroni Tiny2350                    rp2040:rp2040:pimoroni_tiny2350
-Pintronix PinMax                     rp2040:rp2040:pintronix_pinmax
-RAKwireless RAK11300                 rp2040:rp2040:rakwireless_rak11300
-Raspberry Pi Pico                    rp2040:rp2040:rpipico
-Raspberry Pi Pico 2                  rp2040:rp2040:rpipico2
-Raspberry Pi Pico W                  rp2040:rp2040:rpipicow
-Seeed INDICATOR RP2040               rp2040:rp2040:seeed_indicator_rp2040
-Seeed XIAO RP2040                    rp2040:rp2040:seeed_xiao_rp2040
-Seeed XIAO RP2350                    rp2040:rp2040:seeed_xiao_rp2350
-Silicognition RP2040-Shim            rp2040:rp2040:silicognition_rp2040_shim
-Solder Party RP2040 Stamp            rp2040:rp2040:solderparty_rp2040_stamp
-Solder Party RP2350 Stamp            rp2040:rp2040:solderparty_rp2350_stamp
-Solder Party RP2350 Stamp XL         rp2040:rp2040:solderparty_rp2350_stamp_xl
-SparkFun MicroMod RP2040             rp2040:rp2040:sparkfun_micromodrp2040
-SparkFun ProMicro RP2040             rp2040:rp2040:sparkfun_promicrorp2040
-SparkFun ProMicro RP2350             rp2040:rp2040:sparkfun_promicrorp2350
-SparkFun Thing Plus RP2040           rp2040:rp2040:sparkfun_thingplusrp2040
-VCC-GND YD RP2040                    rp2040:rp2040:vccgnd_yd_rp2040
-Viyalab Mizu RP2040                  rp2040:rp2040:viyalab_mizu
-WIZnet W5100S-EVB-Pico               rp2040:rp2040:wiznet_5100s_evb_pico
-WIZnet W5500-EVB-Pico                rp2040:rp2040:wiznet_5500_evb_pico
-WIZnet W55RP20-EVB-Pico              rp2040:rp2040:wiznet_55rp20_evb_pico
-WIZnet WizFi360-EVB-Pico             rp2040:rp2040:wiznet_wizfi360_evb_pico
-Waveshare RP2040 LCD 0.96            rp2040:rp2040:waveshare_rp2040_lcd_0_96
-Waveshare RP2040 LCD 1.28            rp2040:rp2040:waveshare_rp2040_lcd_1_28
-Waveshare RP2040 Matrix              rp2040:rp2040:waveshare_rp2040_matrix
-Waveshare RP2040 One                 rp2040:rp2040:waveshare_rp2040_one
-Waveshare RP2040 PiZero              rp2040:rp2040:waveshare_rp2040_pizero
-Waveshare RP2040 Plus 16MB           rp2040:rp2040:waveshare_rp2040_plus_16mb
-Waveshare RP2040 Plus 4MB            rp2040:rp2040:waveshare_rp2040_plus_4mb
-Waveshare RP2040 Zero                rp2040:rp2040:waveshare_rp2040_zero
-iLabs Challenger 2040 LTE            rp2040:rp2040:challenger_2040_lte
-iLabs Challenger 2040 LoRa           rp2040:rp2040:challenger_2040_lora
-iLabs Challenger 2040 NFC            rp2040:rp2040:challenger_2040_nfc
-iLabs Challenger 2040 SD/RTC         rp2040:rp2040:challenger_2040_sdrtc
-iLabs Challenger 2040 SubGHz         rp2040:rp2040:challenger_2040_subghz
-iLabs Challenger 2040 UWB            rp2040:rp2040:challenger_2040_uwb
-iLabs Challenger 2040 WiFi           rp2040:rp2040:challenger_2040_wifi
-iLabs Challenger 2040 WiFi/BLE       rp2040:rp2040:challenger_2040_wifi_ble
-iLabs Challenger 2040 WiFi6/BLE      rp2040:rp2040:challenger_2040_wifi6_ble
-iLabs Challenger 2350 BConnect       rp2040:rp2040:challenger_2350_bconnect
-iLabs Challenger 2350 WiFi/BLE       rp2040:rp2040:challenger_2350_wifi6_ble5
-iLabs Challenger NB 2040 WiFi        rp2040:rp2040:challenger_nb_2040_wifi
-iLabs Connectivity 2040 LTE/WiFi/BLE rp2040:rp2040:connectivity_2040_lte_wifi_ble
-iLabs RPICO32                        rp2040:rp2040:ilabs_rpico32
-nullbits Bit-C PRO                   rp2040:rp2040:nullbits_bit_c_pro
-redscorp RP2040-Eins                 rp2040:rp2040:redscorp_rp2040_eins
-redscorp RP2040-ProMini              rp2040:rp2040:redscorp_rp2040_promini
-uPesy RP2040 DevKit                  rp2040:rp2040:upesy_rp2040_devkit
+Board Name       FQBN
+Teensy 2.0       teensy:avr:teensy2
+Teensy 3.0       teensy:avr:teensy30
+Teensy 3.2 / 3.1 teensy:avr:teensy31
+Teensy 3.5       teensy:avr:teensy35
+Teensy 3.6       teensy:avr:teensy36
+Teensy 4.0       teensy:avr:teensy40
+Teensy 4.1       teensy:avr:teensy41
+Teensy LC        teensy:avr:teensyLC
+Teensy MicroMod  teensy:avr:teensyMM
+Teensy++ 2.0     teensy:avr:teensypp2
 
