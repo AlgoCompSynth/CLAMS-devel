@@ -263,6 +263,17 @@ Examples for library lwIP_WINC1500 (rp2040:rp2040@4.2.0)
 
 Examples for library MD5Builder (rp2040:rp2040@4.2.0)
 
+Examples for library MIDI Library
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/AltPinSerial
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/Basic_IO
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/Bench
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/Callbacks
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/DualMerger
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/ErrorCallback
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/Input
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/RPN_NRPN
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/MIDI_Library/examples/SimpleSynth
+
 Examples for library Mouse (rp2040:rp2040@4.2.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.2.0/libraries/Mouse/examples/Circle
 
