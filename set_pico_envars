@@ -54,7 +54,6 @@ export ARM_COMPILER_URL="https://developer.arm.com/-/media/Files/downloads/gnu/$
 export ARM_COMPILER_PATH="$HOME/.local"
 
 # Arduino
-export ARDUINO_UNINSTALL_PATH="$HOME/Arduino $HOME/.arduino15 $HOME/.arduinoIDE"
 export ARDUINO_CLI_PATH="$HOME/.local/bin"
 export ARDUINO_CLI_URL="https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh"
 export ARDUINO_PICO_PATH="$HOME/Arduino/hardware/pico/rp2040"

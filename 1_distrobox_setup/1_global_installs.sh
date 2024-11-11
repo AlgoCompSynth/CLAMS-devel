@@ -34,6 +34,7 @@ export DEBIAN_FRONTEND=noninteractive
   git-lfs \
   gperf \
   gtkwave \
+  libcanberra-gtk3-module \
   libftdi-dev \
   libgtk-3-0 \
   libmagic1 \
@@ -43,6 +44,7 @@ export DEBIAN_FRONTEND=noninteractive
   libsecret-1-0 \
   libtool \
   libusb-1.0-0-dev \
+  libxkbfile1 \
   lsb-release \
   lynx \
   make \
