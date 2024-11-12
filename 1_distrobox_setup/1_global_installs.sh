@@ -16,6 +16,7 @@ echo "Adding git PPA"
 echo "Installing base packages"
 export DEBIAN_FRONTEND=noninteractive
 /usr/bin/time sudo apt-get install --assume-yes \
+  7zip \
   apt-file \
   autoconf \
   automake \
