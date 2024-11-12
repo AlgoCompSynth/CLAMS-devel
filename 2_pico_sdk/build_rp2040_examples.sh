@@ -57,6 +57,7 @@ echo ""
 echo ""
 echo "Building the rp2040 examples"
 for dir in \
+  $PIMORONI_PICO_PATH \
   $PICO_EXAMPLES_PATH \
   $PICO_PLAYGROUND_PATH
 do

@@ -36,6 +36,14 @@ pushd $PICO_PLAYGROUND_PATH
   done
 popd
 
+pushd $PIMORONI_PICO_PATH
+  for suffix in uf2 elf dis
+  do
+    /usr/bin/time zip -9r $CLAMS_BASE/selected_examples.zip `find . -name "audio.$suffix"` \
+      >> $LOGFILE 2>&1
+  done
+popd
+
 echo "Unpacking $CLAMS_BASE/selected_examples.zip"
 pushd $CLAMS_BASE
   rm -fr build_*

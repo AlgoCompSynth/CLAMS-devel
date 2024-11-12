@@ -70,7 +70,8 @@ do
   do
     export PICO_BOARD=$board
 
-    for platform in rp2350-riscv rp2350-arm-s
+    # for platform in rp2350-riscv rp2350-arm-s
+    for platform in rp2350-arm-s
     do
       export PICO_PLATFORM=$platform
       sdk_build $SJMAKE
