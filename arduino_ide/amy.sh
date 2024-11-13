@@ -15,7 +15,7 @@ echo "Installing AMY Synthesizer"
 arduino-cli lib install "AMY Synthesizer" \
   >> $LOGFILE 2>&1
 
-echo "Installing "MIDI Library"
+echo "Installing MIDI Library"
 arduino-cli lib install "MIDI Library" \
   >> $LOGFILE 2>&1
 
