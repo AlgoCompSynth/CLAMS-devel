@@ -21,7 +21,6 @@ echo "Activating virtual environment $ZEPHYR_OS_VENV"
 source $ACTIVATE_ZEPHYR_OS_VENV
 
 echo "Installing 'west' with pip"
-# https://docs.platformio.org/en/latest/core/installation/methods/pypi.html#installation-pypi
 /usr/bin/time python3 -m pip install --upgrade west \
   >> $LOGFILE 2>&1
 
