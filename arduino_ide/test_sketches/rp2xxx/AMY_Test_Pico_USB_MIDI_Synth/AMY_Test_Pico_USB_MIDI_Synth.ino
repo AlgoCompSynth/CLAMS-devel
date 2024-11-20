@@ -22,8 +22,10 @@ AMY amy;
 void setup() {
 
   // Set your I2S pins. 
-  i2s.setBCLK(9); // BCLK = SCLK. MCLK = SCLK + 1
-  i2s.setDATA(8); // DATA = DIN, SD, SDOUT, DOUT
+  // https://shop.pimoroni.com/products/picovision?variant=41048911904851
+  // https://cdn.shopify.com/s/files/1/0174/1800/files/picovision_schematic.pdf
+  i2s.setBCLK(27); // BCLK = SCLK. LRCLK = SCLK + 1
+  i2s.setDATA(26); // DATA = DIN, SD, SDOUT, DOUT
   i2s.setBitsPerSample(16); 
   i2s.setBuffers(2, AMY_BLOCK_SIZE*AMY_NCHANS*AMY_BYTES_PER_SAMPLE/4, 0);
   i2s.begin(AMY_SAMPLE_RATE);
@@ -83,4 +85,3 @@ void loop() {
   MIDI.read();  
 
 }
-
