@@ -24,6 +24,7 @@ void setup() {
   // Set your I2S pins. 
   // https://shop.pimoroni.com/products/picovision?variant=41048911904851
   // https://cdn.shopify.com/s/files/1/0174/1800/files/picovision_schematic.pdf
+  // In arduino-cli, FQBN=rp2040:rp2040:rpipicow:usbstack=tinyusb
   i2s.setBCLK(27); // BCLK = SCLK. LRCLK = SCLK + 1
   i2s.setDATA(26); // DATA = DIN, SD, SDOUT, DOUT
   i2s.setBitsPerSample(16); 
