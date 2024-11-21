@@ -1,4 +1,3 @@
 ID            Installed Latest Name
-arduino:avr   1.8.6     1.8.6  Arduino AVR Boards
-rp2040:rp2040 4.2.0     4.2.0  Raspberry Pi Pico/RP2040/RP2350
+rp2040:rp2040 4.2.1     4.2.1  Raspberry Pi Pico/RP2040/RP2350
 
