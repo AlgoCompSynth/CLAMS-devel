@@ -21,6 +21,7 @@ export DEBIAN_FRONTEND=noninteractive
   autoconf \
   automake \
   build-essential \
+  calibre \
   ccache \
   clang \
   cmake \
@@ -61,6 +62,8 @@ export DEBIAN_FRONTEND=noninteractive
   python3-serial \
   python3-setuptools \
   python3-sphinx \
+  python3-sphinx-rtd-theme \
+  pandoc \
   python3-tk \
   python3-venv \
   python3-wheel \
