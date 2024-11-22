@@ -23,13 +23,15 @@
 I2S i2s(OUTPUT);
 
 // GPIO pin numbers
-#define pBCLK 20
+// Pimoroni Pico Audio Pack
+// https://cdn.shopify.com/s/files/1/0174/1800/files/pico_audio_pack_schematic.pdf
+#define pBCLK 10
 #define pWS (pBCLK+1)
-#define pDOUT 22
+#define pDOUT 9
 
-const int frequency = 440; // frequency of square wave in Hz
-const int amplitude = 500; // amplitude of square wave
-const int sampleRate = 16000; // minimum for UDA1334A
+const int frequency = 880; // 440 Hz * 2 to account for half-wave
+const int amplitude = 32767; // maximum amplitude of 16-bit signed square wave
+const int sampleRate = 22000; // even multiple of frequency
 
 const int halfWavelength = (sampleRate / frequency); // half wavelength of square wave
 
