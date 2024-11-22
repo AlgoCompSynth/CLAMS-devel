@@ -1402,6 +1402,7 @@ rpipicow                        RP2040  133MHz       2MB      256KB  Pico W
 datanoisetv_picoadk             RP2040  133MHz       2MB      256KB  PicoADK
 datanoisetv_picoadk_v2          RP2350  150MHz       4MB      512KB  PicoADK v2
 pimoroni_pico_plus_2            RP2350  150MHz       16MB     512KB  PicoPlus2
+pimoroni_pico_plus_2w           RP2350  150MHz       16MB     512KB  PicoPlus2W
 pintronix_pinmax                RP2040  133MHz       4MB      256KB  PinMax
 pimoroni_plasma2040             RP2040  133MHz       2MB      256KB  Plasma2040
 sparkfun_promicrorp2040         RP2040  133MHz       16MB     256KB  ProMicro RP2040
@@ -1440,11 +1441,14 @@ sea_picro                       RP2040  133MHz       8MB      256KB  Sea-Picro
 melopero_shake_rp2040           RP2040  133MHz       16MB     256KB  Shake RP2040
 degz_suibo                      RP2040  133MHz       16MB     256KB  Suibo RP2040
 sparkfun_thingplusrp2040        RP2040  133MHz       16MB     256KB  Thing Plus RP2040
+sparkfun_thingplusrp2350        RP2350  150MHz       16MB     512KB  Thing Plus RP2350
 pimoroni_tiny2040               RP2040  133MHz       2MB      256KB  Tiny2040
 pimoroni_tiny2350               RP2350  150MHz       4MB      512KB  Tiny2350
 adafruit_trinkeyrp2040qt        RP2040  133MHz       8MB      256KB  Trinkey RP2040 QT
 wiznet_5100s_evb_pico           RP2040  133MHz       2MB      256KB  W5100S-EVB-Pico
+wiznet_5100s_evb_pico2          RP2350  150MHz       2MB      512KB  W5100S-EVB-Pico2
 wiznet_5500_evb_pico            RP2040  133MHz       2MB      256KB  W5500-EVB-Pico
+wiznet_5500_evb_pico2           RP2350  150MHz       2MB      512KB  W5500-EVB-Pico2
 wiznet_55rp20_evb_pico          RP2040  133MHz       2MB      256KB  W55RP20-EVB-Pico
 wiznet_wizfi360_evb_pico        RP2040  133MHz       2MB      256KB  WizFi360-EVB-Pico
 seeed_xiao_rp2040               RP2040  133MHz       2MB      256KB  XIAO RP2040
