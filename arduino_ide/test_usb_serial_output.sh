@@ -64,6 +64,6 @@ pushd $TEST_DIR
   echo ""
   echo ""
   echo "Monitoring"
-  arduino-cli monitor --port $MONITOR --config baudrate=$BAUDRATE
+  minicom.sh
 
 popd
