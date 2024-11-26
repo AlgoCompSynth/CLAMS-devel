@@ -4,4 +4,4 @@ set -e
 
 source $HOME/set_pico_envars
 pushd $ARDUINO_IDE_PATH
-$ARDUINO_IDE_EXECUTABLE > /tmp/arduino-ide.log 2>&1 &
+$ARDUINO_IDE_EXECUTABLE 2>&1 | tee /tmp/arduino-ide.log
