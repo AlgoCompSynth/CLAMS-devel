@@ -10,6 +10,7 @@ Adafruit Feather RP2040 SCORPIO      rp2040:rp2040:adafruit_feather_scorpio
 Adafruit Feather RP2040 ThinkINK     rp2040:rp2040:adafruit_feather_thinkink
 Adafruit Feather RP2040 USB Host     rp2040:rp2040:adafruit_feather_usb_host
 Adafruit Feather RP2350 HSTX         rp2040:rp2040:adafruit_feather_rp2350_hstx
+Adafruit Floppsy                     rp2040:rp2040:adafruit_floppsy
 Adafruit ItsyBitsy RP2040            rp2040:rp2040:adafruit_itsybitsy
 Adafruit KB2040                      rp2040:rp2040:adafruit_kb2040
 Adafruit MacroPad RP2040             rp2040:rp2040:adafruit_macropad2040
@@ -56,6 +57,7 @@ Olimex RP2040-Pico30 2MB             rp2040:rp2040:olimex_rp2040pico30_2mb
 Pimoroni PGA2040                     rp2040:rp2040:pimoroni_pga2040
 Pimoroni PGA2350                     rp2040:rp2040:pimoroni_pga2350
 Pimoroni PicoPlus2                   rp2040:rp2040:pimoroni_pico_plus_2
+Pimoroni PicoPlus2W                  rp2040:rp2040:pimoroni_pico_plus_2w
 Pimoroni Plasma2040                  rp2040:rp2040:pimoroni_plasma2040
 Pimoroni Tiny2040                    rp2040:rp2040:pimoroni_tiny2040
 Pimoroni Tiny2350                    rp2040:rp2040:pimoroni_tiny2350
@@ -63,6 +65,7 @@ Pintronix PinMax                     rp2040:rp2040:pintronix_pinmax
 RAKwireless RAK11300                 rp2040:rp2040:rakwireless_rak11300
 Raspberry Pi Pico                    rp2040:rp2040:rpipico
 Raspberry Pi Pico 2                  rp2040:rp2040:rpipico2
+Raspberry Pi Pico 2W                 rp2040:rp2040:rpipico2w
 Raspberry Pi Pico W                  rp2040:rp2040:rpipicow
 Seeed INDICATOR RP2040               rp2040:rp2040:seeed_indicator_rp2040
 Seeed XIAO RP2040                    rp2040:rp2040:seeed_xiao_rp2040
