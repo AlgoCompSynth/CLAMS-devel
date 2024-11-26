@@ -58,7 +58,6 @@ pushd $TEST_DIR
   --export-binaries \
   --upload \
   --verify \
-  --verbose \
   2>&1 | tee compile.log
 
   echo ""
