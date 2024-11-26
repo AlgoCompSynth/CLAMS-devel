@@ -1,0 +1,5 @@
+For 1 MB LittleFS out of 2MB flash:
+flash=2097152_1048576
+
+for 512 KB LittleFS out of 2MB flash:
+flash=2097152_524288
