@@ -20,6 +20,10 @@ pushd $ARDUINO_IDE_PATH/..
   rm -f $ARDUINO_IDE_ZIPFILE
 popd
 
+echo "Installing local IDE settings"
+mkdir --parents $HOME/.arduinoIDE
+cp settings.json $HOME/.arduinoIDE/settings.json
+
 echo "Copying 'arduino-ide' and 'test_usb_serial_output.sh' to $HOME/.local/bin/"
 cp arduino-ide test_usb_serial_output.sh $HOME/.local/bin/
 
