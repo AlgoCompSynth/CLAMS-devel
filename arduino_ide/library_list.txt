@@ -1,6 +1,4 @@
-Name            Installed Available   Location Description
-AMY Synthesizer 1.0.3     -           user     -
-FixMath         1.0.6     -           user     -
-MIDI Library    5.0.2     -           user     -
-Mozzi           2.0.1     -           user     -
+Name    Installed Available    Location Description
+FixMath 1.0.6     -            user     -
+Mozzi   2.0.1     -            user     -
 
