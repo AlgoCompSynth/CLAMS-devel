@@ -1,6 +1,5 @@
 Board Name                           FQBN
 0xCB Helios                          rp2040:rp2040:0xcb_helios
-Adafruit Circuit Playground          arduino:avr:circuitplay32u4cat
 Adafruit Feather RP2040              rp2040:rp2040:adafruit_feather
 Adafruit Feather RP2040 Adalogger    rp2040:rp2040:adafruit_feather_adalogger
 Adafruit Feather RP2040 CAN          rp2040:rp2040:adafruit_feather_can
@@ -25,30 +24,7 @@ Amken Revelop Plus                   rp2040:rp2040:amken_revelop_plus
 Amken Revelop eS                     rp2040:rp2040:amken_revelop_es
 Architeuthis Flux Jumperless         rp2040:rp2040:jumperless_v1
 Architeuthis Flux Jumperless V5      rp2040:rp2040:jumperless_v5
-Arduino BT                           arduino:avr:bt
-Arduino Duemilanove or Diecimila     arduino:avr:diecimila
-Arduino Esplora                      arduino:avr:esplora
-Arduino Ethernet                     arduino:avr:ethernet
-Arduino Fio                          arduino:avr:fio
-Arduino Gemma                        arduino:avr:gemma
-Arduino Industrial 101               arduino:avr:chiwawa
-Arduino Leonardo                     arduino:avr:leonardo
-Arduino Leonardo ETH                 arduino:avr:leonardoeth
-Arduino Mega ADK                     arduino:avr:megaADK
-Arduino Mega or Mega 2560            arduino:avr:mega
-Arduino Micro                        arduino:avr:micro
-Arduino Mini                         arduino:avr:mini
-Arduino NG or older                  arduino:avr:atmegang
-Arduino Nano                         arduino:avr:nano
 Arduino Nano RP2040 Connect          rp2040:rp2040:arduino_nano_connect
-Arduino Pro or Pro Mini              arduino:avr:pro
-Arduino Robot Control                arduino:avr:robotControl
-Arduino Robot Motor                  arduino:avr:robotMotor
-Arduino Uno                          arduino:avr:uno
-Arduino Uno Mini                     arduino:avr:unomini
-Arduino Uno WiFi                     arduino:avr:unowifi
-Arduino Yún                          arduino:avr:yun
-Arduino Yún Mini                     arduino:avr:yunmini
 ArtronShop RP2 Nano                  rp2040:rp2040:artronshop_rp2_nano
 Breadstick Raspberry                 rp2040:rp2040:breadstick_raspberry
 BridgeTek IDM2040-43A                rp2040:rp2040:bridgetek_idm2040_43a
@@ -71,9 +47,6 @@ Generic RP2350                       rp2040:rp2040:generic_rp2350
 Generic Sea-Picro                    rp2040:rp2040:sea_picro
 GroundStudio Marble Pico             rp2040:rp2040:groundstudio_marble_pico
 L'atelier d'Arnoz DudesCab           rp2040:rp2040:DudesCab
-LilyPad Arduino                      arduino:avr:lilypad
-LilyPad Arduino USB                  arduino:avr:LilyPadUSB
-Linino One                           arduino:avr:one
 METE HOCA Akana R1                   rp2040:rp2040:akana_r1
 Melopero Cookie RP2040               rp2040:rp2040:melopero_cookie_rp2040
 Melopero Shake RP2040                rp2040:rp2040:melopero_shake_rp2040
