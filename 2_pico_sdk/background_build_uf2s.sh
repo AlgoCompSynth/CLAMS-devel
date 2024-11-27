@@ -16,7 +16,7 @@ echo "You can do other stuff or just monitor their progress by doing"
 echo ""
 echo "    tail -f"
 echo ""
-echo "on the logfiles. This takes about half an hour on my 32 GB"
+echo "on the logfiles. This takes about an hour on my 32 GB"
 echo "Acer Nitro 5 laptop. It probably requires at least 8 GB of"
 echo "RAM."
 

@@ -1,6 +1,7 @@
 0xcb_helios.h
 adafruit_feather_rp2040.h
 adafruit_feather_rp2040_usb_host.h
+adafruit_feather_rp2350.h
 adafruit_itsybitsy_rp2040.h
 adafruit_kb2040.h
 adafruit_macropad_rp2040.h
@@ -11,6 +12,7 @@ archi.h
 arduino_nano_rp2040_connect.h
 cytron_maker_pi_rp2040.h
 datanoisetv_rp2040_dsp.h
+datanoisetv_rp2350_dsp.h
 defcon32_badge.h
 eetree_gamekit_rp2040.h
 garatronic_pybstick26_rp2040.h
@@ -26,10 +28,12 @@ gen4_rp2350_32t.h
 gen4_rp2350_35ct.h
 gen4_rp2350_35.h
 gen4_rp2350_35t.h
+hellbender_0001.h
 hellbender_2350A_devboard.h
 ilabs_challenger_rp2350_bconnect.h
 ilabs_challenger_rp2350_wifi_ble.h
 ilabs_opendec02.h
+machdyne_werkzeug.h
 melopero_perpetuo_rp2350_lora.h
 melopero_shake_rp2040.h
 metrotech_xerxes_rp2040.h
@@ -38,6 +42,7 @@ none.h
 nullbits_bit_c_pro.h
 phyx_rick_tny_rp2350.h
 pico2.h
+pico2_w.h
 pico.h
 pico_w.h
 pimoroni_badger2040.h
@@ -49,6 +54,7 @@ pimoroni_pga2350.h
 pimoroni_picolipo_16mb.h
 pimoroni_picolipo_4mb.h
 pimoroni_pico_plus2_rp2350.h
+pimoroni_pico_plus2_w_rp2350.h
 pimoroni_picosystem.h
 pimoroni_plasma2040.h
 pimoroni_plasma2350.h
@@ -70,6 +76,7 @@ sparkfun_micromod.h
 sparkfun_promicro.h
 sparkfun_promicro_rp2350.h
 sparkfun_thingplus.h
+sparkfun_thingplus_rp2350.h
 switchscience_picossci2_conta_base.h
 switchscience_picossci2_dev_board.h
 switchscience_picossci2_micro.h
