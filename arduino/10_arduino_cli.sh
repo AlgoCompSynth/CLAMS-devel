@@ -8,29 +8,17 @@ source ../set_pico_envars
 
 echo "Defining LOGFILE"
 mkdir --parents $PWD/Logs
-export LOGFILE=$PWD/Logs/10_arduino_ide.log
+export LOGFILE=$PWD/Logs/10_arduino_cli.log
 rm --force $LOGFILE
 
-echo "Installing IDE via 'curl'"
-mkdir --parents $ARDUINO_IDE_PATH
-pushd $ARDUINO_IDE_PATH/..
-  rm -fr arduino*
-  curl -sOL $ARDUINO_IDE_URL
-  unzip $ARDUINO_IDE_ZIPFILE
-  rm -f $ARDUINO_IDE_ZIPFILE
-popd
-
-echo "Installing local IDE settings"
-mkdir --parents $HOME/.arduinoIDE
-cp settings.json $HOME/.arduinoIDE/settings.json
-
-echo "Copying 'arduino-ide' and 'test_usb_serial_output.sh' to $HOME/.local/bin/"
-cp arduino-ide test_usb_serial_output.sh $HOME/.local/bin/
-
-# https://arduino.github.io/arduino-cli/0.20/installation/
-echo "Copying $ARDUINO_CLI_EXECUTABLE to $HOME/.local/bin"
-cp $ARDUINO_CLI_EXECUTABLE $HOME/.local/bin/
+echo "Installing arduino-cli via 'curl'"
+mkdir --parents $ARDUINO_CLI_PATH
+export BINDIR=$ARDUINO_CLI_PATH
+curl -fsSL $ARDUINO_CLI_URL | sh
 arduino-cli version
+
+echo "Copying 'test_usb_serial_output.sh' to $HOME/.local/bin/"
+cp test_usb_serial_output.sh $HOME/.local/bin/
 
 echo "Creating fresh configuration file"
 # https://arduino.github.io/arduino-cli/0.20/getting-started/

@@ -20,10 +20,4 @@ arduino-cli core update-index \
 arduino-cli core install rp2040:rp2040 \
   >> $LOGFILE 2>&1
 
-echo "Installing Pico LittleFS upload plugin"
-mkdir --parents $HOME/.arduinoIDE/plugins
-pushd $HOME/.arduinoIDE/plugins
-  curl -sOL $ARDUINO_LITTLEFS_UPLOAD_URL
-popd
-
 echo "Finished"
