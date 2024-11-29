@@ -62,6 +62,7 @@ for dir in \
 do
 
   for board in \
+    sparkfun_thingplus_rp2350 \
     sparkfun_promicro_rp2350 \
     pimoroni_pico_plus2_rp2350 \
     pimoroni_pico_plus2_w_rp2350 \
