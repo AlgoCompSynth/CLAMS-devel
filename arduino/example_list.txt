@@ -57,6 +57,69 @@ Examples for library AsyncUDP (rp2040:rp2040@4.3.0)
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.3.0/libraries/AsyncUDP/examples/AsyncUDPMulticastServer
   - /var/home/znmeb/dbx-homes/CLAMS-devel/.arduino15/packages/rp2040/hardware/rp2040/4.3.0/libraries/AsyncUDP/examples/AsyncUDPServer
 
+Examples for library Audio - Adafruit Fork
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/DialTone_7segment
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/DialTone_Serial
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/FFT
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/NoteFrequency
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/PeakAndRMSMeterStereo
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/PeakMeterMono
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/PeakMeterStereo
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/SpectrumAnalyzerBasic
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Analysis/WaterfallSpectrum
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Bitcrusher
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Chorus
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Delay
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Filter
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Filter_FIR
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Flange
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Effects/Mid_Side
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/AK4558/PassthroughTest
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/AK4558/SineOutTest
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/PassThroughMono
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/PassThroughQuad
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/PassThroughStereo
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/PassThroughUSB
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/PT8211Sine
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SdCardTest
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/balanceDAC
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/balanceHP
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/CalcBiquadToneControlDAP
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/dap_avc_agc
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/dap_bass_enhance
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/QuadChannelOutput
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/SGTL5000/VolumeRamp
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/ToneSweep
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/TrellisTalkthrough
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/WavFilePlayerUSB
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/HardwareTesting/WM8731MikroSine
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/MemoryAndCpuUsage
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Recorder
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/SamplePlayer
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Synthesis/Guitar
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Synthesis/PlaySynthMusic
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Synthesis/pulseWidth
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Synthesis/SimpleDrum
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_1_02_Hardware_Test
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_1_03_Playing_Music
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_1_04_Blink_While_Playing
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_1_05_Do_More_While_Playing
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_01_First_Design_Tool_Use
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_02_Mixers
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_03_Samples
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_04_Microphone_Check
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_05_Simple_Delay
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_06_Feedback_Delay
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_07_Filters
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_2_08_Oscillators
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_3_01_Peak_Detection
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_3_02_Fourier_Transform
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Part_3_03_TFT_Display
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/Reference
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/Tutorial/TestTutorialKit
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/WavFilePlayer
+  - /var/home/znmeb/dbx-homes/CLAMS-devel/Arduino/libraries/Audio_-_Adafruit_Fork/examples/WavFilePlayerMulti
+
 Examples for library AudioBufferManager (rp2040:rp2040@4.3.0)
 
 Examples for library BluetoothAudio (rp2040:rp2040@4.3.0)
