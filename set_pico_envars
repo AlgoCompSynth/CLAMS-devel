@@ -78,7 +78,7 @@ export ADAFRUIT_TINYUSB_ARDUINO_PATH="$HOME/.arduino15/packages/rp2040/hardware/
 export ADAFRUIT_TINYUSB_ARDUINO_URL="--recursive --branch Audio https://github.com/pschatzmann/Adafruit_TinyUSB_Arduino.git"
 
 ## Arduino Audio Tools
-export ARDUINO_AUDIO_TOOLS_URL="https://github.com/pschatzmann/arduino-audio-tools.git"
+export ARDUINO_AUDIO_TOOLS_URL="https://github.com/pschatzmann/arduino-audio-tools.git#v1.0.1"
 
 ## AMY
 export AMY_URL="https://github.com/shorepine/amy.git"
