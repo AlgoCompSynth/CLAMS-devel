@@ -33,7 +33,7 @@ distrobox create \
   
 echo ""
 echo "Entering $DBX_CONTAINER_NAME."
-echo "You do *not* have to type the above command!"
+echo "You do *not* have to type the above 'distrobox enter' command!"
 echo "This will take some time."
 echo "It is downloading and installing basic packages."
 echo ""
