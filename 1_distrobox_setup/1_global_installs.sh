@@ -62,6 +62,7 @@ export DEBIAN_FRONTEND=noninteractive
   python3-serial \
   python3-setuptools \
   python3-sphinx \
+  python3-sphinxcontrib-mermaid \
   python3-sphinx-rtd-theme \
   pandoc \
   python3-tk \
