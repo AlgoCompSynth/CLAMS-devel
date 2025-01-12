@@ -1373,6 +1373,7 @@ adafruit_feather_scorpio        RP2040  133MHz       8MB      256KB  Feather RP2
 adafruit_feather_thinkink       RP2040  133MHz       8MB      256KB  Feather RP2040 ThinkINK
 adafruit_feather_usb_host       RP2040  133MHz       8MB      256KB  Feather RP2040 USB Host
 adafruit_feather_rp2350_hstx    RP2350  150MHz       8MB      512KB  Feather RP2350 HSTX
+adafruit_floppsy                RP2040  133MHz       16MB     256KB  Floppsy
 flyboard2040_core               RP2040  133MHz       4MB      256KB  FlyBoard2040Core
 0xcb_helios                     RP2040  133MHz       16MB     256KB  Helios
 electroniccats_huntercat_nfc    RP2040  133MHz       2MB      256KB  HunterCat NFC RP2040
@@ -1398,6 +1399,7 @@ pimoroni_pga2040                RP2040  133MHz       8MB      256KB  PGA2040
 pimoroni_pga2350                RP2350  150MHz       16MB     512KB  PGA2350
 rpipico                         RP2040  133MHz       2MB      256KB  Pico
 rpipico2                        RP2350  150MHz       4MB      512KB  Pico 2
+rpipico2w                       RP2350  150MHz       4MB      512KB  Pico 2W
 rpipicow                        RP2040  133MHz       2MB      256KB  Pico W
 datanoisetv_picoadk             RP2040  133MHz       2MB      256KB  PicoADK
 datanoisetv_picoadk_v2          RP2350  150MHz       4MB      512KB  PicoADK v2
@@ -1598,6 +1600,8 @@ prntr_v2                     STM32F407VET6   168MHz       512KB     128KB     Pr
 rak811_tracker               STM32L151RBT6   32MHz        128KB     16KB      RAK811 LoRa Tracker
 rak811_tracker_32            STM32L151RBT6   32MHz        128KB     32KB      RAK811 LoRa Tracker
 rhf76_052                    STM32L051C8T6   32MHz        64KB      8KB       RHF76 052
+rymcu_nebulapi_f103ve        STM32F103VET6   72MHz        512KB     64KB      RYMCU Nebula Pi F103VE (64k RAM. 512k Flash)
+rymcu_f407ve                 STM32F407VET6   168MHz       502.23KB  128KB     RYMCU STM32F407VE (192k RAM. 512k Flash)
 cloud_jam                    STM32F401RET6   84MHz        512KB     96KB      RushUp Cloud-JAM
 cloud_jam_l4                 STM32L476RGT6   80MHz        1MB       128KB     RushUp Cloud-JAM L4
 disco_f334c8                 STM32F334C8T6   72MHz        64KB      12KB      ST 32F3348DISCOVERY
@@ -1637,7 +1641,7 @@ nucleo_f411re                STM32F411RET6   100MHz       512KB     128KB     ST
 nucleo_f412zg                STM32F412ZGT6   100MHz       1MB       256KB     ST Nucleo F412ZG
 nucleo_f413zh                STM32F413ZHT6   100MHz       1.50MB    320KB     ST Nucleo F413ZH
 nucleo_f429zi                STM32F429ZIT6   180MHz       2MB       192KB     ST Nucleo F429ZI
-nucleo_f439zi                STM32F439ZIT6   180MHz       2MB       256KB     ST Nucleo F439ZI
+nucleo_f439zi                STM32F439ZIT6   180MHz       2MB       192KB     ST Nucleo F439ZI
 nucleo_f446re                STM32F446RET6   180MHz       512KB     128KB     ST Nucleo F446RE
 nucleo_f446ze                STM32F446ZET6   180MHz       512KB     128KB     ST Nucleo F446ZE
 nucleo_f722ze                STM32F722ZET6   216MHz       512KB     256KB     ST Nucleo F722ZE
