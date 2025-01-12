@@ -135,6 +135,5 @@ export ACTIVATE_APIO_VENV="$APIO_VENV/bin/activate"
 export OSS_CAD_SUITE="$HOME/.apio/packages/tools-oss-cad-suite"
 
 ## Zeptoforth
-#export ZEPTOFORTH_URL="--branch v1.8.1.2 https://github.com/tabemann/zeptoforth.git"
-export ZEPTOFORTH_URL="--branch v1.9.0-alpha.1 https://github.com/tabemann/zeptoforth.git"
+export ZEPTOFORTH_URL="--branch v1.9.1 https://github.com/tabemann/zeptoforth.git"
 export ZEPTOFORTH_PATH="$CLAMS_BASE/zeptoforth"
