@@ -110,20 +110,6 @@ export ZEPHYR_OS_SDK_URL="$ZEPHYR_OS_SDK_REPO/$ZEPHYR_OS_SDK_TARBALL"
 export ZEPHYR_OS_SDK_SHASUM="$ZEPHYR_OS_SDK_REPO/sha256.sum"
 export ZEPHYR_OS_SDK_DEST="$HOME/.local"
 
-## TinyVision.ai pico-ice
-export PICO_ICE_PATH="$CLAMS_BASE/pico_ice_tools"
-export PICO_ICE_VERSION="1.6.1"
-export PICO_ICE_FIRMWARE_UF2="pico_ice_default_firmware_v${PICO_ICE_VERSION}.uf2"
-export PICO_ICE_FIRMWARE_URL="https://github.com/tinyvision-ai-inc/pico-ice/releases/download/pico-ice-default-v${PICO_ICE_FIRMWARE_VERSION}/$PICO_ICE_FIRMWARE_UF2"
-
-export PICO_ICE_SDK_URL="--recursive --branch v$PICO_ICE_VERSION https://github.com/tinyvision-ai-inc/pico-ice-sdk.git"
-export PICO_ICE_SDK_PATH="$PICO_ICE_PATH/pico-ice-sdk"
-
-## Virtual environment for apio
-export APIO_VENV="$CLAMS_BASE/apio_venv"
-export ACTIVATE_APIO_VENV="$APIO_VENV/bin/activate"
-export OSS_CAD_SUITE="$HOME/.apio/packages/tools-oss-cad-suite"
-
 ## Zeptoforth
 export ZEPTOFORTH_URL="--branch v1.9.1 https://github.com/tabemann/zeptoforth.git"
 export ZEPTOFORTH_PATH="$CLAMS_BASE/zeptoforth"
