@@ -49,7 +49,7 @@ export RISCV_COMPILER_PATH="$HOME/.local"
 
 ## Arm compiler
 ## https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
-export ARM_COMPILER_RELEASE="13.3.rel1"
+export ARM_COMPILER_RELEASE="14.2.rel1"
 export ARM_COMPILER_VERSION="arm-gnu-toolchain-$ARM_COMPILER_RELEASE-x86_64-arm-none-eabi"
 export ARM_COMPILER_TARBALL="$ARM_COMPILER_VERSION.tar.xz"
 export ARM_COMPILER_URL="https://developer.arm.com/-/media/Files/downloads/gnu/$ARM_COMPILER_RELEASE/binrel/$ARM_COMPILER_TARBALL"
@@ -63,13 +63,13 @@ export ARDUINO_PICO_URL="https://github.com/earlephilhower/arduino-pico.git"
 export ARDUINO_PICO_PACKAGE_URL="https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json"
 export ZSH_LOCAL_COMPLETIONS_PATH="$HOME/.zsh_completions"
 
-export ARDUINO_IDE_VERSION="2.3.3"
+export ARDUINO_IDE_VERSION="2.3.4"
 export ARDUINO_IDE_ZIPFILE="arduino-ide_${ARDUINO_IDE_VERSION}_Linux_64bit.zip"
 export ARDUINO_IDE_PATH="$HOME/.local/arduino-ide_${ARDUINO_IDE_VERSION}_Linux_64bit"
 export ARDUINO_IDE_URL="https://downloads.arduino.cc/arduino-ide/$ARDUINO_IDE_ZIPFILE"
 export ARDUINO_CLI_EXECUTABLE="$ARDUINO_IDE_PATH/resources/app/lib/backend/resources/arduino-cli"
 export ARDUINO_IDE_EXECUTABLE="$ARDUINO_IDE_PATH/arduino-ide"
-export ARDUINO_LITTLEFS_UPLOAD_VERSION="1.3.0"
+export ARDUINO_LITTLEFS_UPLOAD_VERSION="1.5.3"
 export ARDUINO_LITTLEFS_UPLOAD_PLUGIN="arduino-littlefs-upload-$ARDUINO_LITTLEFS_UPLOAD_VERSION.vsix"
 export ARDUINO_LITTLEFS_UPLOAD_URL="https://github.com/earlephilhower/arduino-littlefs-upload/releases/download/$ARDUINO_LITTLEFS_UPLOAD_VERSION/$ARDUINO_LITTLEFS_UPLOAD_PLUGIN"
 
@@ -135,6 +135,5 @@ export ACTIVATE_APIO_VENV="$APIO_VENV/bin/activate"
 export OSS_CAD_SUITE="$HOME/.apio/packages/tools-oss-cad-suite"
 
 ## Zeptoforth
-#export ZEPTOFORTH_URL="--branch v1.8.1.2 https://github.com/tabemann/zeptoforth.git"
-export ZEPTOFORTH_URL="--branch v1.9.0-alpha.1 https://github.com/tabemann/zeptoforth.git"
+export ZEPTOFORTH_URL="--branch v1.9.1 https://github.com/tabemann/zeptoforth.git"
 export ZEPTOFORTH_PATH="$CLAMS_BASE/zeptoforth"
