@@ -62,19 +62,17 @@ for dir in \
 do
 
   for board in \
-    sparkfun_thingplus_rp2350 \
+    pico2_w \
     sparkfun_promicro_rp2350 \
     pimoroni_pico_plus2_rp2350 \
     pimoroni_pico_plus2_w_rp2350 \
     ilabs_challenger_rp2350_bconnect \
     ilabs_challenger_rp2350_wifi_ble \
-    pico2 \
-    pico2_w
+    pico2
   do
     export PICO_BOARD=$board
 
-    # for platform in rp2350-riscv rp2350-arm-s
-    for platform in rp2350-arm-s
+    for platform in rp2350-riscv rp2350-arm-s
     do
       export PICO_PLATFORM=$platform
       sdk_build $SJMAKE
