@@ -2,6 +2,14 @@
 
 set -e
 
+if [ ! "$WSL_DISTRO_NAME" = "Ubuntu-24.04" ]
+then
+  # not on WSL - we need to unminimize
+  echo "Running in a Distrobox container - restoring missing documentation"
+  ./unminimize.sh
+  echo ""
+fi
+
 echo "Defining LOGFILE"
 mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/1_global_installs.log
@@ -10,8 +18,6 @@ rm --force $LOGFILE
 echo "Adding git PPA"
 /usr/bin/time ./add_git_ppa.sh \
   >> $LOGFILE 2>&1
-
-./unminimize.sh
 
 echo "Installing base packages"
 export DEBIAN_FRONTEND=noninteractive
