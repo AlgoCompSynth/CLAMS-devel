@@ -1,7 +1,5 @@
 #! /bin/bash
 
-#set -e
-
 function sdk_build {
   target="$dir/build_${PICO_BOARD}_${PICO_PLATFORM}"
   repo=`echo $dir | sed 's;^.*/;;'`

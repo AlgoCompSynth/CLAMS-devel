@@ -11,6 +11,10 @@ mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/selected_examples.log
 rm --force $LOGFILE
 
+echo "Logging build failure messages"
+grep "^make" ~/CLAMS_base/pico_repos/pico-examples/build_*/make.log \
+  >> $LOGFILE 2>&1
+
 echo "Creating $CLAMS_BASE/selected_examples.zip"
 pushd $PICO_EXAMPLES_PATH
   for suffix in uf2 elf dis
