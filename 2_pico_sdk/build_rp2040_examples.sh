@@ -1,6 +1,6 @@
 #! /bin/bash
 
-set -e
+#set -e
 
 function sdk_build {
   target="$dir/build_${PICO_BOARD}_${PICO_PLATFORM}"
