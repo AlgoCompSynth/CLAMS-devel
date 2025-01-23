@@ -113,3 +113,7 @@ export ZEPHYR_OS_SDK_DEST="$HOME/.local"
 ## Zeptoforth
 export ZEPTOFORTH_URL="--branch v1.9.1 https://github.com/tabemann/zeptoforth.git"
 export ZEPTOFORTH_PATH="$CLAMS_BASE/zeptoforth"
+
+## Mecrisp-Ice
+export MECRISP_ICE_URL="https://master.dl.sourceforge.net/project/mecrisp/mecrisp-ice-2.7b.tar.gz"
+export MECRISP_ICE_PATH="$CLAMS_BASE/Mecrisp-Ice/mecrisp-ice-2.7b"
