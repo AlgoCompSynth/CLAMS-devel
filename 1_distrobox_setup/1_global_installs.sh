@@ -23,6 +23,7 @@ echo "Installing base packages"
 export DEBIAN_FRONTEND=noninteractive
 /usr/bin/time sudo apt-get install --assume-yes \
   7zip \
+  android-sdk-platform-tools \
   apt-file \
   autoconf \
   automake \
@@ -33,6 +34,7 @@ export DEBIAN_FRONTEND=noninteractive
   cmake \
   dfu-util \
   device-tree-compiler \
+  fastboot \
   file \
   g++ \
   gcc \
