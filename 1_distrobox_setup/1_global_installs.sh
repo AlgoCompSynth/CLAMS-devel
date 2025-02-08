@@ -46,6 +46,7 @@ export DEBIAN_FRONTEND=noninteractive
   git-lfs \
   gperf \
   gtkwave \
+  kmod \
   libcanberra-gtk3-module \
   libftdi-dev \
   libgtk-3-0 \
