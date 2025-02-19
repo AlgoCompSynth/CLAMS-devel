@@ -27,6 +27,7 @@ export DEBIAN_FRONTEND=noninteractive
   apt-file \
   autoconf \
   automake \
+  bison \
   build-essential \
   calibre \
   ccache \
@@ -36,6 +37,7 @@ export DEBIAN_FRONTEND=noninteractive
   device-tree-compiler \
   fastboot \
   file \
+  flex \
   g++ \
   gcc \
   g++-multilib \
@@ -44,6 +46,7 @@ export DEBIAN_FRONTEND=noninteractive
   git-lfs \
   gperf \
   gtkwave \
+  kmod \
   libcanberra-gtk3-module \
   libftdi-dev \
   libgtk-3-0 \
