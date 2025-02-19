@@ -61,6 +61,7 @@ for dir in \
 do
 
   for board in \
+    adafruit_macropad_rp2040 \
     pico_w \
     pico
   do
