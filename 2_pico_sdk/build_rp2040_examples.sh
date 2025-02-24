@@ -1,5 +1,7 @@
 #! /bin/bash
 
+set -e
+
 function sdk_build {
   target="$dir/build_${PICO_BOARD}_${PICO_PLATFORM}"
   repo=`echo $dir | sed 's;^.*/;;'`
@@ -70,7 +72,9 @@ do
     for platform in rp2040
     do
       export PICO_PLATFORM=$platform
+      set +e
       sdk_build $SJMAKE
+      set -e
     done
 
   done
