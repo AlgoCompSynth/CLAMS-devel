@@ -1,6 +1,0 @@
-[submodule "arduino_ide/c3"]
-	path = arduino/c3
-	url = https://github.com/CCurl/c3
-[submodule "arduino_ide/amy"]
-	path = arduino/amy
-	url = https://github.com/shorepine/amy
