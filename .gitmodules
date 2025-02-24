@@ -1,6 +1,0 @@
-[submodule "arduino_ide/c3"]
-	path = arduino/c3
-	url = git@github.com:AlgoCompSynth/c3
-[submodule "arduino_ide/amy"]
-	path = arduino/amy
-	url = git@github.com:AlgoCompSynth/amy
