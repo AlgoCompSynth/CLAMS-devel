@@ -115,7 +115,3 @@ export ZEPHYR_OS_SDK_REPO="https://github.com/zephyrproject-rtos/sdk-ng/releases
 export ZEPHYR_OS_SDK_URL="$ZEPHYR_OS_SDK_REPO/$ZEPHYR_OS_SDK_TARBALL"
 export ZEPHYR_OS_SDK_SHASUM="$ZEPHYR_OS_SDK_REPO/sha256.sum"
 export ZEPHYR_OS_SDK_DEST="$HOME/.local"
-
-## Mecrisp-Ice
-export MECRISP_ICE_URL="https://master.dl.sourceforge.net/project/mecrisp/mecrisp-ice-2.7b.tar.gz"
-export MECRISP_ICE_PATH="$CLAMS_BASE/Mecrisp-Ice/mecrisp-ice-2.7b"
