@@ -431,7 +431,7 @@ swervolf_nexys         320MHz       16MB     1.16MB  RVfpga: Digilent Nexys A7
 Platform: espressif32
 ================================================================================
 ID                                   MCU      Frequency    Flash    RAM     Name
------------------------------------  -------  -----------  -------  ------  ---------------------------------------------------
+-----------------------------------  -------  -----------  -------  ------  ----------------------------------------------------
 4d_systems_esp32s3_gen4_r8n16        ESP32S3  240MHz       16MB     320KB   4D Systems GEN4-ESP32 16MB (ESP32S3-R8N16)
 esp32cam                             ESP32    240MHz       4MB      320KB   AI Thinker ESP32-CAM
 alksesp32                            ESP32    240MHz       4MB      320KB   ALKS ESP32
@@ -525,6 +525,8 @@ piranha_esp32                        ESP32    240MHz       4MB      320KB   Fish
 franzininho_wifi_esp32s2             ESP32S2  240MHz       4MB      320KB   Franzininho WiFi
 esp32-s2-franzininho                 ESP32S2  240MHz       4MB      320KB   Franzininho WiFi Board
 franzininho_wifi_msc_esp32s2         ESP32S2  240MHz       4MB      320KB   Franzininho WiFi MSC
+freenove_esp32_s3_wroom              ESP32S3  240MHz       8MB      320KB   Freenove ESP32-S3 WROOM N8R8 (8MB Flash / 8MB PSRAM)
+freenove_esp32_wrover                ESP32    240MHz       4MB      320KB   Freenove ESP32-Wrover
 frogboard                            ESP32    240MHz       4MB      320KB   Frog Board ESP32
 honeylemon                           ESP32    240MHz       4MB      320KB   HONEYLemon
 heltec_wifi_kit_32                   ESP32    240MHz       4MB      320KB   Heltec WiFi Kit 32
@@ -548,6 +550,7 @@ labplus_mpython                      ESP32    240MHz       4MB      320KB   Labp
 lilka_v2                             ESP32S3  240MHz       16MB     320KB   Lilka v2
 lilygo-t-display                     ESP32    240MHz       4MB      320KB   LilyGo T-Display
 lilygo-t-display-s3                  ESP32S3  240MHz       16MB     320KB   LilyGo T-Display-S3
+lilygo-t3-s3                         ESP32S3  240MHz       4MB      320KB   LilyGo T3-S3
 lionbit                              ESP32    240MHz       4MB      320KB   Lion:Bit Dev Board
 lionbits3                            ESP32S3  240MHz       4MB      320KB   Lion:Bit S3 STEM Dev Board
 m5stack-atoms3                       ESP32S3  240MHz       8MB      320KB   M5Stack AtomS3
@@ -595,6 +598,9 @@ lopy                                 ESP32    240MHz       4MB      320KB   Pyco
 lopy4                                ESP32    240MHz       4MB      1.25MB  Pycom LoPy4
 wipy3                                ESP32    240MHz       4MB      1.25MB  Pycom WiPy3
 qchip                                ESP32    240MHz       4MB      320KB   Qchip
+rymcu-esp32-c3-devkitm-1             ESP32C3  160MHz       4MB      320KB   RYMCU ESP32-C3-DevKitM-1
+rymcu-esp32-devkitc                  ESP32    240MHz       4MB      320KB   RYMCU ESP32-DevKitC
+rymcu-esp32-s3-devkitc-1             ESP32S3  240MHz       8MB      320KB   RYMCU ESP32-S3-DevKitC-1-N8R2 (8 MB QD, 2 MB PSRAM)
 roboheart_hercules                   ESP32    240MHz       4MB      320KB   RoboHeart Hercules
 s_odi_ultra                          ESP32    240MHz       4MB      320KB   S.ODI Ultra v1
 sg-o_airMon                          ESP32    240MHz       4MB      320KB   SG-O AirMon
@@ -1088,6 +1094,7 @@ Platform: libretiny
 ================================================================================
 ID                          MCU        Frequency    Flash    RAM    Name
 --------------------------  ---------  -----------  -------  -----  ------------------------------
+afw121t                     RTL8710BX  62MHz        468KB    256KB  AFW121T
 bw12                        RTL8710BX  62MHz        468KB    256KB  BW12
 bw15                        RTL8720CF  100MHz       992KB    256KB  BW15
 cb1s                        BK7231N    120MHz       1.03MB   256KB  CB1S Wi-Fi Module
@@ -1166,6 +1173,7 @@ quectelm56      MT6261   260MHz       256KB    94KB    Quectel M56
 quectelm66      MT6261   260MHz       256KB    94KB    Quectel M66
 quectelmc20     MT2503   260MHz       256KB    94KB    Quectel MC20
 quectelmc20u    MT2503   260MHz       256KB    94KB    Quectel MC20UCB
+mc25            RDA8955  178MHz       576KB    1016KB  Quectel MC25 GSM Module
 quectelmc60     MT2503   260MHz       256KB    94KB    Quectel MC60
 mc65            RDA8955  178MHz       576KB    1016KB  Quectel MC65 GSM Module
 a7670           ASR1601  416MHz       1MB      512KB   SIMCOM A7670X LTE Cat.1 Module
@@ -1381,6 +1389,7 @@ bridgetek_idm2040_43a           RP2040  133MHz       8MB      256KB  IDM2040-43A
 bridgetek_idm2040_7a            RP2040  133MHz       8MB      256KB  IDM2040-7A
 seeed_indicator_rp2040          RP2040  133MHz       2MB      256KB  INDICATOR RP2040
 cytron_iriv_io_controller       RP2350  150MHz       2MB      512KB  IRIV IO Controller
+sparkfun_iotnode_lorawanrp2350  RP2350  150MHz       16MB     512KB  IoT Node LoRaWAN
 adafruit_itsybitsy              RP2040  133MHz       8MB      256KB  ItsyBitsy RP2040
 jumperless_v1                   RP2040  133MHz       16MB     256KB  Jumperless
 jumperless_v5                   RP2350  150MHz       16MB     512KB  Jumperless V5
@@ -1407,12 +1416,14 @@ pimoroni_pico_plus_2            RP2350  150MHz       16MB     512KB  PicoPlus2
 pimoroni_pico_plus_2w           RP2350  150MHz       16MB     512KB  PicoPlus2W
 pintronix_pinmax                RP2040  133MHz       4MB      256KB  PinMax
 pimoroni_plasma2040             RP2040  133MHz       2MB      256KB  Plasma2040
+pimoroni_plasma2350             RP2350  150MHz       2MB      512KB  Plasma2350
 sparkfun_promicrorp2040         RP2040  133MHz       16MB     256KB  ProMicro RP2040
 sparkfun_promicrorp2350         RP2350  150MHz       16MB     512KB  ProMicro RP2350
 adafruit_qtpy                   RP2040  133MHz       8MB      256KB  QT Py RP2040
 rakwireless_rak11300            RP2040  133MHz       2MB      256KB  RAK11300
 extelec_rc2040                  RP2040  133MHz       2MB      256KB  RC2040
 artronshop_rp2_nano             RP2040  133MHz       2MB      256KB  RP2 Nano
+MyRP_bot                        RP2040  133MHz       2MB      256KB  RP2040
 generic                         RP2040  133MHz       16MB     256KB  RP2040
 upesy_rp2040_devkit             RP2040  133MHz       2MB      256KB  RP2040 DevKit
 waveshare_rp2040_lcd_0_96       RP2040  133MHz       2MB      256KB  RP2040 LCD 0.96
@@ -1543,6 +1554,8 @@ blue_f407ve_mini             STM32F407VET6   168MHz       512KB     128KB     Bl
 bluepill_f103c6              STM32F103C6T6   72MHz        32KB      10KB      BluePill F103C6
 bluepill_f103c8              STM32F103C8T6   72MHz        64KB      20KB      BluePill F103C8
 bluepill_f103c8_128k         STM32F103C8T6   72MHz        128KB     20KB      BluePill F103C8 (128k)
+blues_cygnet                 STM32L433CCT6   80MHz        256KB     64KB      Blues Cygnet
+blues_swan_r5                STM32L4R5ZIY6   120MHz       2MB       640KB     Blues Swan R5
 bw_swan_r5                   STM32L4R5ZIY6   120MHz       2MB       640KB     BluesWireless Swan R5
 cicada_l082cz                STM32L082CZY6   32MHz        192KB     20KB      Cicada-L082CZ
 coreboard_f401rc             STM32F401RCT6   84MHz        256KB     64KB      Core board F401RCT6
