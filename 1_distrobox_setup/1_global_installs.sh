@@ -21,14 +21,14 @@ export DEBIAN_FRONTEND=noninteractive
   ccache \
   clang \
   cmake \
-  dfu-util \
   device-tree-compiler \
+  dfu-util \
   fastboot \
   file \
   flex \
   g++ \
-  gcc \
   g++-multilib \
+  gcc \
   gcc-multilib \
   gdb-multiarch \
   git-lfs \
@@ -52,6 +52,7 @@ export DEBIAN_FRONTEND=noninteractive
   man-db \
   minicom \
   ninja-build \
+  pandoc \
   picocom \
   pkg-config \
   plocate \
@@ -61,9 +62,8 @@ export DEBIAN_FRONTEND=noninteractive
   python3-serial \
   python3-setuptools \
   python3-sphinx \
-  python3-sphinxcontrib-mermaid \
   python3-sphinx-rtd-theme \
-  pandoc \
+  python3-sphinxcontrib-mermaid \
   python3-tk \
   python3-venv \
   python3-wheel \
@@ -74,8 +74,8 @@ export DEBIAN_FRONTEND=noninteractive
   tmux \
   tree \
   usbutils \
-  xz-utils \
   wget \
+  xz-utils \
   >> $LOGFILE 2>&1
 
 echo "Finished"
