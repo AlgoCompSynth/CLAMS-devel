@@ -38,6 +38,7 @@ Adafruit MatrixPortal ESP32-S3                     esp32:esp32:adafruit_matrixpo
 Adafruit Metro ESP32-S2                            esp32:esp32:adafruit_metro_esp32s2
 Adafruit Metro ESP32-S3                            esp32:esp32:adafruit_metro_esp32s3
 Adafruit Metro RP2040                              rp2040:rp2040:adafruit_metro
+Adafruit Metro RP2350                              rp2040:rp2040:adafruit_metro_rp2350
 Adafruit QT Py ESP32                               esp32:esp32:adafruit_qtpy_esp32_pico
 Adafruit QT Py ESP32-C3                            esp32:esp32:adafruit_qtpy_esp32c3
 Adafruit QT Py ESP32-S2                            esp32:esp32:adafruit_qtpy_esp32s2
@@ -351,6 +352,7 @@ SparkFun ESP32-C6 Qwiic Pocket                     esp32:esp32:sparkfun_esp32c6_
 SparkFun ESP32-C6 Thing Plus                       esp32:esp32:sparkfun_esp32c6_thing_plus
 SparkFun ESP32-S2 Thing Plus                       esp32:esp32:sparkfun_esp32s2_thing_plus
 SparkFun ESP32-S3 Thing Plus                       esp32:esp32:sparkfun_esp32s3_thing_plus
+SparkFun IoT Node LoRaWAN                          rp2040:rp2040:sparkfun_iotnode_lorawanrp2350
 SparkFun LoRa Gateway 1-Channel                    esp32:esp32:sparkfun_lora_gateway_1-channel
 SparkFun MicroMod RP2040                           rp2040:rp2040:sparkfun_micromodrp2040
 SparkFun Pro Micro - ESP32C3                       esp32:esp32:sparkfun_pro_micro_esp32c3
@@ -457,6 +459,7 @@ Widora AIR                                         esp32:esp32:widora-air
 XIAO_ESP32C3                                       esp32:esp32:XIAO_ESP32C3
 XIAO_ESP32C6                                       esp32:esp32:XIAO_ESP32C6
 XIAO_ESP32S3                                       esp32:esp32:XIAO_ESP32S3
+XIAO_ESP32S3_PLUS                                  esp32:esp32:XIAO_ESP32S3_Plus
 XinaBox CW02                                       esp32:esp32:cw02
 YelloByte YB-ESP32-S3-AMP (Rev.2)                  esp32:esp32:yb_esp32s3_amp_v2
 YelloByte YB-ESP32-S3-AMP (Rev.3)                  esp32:esp32:yb_esp32s3_amp_v3

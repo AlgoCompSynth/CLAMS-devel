@@ -2,30 +2,20 @@
 
 set -e
 
-if [ ! "$WSL_DISTRO_NAME" = "Ubuntu-24.04" ]
-then
-  # not on WSL - we need to unminimize
-  echo "Running in a Distrobox container - restoring missing documentation"
-  ./unminimize.sh
-  echo ""
-fi
-
 echo "Defining LOGFILE"
 mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/1_global_installs.log
 rm --force $LOGFILE
 
-echo "Adding git PPA"
-/usr/bin/time ./add_git_ppa.sh \
-  >> $LOGFILE 2>&1
-
 echo "Installing base packages"
 export DEBIAN_FRONTEND=noninteractive
 /usr/bin/time sudo apt-get install --assume-yes \
   7zip \
+  android-sdk-platform-tools \
   apt-file \
   autoconf \
   automake \
+  bison \
   build-essential \
   calibre \
   ccache \
@@ -33,7 +23,9 @@ export DEBIAN_FRONTEND=noninteractive
   cmake \
   dfu-util \
   device-tree-compiler \
+  fastboot \
   file \
+  flex \
   g++ \
   gcc \
   g++-multilib \
@@ -42,6 +34,7 @@ export DEBIAN_FRONTEND=noninteractive
   git-lfs \
   gperf \
   gtkwave \
+  kmod \
   libcanberra-gtk3-module \
   libftdi-dev \
   libgtk-3-0 \
