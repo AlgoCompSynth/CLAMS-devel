@@ -1400,6 +1400,7 @@ cytron_maker_pi_rp2040          RP2040  133MHz       2MB      256KB  Maker Pi RP
 cytron_maker_uno_rp2040         RP2040  133MHz       2MB      256KB  Maker Uno RP2040
 groundstudio_marble_pico        RP2040  133MHz       8MB      256KB  Marble Pico
 adafruit_metro                  RP2040  133MHz       16MB     256KB  Metro RP2040
+adafruit_metro_rp2350           RP2350  125MHz       8MB      512KB  Metro RP2350
 sparkfun_micromodrp2040         RP2040  133MHz       16MB     256KB  MicroMod RP2040
 viyalab_mizu                    RP2040  133MHz       8MB      256KB  Mizu RP2040
 cytron_motion_2350_pro          RP2350  150MHz       2MB      512KB  Motion 2350 Pro
