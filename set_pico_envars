@@ -3,7 +3,7 @@
 export CLAMS_BASE="$HOME/CLAMS_base"
 
 # Container image and name
-export CLAMS_CONTAINER_IMAGE="docker.io/library/ubuntu:24.04"
+export CLAMS_CONTAINER_IMAGE="ghcr.io/ublue-os/ubuntu-toolbox"
 export CLAMS_CONTAINER_NAME="CLAMS-devel"
 
 # Don't change anything below here!
