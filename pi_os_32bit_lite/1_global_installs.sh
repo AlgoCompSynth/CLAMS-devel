@@ -78,7 +78,8 @@ sudo systemctl stop sysstat
 
 echo "Editing sample time"
 sleep 5
-sudo vim /etc/systemd/system/sysstat.service.wants/sysstat-collect.timer
+diff sysstat-collect.timer /etc/systemd/system/sysstat.service.wants/sysstat-collect.timer || true
+sudo cp sysstat-collect.timer /etc/systemd/system/sysstat.service.wants/sysstat-collect.timer
 
 echo "Restarting data collection"
 sudo systemctl daemon-reload
