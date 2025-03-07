@@ -66,9 +66,6 @@ time sudo apt-get install -y \
   >> $LOGFILE 2>&1
 
 # https://wiki.debian.org/sysstat
-echo "Select 'Yes' to start sysstat data collection"
-sudo dpkg-reconfigure sysstat
-
 echo "Enabling sysstat"
 sudo systemctl enable --now sysstat.service
 systemctl status sysstat.service
