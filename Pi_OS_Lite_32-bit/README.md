@@ -18,3 +18,11 @@ will need to do
     ```
 
 3. Reboot
+
+4. After the reboot, install the optional command line conveniences:
+
+    ```
+    ./1_command_line_setup.sh
+    ```
+
+    You can also install optional tools in the `Apps` directory.

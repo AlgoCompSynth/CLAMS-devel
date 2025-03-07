@@ -3,8 +3,8 @@
 set -e
 
 echo "Defining LOGFILE"
-mkdir --parents $PWD/Logs
-export LOGFILE=$PWD/Logs/install_pforth.log
+mkdir --parents $PWD/../Logs
+export LOGFILE=$PWD/../Logs/install_pforth.log
 rm --force $LOGFILE
 
 echo "Cloning repositories"
