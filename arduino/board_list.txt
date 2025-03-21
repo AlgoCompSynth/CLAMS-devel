@@ -175,6 +175,7 @@ Generic STM32L1 series                             STMicroelectronics:stm32:GenL
 Generic STM32L4 series                             STMicroelectronics:stm32:GenL4
 Generic STM32L5 series                             STMicroelectronics:stm32:GenL5
 Generic STM32U0 series                             STMicroelectronics:stm32:GenU0
+Generic STM32U3 series                             STMicroelectronics:stm32:GenU3
 Generic STM32U5 series                             STMicroelectronics:stm32:GenU5
 Generic STM32WB series                             STMicroelectronics:stm32:GenWB
 Generic STM32WBA series                            STMicroelectronics:stm32:GenWBA
@@ -269,6 +270,8 @@ MH ET LIVE ESP32DevKIT                             esp32:esp32:mhetesp32devkit
 MH ET LIVE ESP32MiniKit                            esp32:esp32:mhetesp32minikit
 MagicBit                                           esp32:esp32:magicbit
 MakerGO ESP32 C3 SuperMini                         esp32:esp32:makergo_c3_supermini
+Makerbase MKS THR36                                rp2040:rp2040:mksthr36
+Makerbase MKS THR42                                rp2040:rp2040:mksthr42
 Melopero Cookie RP2040                             rp2040:rp2040:melopero_cookie_rp2040
 Melopero Shake RP2040                              rp2040:rp2040:melopero_shake_rp2040
 Metro ESP-32                                       esp32:esp32:metro_esp-32
@@ -304,8 +307,9 @@ OLIMEX ESP32-S2-DevKit-Lipo-USB                    esp32:esp32:esp32s2-devkitlip
 OLIMEX ESP32-S3-DevKit-Lipo                        esp32:esp32:esp32s3-devkitlipo
 OLIMEX ESP32-SBC-FABGL                             esp32:esp32:esp32-sbc-fabgl
 OROCA EduBot                                       esp32:esp32:oroca_edubot
-Olimex RP2040-Pico30 16MB                          rp2040:rp2040:olimex_rp2040pico30_16mb
-Olimex RP2040-Pico30 2MB                           rp2040:rp2040:olimex_rp2040pico30_2mb
+Olimex Pico2XL                                     rp2040:rp2040:olimex_pico2xl
+Olimex Pico2XXL                                    rp2040:rp2040:olimex_pico2xxl
+Olimex RP2040-Pico30                               rp2040:rp2040:olimex_rp2040pico30
 Onehorse ESP32 Dev Module                          esp32:esp32:onehorse32dev
 Pcbcupid GLYPH C3                                  esp32:esp32:Pcbcupid_GLYPH_C3
 Pcbcupid GLYPH C6                                  esp32:esp32:Pcbcupid_GLYPH_C6
@@ -316,6 +320,7 @@ Pimoroni PicoPlus2                                 rp2040:rp2040:pimoroni_pico_p
 Pimoroni PicoPlus2W                                rp2040:rp2040:pimoroni_pico_plus_2w
 Pimoroni Plasma2040                                rp2040:rp2040:pimoroni_plasma2040
 Pimoroni Plasma2350                                rp2040:rp2040:pimoroni_plasma2350
+Pimoroni Servo2040                                 rp2040:rp2040:pimoroni_servo2040
 Pimoroni Tiny2040                                  rp2040:rp2040:pimoroni_tiny2040
 Pimoroni Tiny2350                                  rp2040:rp2040:pimoroni_tiny2350
 Pintronix PinMax                                   rp2040:rp2040:pintronix_pinmax
@@ -353,6 +358,7 @@ SparkFun ESP32-C6 Thing Plus                       esp32:esp32:sparkfun_esp32c6_
 SparkFun ESP32-S2 Thing Plus                       esp32:esp32:sparkfun_esp32s2_thing_plus
 SparkFun ESP32-S3 Thing Plus                       esp32:esp32:sparkfun_esp32s3_thing_plus
 SparkFun IoT Node LoRaWAN                          rp2040:rp2040:sparkfun_iotnode_lorawanrp2350
+SparkFun IoT RedBoard RP2350                       rp2040:rp2040:sparkfun_iotredboard_rp2350
 SparkFun LoRa Gateway 1-Channel                    esp32:esp32:sparkfun_lora_gateway_1-channel
 SparkFun MicroMod RP2040                           rp2040:rp2040:sparkfun_micromodrp2040
 SparkFun Pro Micro - ESP32C3                       esp32:esp32:sparkfun_pro_micro_esp32c3
@@ -360,6 +366,8 @@ SparkFun ProMicro RP2040                           rp2040:rp2040:sparkfun_promic
 SparkFun ProMicro RP2350                           rp2040:rp2040:sparkfun_promicrorp2350
 SparkFun Thing Plus RP2040                         rp2040:rp2040:sparkfun_thingplusrp2040
 SparkFun Thing Plus RP2350                         rp2040:rp2040:sparkfun_thingplusrp2350
+SparkFun XRP Controller                            rp2040:rp2040:sparkfun_xrp_controller
+SparkFun XRP Controller (Beta)                     rp2040:rp2040:sparkfun_xrp_controller_beta
 T-Beam                                             esp32:esp32:t-beam
 TAMC Termod S3                                     esp32:esp32:tamc_termod_s3
 TTGO LoRa32-OLED                                   esp32:esp32:ttgo-lora32
