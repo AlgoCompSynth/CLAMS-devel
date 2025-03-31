@@ -1390,17 +1390,20 @@ bridgetek_idm2040_7a            RP2040  133MHz       8MB      256KB  IDM2040-7A
 seeed_indicator_rp2040          RP2040  133MHz       2MB      256KB  INDICATOR RP2040
 cytron_iriv_io_controller       RP2350  150MHz       2MB      512KB  IRIV IO Controller
 sparkfun_iotnode_lorawanrp2350  RP2350  150MHz       16MB     512KB  IoT Node LoRaWAN
+sparkfun_iotredboard_rp2350     RP2350  150MHz       16MB     512KB  IoT RedBoard RP2350
 adafruit_itsybitsy              RP2040  133MHz       8MB      256KB  ItsyBitsy RP2040
 jumperless_v1                   RP2040  133MHz       16MB     256KB  Jumperless
 jumperless_v5                   RP2350  150MHz       16MB     512KB  Jumperless V5
 adafruit_kb2040                 RP2040  133MHz       8MB      256KB  KB2040
+mksthr36                        RP2040  133MHz       1MB      256KB  MKS THR36
+mksthr42                        RP2040  133MHz       1MB      256KB  MKS THR42
 adafruit_macropad2040           RP2040  133MHz       8MB      256KB  MacroPad RP2040
 cytron_maker_nano_rp2040        RP2040  133MHz       2MB      256KB  Maker Nano RP2040
 cytron_maker_pi_rp2040          RP2040  133MHz       2MB      256KB  Maker Pi RP2040
 cytron_maker_uno_rp2040         RP2040  133MHz       2MB      256KB  Maker Uno RP2040
 groundstudio_marble_pico        RP2040  133MHz       8MB      256KB  Marble Pico
 adafruit_metro                  RP2040  133MHz       16MB     256KB  Metro RP2040
-adafruit_metro_rp2350           RP2350  125MHz       8MB      512KB  Metro RP2350
+adafruit_metro_rp2350           RP2350  150MHz       16MB     512KB  Metro RP2350
 sparkfun_micromodrp2040         RP2040  133MHz       16MB     256KB  MicroMod RP2040
 viyalab_mizu                    RP2040  133MHz       8MB      256KB  Mizu RP2040
 cytron_motion_2350_pro          RP2350  150MHz       2MB      512KB  Motion 2350 Pro
@@ -1411,6 +1414,8 @@ rpipico                         RP2040  133MHz       2MB      256KB  Pico
 rpipico2                        RP2350  150MHz       4MB      512KB  Pico 2
 rpipico2w                       RP2350  150MHz       4MB      512KB  Pico 2W
 rpipicow                        RP2040  133MHz       2MB      256KB  Pico W
+olimex_pico2xl                  RP2350  150MHz       2MB      512KB  Pico2XL
+olimex_pico2xxl                 RP2350  150MHz       16MB     512KB  Pico2XXL
 datanoisetv_picoadk             RP2040  133MHz       2MB      256KB  PicoADK
 datanoisetv_picoadk_v2          RP2350  150MHz       4MB      512KB  PicoADK v2
 pimoroni_pico_plus_2            RP2350  150MHz       16MB     512KB  PicoPlus2
@@ -1437,6 +1442,7 @@ waveshare_rp2040_plus_4mb       RP2040  133MHz       4MB      256KB  RP2040 Plus
 solderparty_rp2040_stamp        RP2040  133MHz       8MB      256KB  RP2040 Stamp
 waveshare_rp2040_zero           RP2040  133MHz       2MB      256KB  RP2040 Zero
 redscorp_rp2040_eins            RP2040  133MHz       16MB     256KB  RP2040-Eins
+olimex_rp2040pico30             RP2040  133MHz       2MB      256KB  RP2040-Pico30
 olimex_rp2040pico30_16mb        RP2040  133MHz       16MB     256KB  RP2040-Pico30 16MB
 olimex_rp2040pico30_2mb         RP2040  133MHz       2MB      256KB  RP2040-Pico30 2MB
 redscorp_rp2040_promini         RP2040  133MHz       16MB     256KB  RP2040-ProMini
@@ -1452,6 +1458,7 @@ amken_revelop_plus              RP2040  133MHz       32MB     256KB  Revelop Plu
 amken_revelop_es                RP2040  133MHz       16MB     256KB  Revelop eS
 adafruit_stemmafriend           RP2040  133MHz       8MB      256KB  STEMMA Friend RP2040
 sea_picro                       RP2040  133MHz       8MB      256KB  Sea-Picro
+pimoroni_servo2040              RP2040  133MHz       2MB      256KB  Servo2040
 melopero_shake_rp2040           RP2040  133MHz       16MB     256KB  Shake RP2040
 degz_suibo                      RP2040  133MHz       16MB     256KB  Suibo RP2040
 sparkfun_thingplusrp2040        RP2040  133MHz       16MB     256KB  Thing Plus RP2040
@@ -1466,7 +1473,9 @@ wiznet_5500_evb_pico2           RP2350  150MHz       2MB      512KB  W5500-EVB-P
 wiznet_55rp20_evb_pico          RP2040  133MHz       2MB      256KB  W55RP20-EVB-Pico
 wiznet_wizfi360_evb_pico        RP2040  133MHz       2MB      256KB  WizFi360-EVB-Pico
 seeed_xiao_rp2040               RP2040  133MHz       2MB      256KB  XIAO RP2040
-seeed_xiao_rp2350               RP2350  150MHz       16MB     512KB  XIAO RP2350
+seeed_xiao_rp2350               RP2350  150MHz       2MB      512KB  XIAO RP2350
+sparkfun_xrp_controller         RP2350  150MHz       16MB     512KB  XRP Controller
+sparkfun_xrp_controller_beta    RP2040  133MHz       2MB      256KB  XRP Controller (Beta)
 vccgnd_yd_rp2040                RP2040  133MHz       16MB     256KB  YD RP2040
 
 Platform: renesas-ra
@@ -1564,6 +1573,7 @@ cricket_l082cz               STM32L082CZY6   32MHz        192KB     20KB      Cr
 demo_f030f4                  STM32F030F4P6   48MHz        16KB      4KB       Demo F030F4
 devebox_h743vitx             STM32H743VIT6   480MHz       2MB       512KB     DevEBox H743VITX
 devebox_h750vbtx             STM32H750VBT6   480MHz       512KB     128KB     DevEBox H750VBTX
+ebyte_e77_dev                STM32WLE5CC     48MHz        256KB     64KB      Ebyte E77 Dev Board
 econode_l082cz               STM32L082CZY6   32MHz        192KB     20KB      Econode-L082CZ
 electrosmith_daisy           STM32H750IBK6   400MHz       128KB     512KB     Electrosmith Daisy
 electrosmith_daisy_patch_sm  STM32H750IBK6   400MHz       128KB     512KB     Electrosmith Daisy Patch SM
@@ -1663,6 +1673,7 @@ nucleo_f746zg                STM32F746ZGT6   216MHz       1MB       320KB     ST
 nucleo_f756zg                STM32F756ZG     216MHz       1MB       320KB     ST Nucleo F756ZG
 nucleo_f767zi                STM32F767ZIT6   216MHz       2MB       512KB     ST Nucleo F767ZI
 nucleo_g0b1re                STM32G0B1RET6   64MHz        512KB     144KB     ST Nucleo G0B1RE
+nucleo_h563zi                STM32H563ZIT6U  250MHz       2MB       640KB     ST Nucleo H563ZI
 nucleo_h723zg                STM32H723ZGT6   550MHz       1MB       320KB     ST Nucleo H723ZG
 nucleo_h743zi                STM32H743ZIT6   400MHz       2MB       512KB     ST Nucleo H743ZI
 nucleo_h745zi_q              STM32H745ZIT6   480MHz       1MB       512KB     ST Nucleo H745ZI-Q
