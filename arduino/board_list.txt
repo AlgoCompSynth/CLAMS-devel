@@ -79,6 +79,7 @@ Breadstick Raspberry                               rp2040:rp2040:breadstick_rasp
 BridgeTek IDM2040-43A                              rp2040:rp2040:bridgetek_idm2040_43a
 BridgeTek IDM2040-7A                               rp2040:rp2040:bridgetek_idm2040_7a
 CNRS AW2ETH                                        esp32:esp32:aw2eth
+CYOBOT V2 ESP32S3                                  esp32:esp32:cyobot_v2_esp32s3
 CircuitART Zero S3                                 esp32:esp32:circuitart_zero_s3
 CodeCell                                           esp32:esp32:codecell
 Connaxio's Espoir                                  esp32:esp32:connaxio_espoir
@@ -156,6 +157,7 @@ Fri3d Badge 2024 (ESP32-S3-WROOM-1)                esp32:esp32:fri3d_2024_esp32s
 Frog Board ESP32                                   esp32:esp32:frogboard
 Garatronic-McHobby                                 STMicroelectronics:stm32:Garatronic
 Geekble Mini ESP32-C3                              esp32:esp32:Geekble_ESP32C3
+Geekble nano ESP32-S3                              esp32:esp32:Geekble_Nano_ESP32S3
 Generic Flight Controllers                         STMicroelectronics:stm32:GenFlight
 Generic RP2040                                     rp2040:rp2040:generic
 Generic RP2350                                     rp2040:rp2040:generic_rp2350
@@ -233,6 +235,7 @@ LilyGo T-ETH-Lite                                  esp32:esp32:lilygo_t_eth_lite
 LilyGo T-Watch-S3                                  esp32:esp32:twatchs3
 LilyGo T-Watch-Ultra                               esp32:esp32:twatch_ultra
 LilyGo T3-S3                                       esp32:esp32:lilygo_t3s3
+LilyGo-T-LoRa-Pager                                esp32:esp32:tlora_pager
 Lion:Bit Dev Board                                 esp32:esp32:lionbit
 Lion:Bit S3 STEM Dev Board                         esp32:esp32:lionbits3
 LoPy                                               esp32:esp32:lopy
