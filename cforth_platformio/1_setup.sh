@@ -4,7 +4,7 @@ set -e
 
 echo ""
 echo "Setting environment variables"
-source ./set_envars
+source ../set_pico_envars
 export LOGFILE="$PWD/1_setup.log"
 rm --force $LOGFILE
 
@@ -43,7 +43,7 @@ cat testing_platformio.ini >> $CFORTH_PATH/platformio.ini
 
 pushd $CFORTH_PATH
 
-  echo "Building host cforth"
+  echo "Building host cforth for test builds"
   date +"%F %T" \
     >> $LOGFILE 2>&1
   /usr/bin/time pio run --verbose \
@@ -69,5 +69,18 @@ pio boards > board_list.txt
 
 echo "Deactivating"
 deactivate
+
+pushd $CFORTH_PATH/build/host-serial-linux64
+
+  echo "Building host serial cforth"
+  date +"%F %T" \
+    >> $LOGFILE 2>&1
+  /usr/bin/time make \
+    >> $LOGFILE 2>&1
+  echo "Installing host serial cforth globally"
+  sudo cp cforth forth app.dic /usr/local/bin/
+  date +"%F %T" \
+    >> $LOGFILE 2>&1
+popd
 
 echo "Finished"
