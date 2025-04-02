@@ -3,7 +3,7 @@
 export CLAMS_BASE="$HOME/CLAMS_base"
 
 # Container image and name
-export CLAMS_CONTAINER_IMAGE="quay.io/toolbx-images/debian-toolbox:12"
+export CLAMS_CONTAINER_IMAGE="docker.io/library/debian:stable-backports"
 export CLAMS_CONTAINER_NAME="CLAMS-devel"
 
 # Don't change anything below here!
