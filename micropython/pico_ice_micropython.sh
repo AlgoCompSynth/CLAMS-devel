@@ -18,7 +18,7 @@ popd
 
 pushd $PICO_ICE_MICROPYTHON_PATH
 
-  echo "Fetching submodulers"
+  echo "Fetching submodules"
   git submodule update --init lib/micropython \
     >> $LOGFILE 2>&1
   git submodule update --init lib/pico-ice-mpy-module \
@@ -36,15 +36,37 @@ pushd $PICO_ICE_MICROPYTHON_PATH
   make -C lib/micropython/ports/rp2 submodules \
     >> $LOGFILE 2>&1
 
-  echo "Configuring MicroPython"
   cd boards/PICO_ICE
-  mkdir build && cd build
+
+  echo "Building MicroPython pico2_ice_arm"
+  mkdir pico2_ice_arm && cd pico2_ice_arm
   cmake -DPICO_BOARD=pico2_ice .. \
     >> $LOGFILE 2>&1
-
-  echo "Building MicroPython"
   make --jobs=`nproc` \
     >> $LOGFILE 2>&1
+  picotool info firmware.uf2 \
+    >> $LOGFILE 2>&1
+  cd ..
+
+  echo "Building MicroPython pico2_ice_riscv"
+  mkdir pico2_ice_riscv && cd pico2_ice_riscv
+  cmake -DPICO_BOARD=pico2_ice -DPICO_PLATFORM=rp2350-riscv .. \
+    >> $LOGFILE 2>&1
+  make --jobs=`nproc` \
+    >> $LOGFILE 2>&1
+  picotool info firmware.uf2 \
+    >> $LOGFILE 2>&1
+  cd ..
+
+  echo "Building MicroPython pico_ice"
+  mkdir pico_ice && cd pico_ice
+  cmake -DPICO_BOARD=pico_ice .. \
+    >> $LOGFILE 2>&1
+  make --jobs=`nproc` \
+    >> $LOGFILE 2>&1
+  picotool info firmware.uf2 \
+    >> $LOGFILE 2>&1
+  cd ..
 
 popd
 
