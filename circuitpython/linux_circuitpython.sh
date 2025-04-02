@@ -5,7 +5,7 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
-export LOGFILE=$PWD/"build_linux_circuitpython.log"
+export LOGFILE=$PWD/"linux_circuitpython.log"
 rm --force $LOGFILE
 
 mkdir --parents $CIRCUITPYTHON_PATH
