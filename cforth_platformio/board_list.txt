@@ -1447,6 +1447,7 @@ olimex_rp2040pico30_16mb        RP2040  133MHz       16MB     256KB  RP2040-Pico
 olimex_rp2040pico30_2mb         RP2040  133MHz       2MB      256KB  RP2040-Pico30 2MB
 redscorp_rp2040_promini         RP2040  133MHz       16MB     256KB  RP2040-ProMini
 silicognition_rp2040_shim       RP2040  133MHz       4MB      256KB  RP2040-Shim
+db_rp2350                       RP2350  150MHz       16MB     512KB  RP2350
 generic_rp2350                  RP2350  150MHz       16MB     512KB  RP2350
 solderparty_rp2350_stamp        RP2350  150MHz       16MB     512KB  RP2350 Stamp
 solderparty_rp2350_stamp_xl     RP2350  150MHz       16MB     512KB  RP2350 Stamp XL
