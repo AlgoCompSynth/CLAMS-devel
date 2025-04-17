@@ -28,7 +28,7 @@ distrobox create \
   --hostname $DBX_CONTAINER_HOSTNAME \
   --pull \
   --home $DBX_CONTAINER_DIRECTORY \
-  --additional-packages "systemd libpam-systemd software-properties-common time vim" \
+  --additional-packages "systemd libpam-systemd git software-properties-common time vim" \
   --init
   
 echo ""

@@ -31,7 +31,6 @@ export DEBIAN_FRONTEND=noninteractive
   gcc \
   gcc-multilib \
   gdb-multiarch \
-  git-lfs \
   gperf \
   gtkwave \
   kmod \
