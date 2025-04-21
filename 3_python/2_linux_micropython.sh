@@ -5,7 +5,8 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
-export LOGFILE=$PWD/"linux_micropython.log"
+mkdir --parents $PWD/Logs
+export LOGFILE=$PWD/Logs/linux_micropython.log
 rm --force $LOGFILE
 
 mkdir --parents $MICROPYTHON_PATH
