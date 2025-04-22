@@ -40,6 +40,7 @@ export DEBIAN_FRONTEND=noninteractive
   libmagic1 \
   libnss3 \
   libpam-systemd \
+  libreadline-dev\
   libsdl2-dev \
   libsecret-1-0 \
   libtool \
