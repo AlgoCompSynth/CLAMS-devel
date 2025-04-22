@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+
+set -e
+
+pushd $HOME/Projects/c3
+./c3
+popd
