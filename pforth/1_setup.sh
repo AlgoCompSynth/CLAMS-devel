@@ -5,7 +5,8 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
-export LOGFILE="$PWD/1_setup.log"
+mkdir --parents $PWD/Logs
+export LOGFILE="$PWD/Logs/setup.log"
 rm --force $LOGFILE
 
 echo "Cloning fresh pforth project repository"
