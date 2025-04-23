@@ -33,6 +33,7 @@ export DEBIAN_FRONTEND=noninteractive
   gdb-multiarch \
   gperf \
   gtkwave \
+  info \
   kmod \
   libcanberra-gtk3-module \
   libftdi-dev \

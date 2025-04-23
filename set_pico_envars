@@ -118,6 +118,10 @@ export ZFORTH_PATH="$HOME/Projects/zForth"
 export C3_URL="https://github.com/CCurl/c3.git"
 export C3_PATH="$HOME/Projects/c3"
 
+## gforth
+export GFORTH_URL="https://github.com/forthy42/gforth.git"
+export GFORTH_PATH="$HOME/Projects/gforth"
+
 ## Zephyr OS
 export ZEPHYR_OS_PROJECT="$CLAMS_BASE/zephyr_os_project"
 export ZEPHYR_OS_VENV="$ZEPHYR_OS_PROJECT/.venv"
