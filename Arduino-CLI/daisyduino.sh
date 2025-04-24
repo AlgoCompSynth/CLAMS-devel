@@ -8,7 +8,7 @@ source ../set_pico_envars
 
 echo "Defining LOGFILE"
 mkdir --parents $PWD/Logs
-export LOGFILE=$PWD/Logs/23_daisyduino.log
+export LOGFILE=$PWD/Logs/daisyduino.log
 rm --force $LOGFILE
 
 # https://github.com/stm32duino/Arduino_Core_STM32/wiki/Getting-Started

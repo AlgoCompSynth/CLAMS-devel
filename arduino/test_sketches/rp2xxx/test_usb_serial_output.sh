@@ -1,1 +1,0 @@
-../../test_usb_serial_output.sh

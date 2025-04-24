@@ -8,8 +8,13 @@ source ../set_pico_envars
 
 echo "Defining LOGFILE"
 mkdir --parents $PWD/Logs
-export LOGFILE=$PWD/Logs/22_teensyduino.log
+export LOGFILE=$PWD/Logs/teensyduino.log
 rm --force $LOGFILE
+
+echo "Installing Linux dependencies"
+export DEBIAN_FRONTEND=noninteractive
+sudo apt-get install -qqy --no-install-recommends \
+  libusb-dev
 
 # https://www.pjrc.com/teensy/td_download.html
 echo "Installing teensy:avr core"

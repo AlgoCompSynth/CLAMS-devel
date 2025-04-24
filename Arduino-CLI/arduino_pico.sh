@@ -8,7 +8,7 @@ source ../set_pico_envars
 
 echo "Defining LOGFILE"
 mkdir --parents $PWD/Logs
-export LOGFILE=$PWD/Logs/20_arduino_pico.log
+export LOGFILE=$PWD/Logs/arduino_pico.log
 rm --force $LOGFILE
 
 # https://arduino-pico.readthedocs.io/en/latest/install.html#installing-via-arduino-cli

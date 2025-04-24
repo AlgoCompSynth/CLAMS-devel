@@ -8,7 +8,7 @@ source ../set_pico_envars
 
 echo "Defining LOGFILE"
 mkdir --parents $PWD/Logs
-export LOGFILE=$PWD/Logs/10_arduino_cli.log
+export LOGFILE=$PWD/Logs/arduino_cli.log
 rm --force $LOGFILE
 
 echo "Installing arduino-cli via 'curl'"
@@ -16,9 +16,6 @@ mkdir --parents $ARDUINO_CLI_PATH
 export BINDIR=$ARDUINO_CLI_PATH
 curl -fsSL $ARDUINO_CLI_URL | sh
 arduino-cli version
-
-echo "Copying 'test_usb_serial_output.sh' to $HOME/.local/bin/"
-cp test_usb_serial_output.sh $HOME/.local/bin/
 
 echo "Creating fresh configuration file"
 # https://arduino.github.io/arduino-cli/0.20/getting-started/
