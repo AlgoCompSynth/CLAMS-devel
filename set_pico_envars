@@ -56,11 +56,6 @@ export ARM_COMPILER_TARBALL="$ARM_COMPILER_VERSION.tar.xz"
 export ARM_COMPILER_URL="https://developer.arm.com/-/media/Files/downloads/gnu/$ARM_COMPILER_RELEASE/binrel/$ARM_COMPILER_TARBALL"
 export ARM_COMPILER_PATH="$HOME/.local"
 
-## Zeptoforth
-export ZEPTOFORTH_VERSION="1.12.0.3"
-export ZEPTOFORTH_URL="--branch v${ZEPTOFORTH_VERSION} https://github.com/tabemann/zeptoforth.git"
-export ZEPTOFORTH_PATH="$CLAMS_BASE/zeptoforth"
-
 # Arduino
 export ARDUINO_CLI_PATH="$HOME/.local/bin"
 export ARDUINO_CLI_URL="https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh"

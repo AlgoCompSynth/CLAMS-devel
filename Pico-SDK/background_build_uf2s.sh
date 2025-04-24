@@ -22,6 +22,5 @@ echo "RAM."
 
 /usr/bin/time ./build_rp2040_examples.sh > $PWD/Logs/build_rp2040_examples.log 2>&1 &
 /usr/bin/time ./build_rp2350_examples.sh > $PWD/Logs/build_rp2350_examples.log 2>&1 &
-/usr/bin/time ./build_zeptoforth.sh > $PWD/Logs/build_zeptoforth.log 2>&1 &
 
 echo "Finished"
