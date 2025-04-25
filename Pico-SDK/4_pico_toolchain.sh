@@ -5,6 +5,12 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
+
+echo "Defining LOGFILE"
+mkdir --parents "$PWD/Logs"
+export LOGFILE="$PWD/Logs/pico_toolchain.log"
+rm --force $LOGFILE
+
 export SUPPORTED_BOARDS="$PWD/supported_boards.txt"
 echo "Creating fresh $PICO_SDK_REPOS"
 rm -fr $PICO_SDK_REPOS
@@ -37,14 +43,14 @@ pushd $PICO_SDK_REPOS
     mkdir build
     cd build
     cmake ../ \
-      > $PICO_SDK_REPOS/picotool.log 2>&1
+      >> $LOGFILE 2>&1
     /usr/bin/time make -j`nproc` \
-      >> $PICO_SDK_REPOS/picotool.log 2>&1
+      >> $LOGFILE 2>&1
     echo ""
     echo ""
     echo "Installing picotool as 'root'!!"
     sudo make install \
-      >> $PICO_SDK_REPOS/picotool.log 2>&1
+      >> $LOGFILE 2>&1
     picotool version
   popd
 
@@ -52,17 +58,17 @@ pushd $PICO_SDK_REPOS
     echo ""
     echo "Building openocd"
     ./bootstrap \
-      > $PICO_SDK_REPOS/openocd.log 2>&1
+      >> $LOGFILE 2>&1
     ./configure \
       --enable-ftdi --enable-sysfsgpio --enable-bcm2835gpio --disable-werror \
-      >> $PICO_SDK_REPOS/openocd.log 2>&1
+      >> $LOGFILE 2>&1
     /usr/bin/time make -j`nproc` \
-      >> $PICO_SDK_REPOS/openocd.log 2>&1
+      >> $LOGFILE 2>&1
     echo ""
     echo ""
     echo "Installing openocd as 'root'!!"
     sudo make install \
-      >> $PICO_SDK_REPOS/openocd.log 2>&1
+      >> $LOGFILE 2>&1
     openocd --version
   popd
 

@@ -11,6 +11,7 @@ echo "Installing basic development packages"
 export DEBIAN_FRONTEND=noninteractive
 /usr/bin/time sudo apt-get install --assume-yes --no-install-recommends \
   apt-file \
+  automake \
   bash-completion \
   build-essential \
   cmake \
@@ -18,11 +19,14 @@ export DEBIAN_FRONTEND=noninteractive
   file \
   gcc-multilib \
   gettext \
+  libtool \
+  libusb-1.0-0-dev \
   lsb-release \
   lynx \
   man-db \
   minicom \
   ninja-build \
+  pkg-config \
   plocate \
   python3-dev \
   python3-pip \
