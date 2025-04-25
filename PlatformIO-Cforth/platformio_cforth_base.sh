@@ -5,6 +5,8 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
+
+echo "Defining LOGFILE"
 mkdir --parents $PWD/Logs
 export LOGFILE="$PWD/Logs/platformio_cforth_base.log"
 rm --force $LOGFILE

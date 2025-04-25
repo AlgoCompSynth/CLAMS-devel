@@ -2,17 +2,20 @@
 
 set -e
 
-./linux_circuitpython.sh
-./linux_micropython.sh
+./apt_basic_devel.sh
 
 for i in \
-  c3 \
-  c4 \
+  cforth \
   gforth \
   pforth \
-  zForth
+  zForth \
+  c3 \
+  c4
 do
   pushd $i
     ./1_setup.sh
   popd
 done
+
+./linux_circuitpython.sh
+./linux_micropython.sh
