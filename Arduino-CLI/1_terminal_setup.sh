@@ -1,1 +1,1 @@
-../Pico-SDK/1_terminal_setup.sh
+../1_terminal_setup.sh

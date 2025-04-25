@@ -1,1 +1,1 @@
-../Pico-SDK/2_basic_devel.sh
+../apt_basic_devel.sh
