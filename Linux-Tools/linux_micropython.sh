@@ -9,6 +9,11 @@ mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/linux_micropython.log
 rm --force $LOGFILE
 
+echo "Installing Linux dependencies"
+export DEBIAN_FRONTEND=noninteractive
+sudo apt-get install -qqy --no-install-recommends \
+  libffi-dev
+
 mkdir --parents $MICROPYTHON_PATH
 pushd $MICROPYTHON_PATH/..
   echo "Cloning MicroPython"

@@ -1,1 +1,0 @@
-../Pico-SDK/1_terminal_setup.sh

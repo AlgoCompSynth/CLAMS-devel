@@ -2,6 +2,9 @@
 
 set -e
 
+./linux_circuitpython.sh
+./linux_micropython.sh
+
 for i in \
   c3 \
   c4 \

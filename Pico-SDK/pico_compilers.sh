@@ -8,7 +8,7 @@ source ../set_pico_envars
 
 echo "Defining LOGFILE"
 mkdir --parents $PWD/Logs
-export LOGFILE=$PWD/Logs/1_install_compilers.log
+export LOGFILE=$PWD/Logs/pico_compilers.log
 rm --force $LOGFILE
 
 pushd /tmp
