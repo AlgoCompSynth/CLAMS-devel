@@ -5,14 +5,9 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
-export LOGFILE="$PWD/1_setup.log"
+mkdir --parents $PWD/Logs
+export LOGFILE="$PWD/Logs/platformio_cforth_base.log"
 rm --force $LOGFILE
-
-echo "Installing python3-pip and python3-venv if necessary"
-sudo apt-get install -y \
-  python3-pip \
-  python3-venv \
-  >> $LOGFILE 2>&1
 
 echo "Removing $HOME/.platformio"
 rm --force --recursive $HOME/.platformio

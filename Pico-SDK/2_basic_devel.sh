@@ -4,7 +4,7 @@ set -e
 
 echo "Defining LOGFILE"
 mkdir --parents "$PWD/Logs"
-export LOGFILE="$PWD/Logs/2_basic_devel.log"
+export LOGFILE="$PWD/Logs/basic_devel.log"
 rm --force $LOGFILE
 
 echo "Installing basic development packages"
@@ -16,6 +16,7 @@ export DEBIAN_FRONTEND=noninteractive
   cmake \
   curl \
   file \
+  gcc-multilib \
   gettext \
   lsb-release \
   lynx \
