@@ -1,0 +1,1 @@
+../Pico-SDK/2_basic_devel.sh

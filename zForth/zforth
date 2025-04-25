@@ -1,8 +1,0 @@
-#! /usr/bin/env bash
-
-set -e
-
-$HOME/Projects/zForth/src/linux/zforth \
-  $HOME/Projects/zForth/forth/core.zf \
-  $HOME/Projects/zForth/forth/dict.zf \
-  $HOME/Projects/zForth/forth/memaccess.zf

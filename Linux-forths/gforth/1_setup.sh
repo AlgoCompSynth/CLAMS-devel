@@ -4,9 +4,9 @@ set -e
 
 echo ""
 echo "Setting environment variables"
-source ../set_pico_envars
+source ../../set_pico_envars
 mkdir --parents $PWD/Logs
-export LOGFILE="$PWD/Logs/linux.log"
+export LOGFILE="$PWD/Logs/setup.log"
 rm --force $LOGFILE
 
 echo "Cloning fresh gforth project repository"

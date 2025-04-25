@@ -4,10 +4,15 @@ set -e
 
 echo ""
 echo "Setting environment variables"
-source ../set_pico_envars
+source ../../set_pico_envars
 mkdir --parents $PWD/Logs
 export LOGFILE="$PWD/Logs/setup.log"
 rm --force $LOGFILE
+
+echo "Installing Linux dependencies"
+export DEBIAN_FRONTEND=noninteractive
+sudo apt-get install -qqy --no-install-recommends \
+  libreadline-dev
 
 echo "Cloning fresh zForth project repository"
 mkdir --parents $ZFORTH_PATH
@@ -19,7 +24,7 @@ popd
 
 pushd $ZFORTH_PATH
 
-  echo "Building pforth"
+  echo "Building zForth"
   date +"%F %T" \
     >> $LOGFILE 2>&1
   /usr/bin/time make \
