@@ -10,3 +10,4 @@ set -e
 ./daisyduino.sh
 ./esp32.sh
 ./list_boards_and_examples.sh
+./apt_pkg_db_updates.sh

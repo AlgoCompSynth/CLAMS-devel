@@ -1,1 +1,0 @@
-../Pico-SDK/pkg_db_updates.sh

@@ -20,3 +20,4 @@ done
 
 ./linux_circuitpython.sh
 ./linux_micropython.sh
+./apt_pkg_db_updates.sh
