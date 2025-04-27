@@ -2,9 +2,10 @@
 
 set -e
 
+./terminal_setup.sh
 ./apt_basic_devel.sh
 
-for i in \
+for option in \
   cforth \
   gforth \
   pforth \
@@ -12,7 +13,7 @@ for i in \
   c3 \
   c4
 do
-  pushd $i
+  pushd $option
     ./1_setup.sh
   popd
 done
