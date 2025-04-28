@@ -14,11 +14,18 @@ export DEBIAN_FRONTEND=noninteractive
   automake \
   bash-completion \
   build-essential \
+  ccache \
   cmake \
   curl \
+  device-tree-compiler \
+  dfu-util \
   file \
+  g++-multilib \
   gcc-multilib \
   gettext \
+  gperf \
+  libmagic1 \
+  libsdl2-dev \
   libtool \
   libusb-1.0-0-dev \
   lsb-release \
@@ -31,6 +38,7 @@ export DEBIAN_FRONTEND=noninteractive
   python3-dev \
   python3-pip \
   python3-setuptools \
+  python3-tk \
   python3-venv \
   python3-wheel \
   screen \
@@ -40,6 +48,7 @@ export DEBIAN_FRONTEND=noninteractive
   unzip \
   usbutils \
   wget \
+  xz-utils \
   >> $LOGFILE 2>&1
 
 echo "Finished"
