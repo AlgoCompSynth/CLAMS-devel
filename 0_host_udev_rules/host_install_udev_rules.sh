@@ -16,6 +16,7 @@ echo "Installing Arduino MBED RP2040 udev rules as 'root'!!"
 sudo cp 60-arduino-mbed.rules $SYSTEM_UDEV_PATH/
 
 echo "Installing Zephyr OS openocd udev rules as 'root'!!"
+# https://docs.zephyrproject.org/latest/develop/beyond-GSG.html#setting-udev-rules
 sudo cp 60-openocd.rules $SYSTEM_UDEV_PATH/
 
 echo "Installing apio FPGA udev rules as 'root'!!"
