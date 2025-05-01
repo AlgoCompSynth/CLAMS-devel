@@ -143,14 +143,14 @@ Examples for library AltSoftSerial (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/AltSoftSerial/examples/ReceiveTest
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/AltSoftSerial/examples/ShowConfiguration
 
-Examples for library ArduinoOTA (esp32:esp32@3.2.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/ArduinoOTA/examples/BasicOTA
-
 Examples for library ArduinoOTA (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/ArduinoOTA/examples/BasicOTA
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/ArduinoOTA/examples/OTALeds
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/ArduinoOTA/examples/SignedOTA
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/ArduinoOTA/examples/SignedOTA-blink
+
+Examples for library ArduinoOTA (esp32:esp32@3.2.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/ArduinoOTA/examples/BasicOTA
 
 Examples for library Artnet (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Artnet/examples/ArtnetArduinoZeroNeopixel
@@ -446,13 +446,13 @@ Examples for library DmxSimple (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/DmxSimple/examples/FadeUp
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/DmxSimple/examples/SerialToDmx
 
+Examples for library DNSServer (esp32:esp32@3.2.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/DNSServer/examples/CaptivePortal
+
 Examples for library DNSServer (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/DNSServer/examples/CaptivePortal
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/DNSServer/examples/CaptivePortalAdvanced
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/DNSServer/examples/DNSServer
-
-Examples for library DNSServer (esp32:esp32@3.2.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/DNSServer/examples/CaptivePortal
 
 Examples for library DogLcd (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/DogLcd/examples/HelloWorld
@@ -472,21 +472,6 @@ Examples for library EasyTransferI2C (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EasyTransferI2C/examples/EasyTransfer_RX_Example
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EasyTransferI2C/examples/EasyTransfer_TX_Example
 
-Examples for library EEPROM (STMicroelectronics:stm32@2.10.1)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_clear
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_crc
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_get
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_iteration
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_put
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_read
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_update
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_write
-
-Examples for library EEPROM (rp2040:rp2040@4.5.2)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/EEPROM/examples/eeprom_clear
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/EEPROM/examples/eeprom_read
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/EEPROM/examples/eeprom_write
-
 Examples for library EEPROM (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/EEPROM/examples/eeprom_class
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/EEPROM/examples/eeprom_extra
@@ -503,6 +488,21 @@ Examples for library EEPROM (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EEPROM/examples/eeprom_read
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EEPROM/examples/eeprom_update
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EEPROM/examples/eeprom_write
+
+Examples for library EEPROM (STMicroelectronics:stm32@2.10.1)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_clear
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_crc
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_get
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_iteration
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_put
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_read
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_update
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_write
+
+Examples for library EEPROM (rp2040:rp2040@4.5.2)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/EEPROM/examples/eeprom_clear
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/EEPROM/examples/eeprom_read
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/EEPROM/examples/eeprom_write
 
 Examples for library Encoder (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Encoder/examples/Basic
@@ -753,14 +753,6 @@ Examples for library HID_Mouse (rp2040:rp2040@4.5.2)
 
 Examples for library http-parser (rp2040:rp2040@4.5.2)
 
-Examples for library HTTPClient (esp32:esp32@3.2.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/Authorization
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/BasicHttpClient
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/BasicHttpsClient
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/HTTPClientEnterprise
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/ReuseConnection
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/StreamHttpClient
-
 Examples for library HTTPClient (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/HTTPClient/examples/Authorization
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/HTTPClient/examples/BasicHttpClient
@@ -772,14 +764,22 @@ Examples for library HTTPClient (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/HTTPClient/examples/ReuseConnectionV2
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/HTTPClient/examples/StreamHttpsClient
 
-Examples for library HTTPUpdate (rp2040:rp2040@4.5.2)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/HTTPUpdate/examples/httpUpdate
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/HTTPUpdate/examples/httpUpdateSecure
+Examples for library HTTPClient (esp32:esp32@3.2.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/Authorization
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/BasicHttpClient
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/BasicHttpsClient
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/HTTPClientEnterprise
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/ReuseConnection
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/StreamHttpClient
 
 Examples for library HTTPUpdate (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPUpdate/examples/httpUpdate
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPUpdate/examples/httpUpdateSecure
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPUpdate/examples/httpUpdateSPIFFS
+
+Examples for library HTTPUpdate (rp2040:rp2040@4.5.2)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/HTTPUpdate/examples/httpUpdate
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/HTTPUpdate/examples/httpUpdateSecure
 
 Examples for library HTTPUpdateServer (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPUpdateServer/examples/WebUpdater
@@ -876,12 +876,12 @@ Examples for library JoystickBLE (rp2040:rp2040@4.5.2)
 Examples for library JoystickBT (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/JoystickBT/examples/BTJoystick-AllFunctions
 
-Examples for library Keyboard (STMicroelectronics:stm32@2.10.1)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Keyboard/examples/KeyboardMessage
-
 Examples for library Keyboard (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/Keyboard/examples/KeyboardPassword
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/Keyboard/examples/Serial
+
+Examples for library Keyboard (STMicroelectronics:stm32@2.10.1)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Keyboard/examples/KeyboardMessage
 
 Examples for library KeyboardBLE (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/KeyboardBLE/examples/BLEKeyboardPassword
@@ -946,10 +946,6 @@ Examples for library LiquidCrystalFast (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LiquidCrystalFast/examples/TestAllMega
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LiquidCrystalFast/examples/TextDirection
 
-Examples for library LittleFS (esp32:esp32@3.2.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/LittleFS/examples/LITTLEFS_test
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/LittleFS/examples/LITTLEFS_time
-
 Examples for library LittleFS (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LittleFS/examples/ListFiles
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LittleFS/examples/LittleFS_Program_Simple_Datalogger-dates
@@ -965,6 +961,10 @@ Examples for library LittleFS (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LittleFS/examples/Test_Integrity/RAM
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LittleFS/examples/Test_Integrity/SPI
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LittleFS/examples/Write_Speed_Test
+
+Examples for library LittleFS (esp32:esp32@3.2.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/LittleFS/examples/LITTLEFS_test
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/LittleFS/examples/LITTLEFS_time
 
 Examples for library LittleFS (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/LittleFS/examples/FSUpload
@@ -1055,11 +1055,11 @@ Examples for library MIDI Library (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/RPN_NRPN
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/SimpleSynth
 
-Examples for library Mouse (STMicroelectronics:stm32@2.10.1)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Mouse/examples/ButtonMouseControl
-
 Examples for library Mouse (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/Mouse/examples/Circle
+
+Examples for library Mouse (STMicroelectronics:stm32@2.10.1)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Mouse/examples/ButtonMouseControl
 
 Examples for library MouseAbsolute (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/MouseAbsolute/examples/CircleAbsolute
@@ -1099,11 +1099,11 @@ Examples for library NativeEthernet (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/NativeEthernet/examples/XivelyClient
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/NativeEthernet/examples/XivelyClientString
 
-Examples for library NetBIOS (esp32:esp32@3.2.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/NetBIOS/examples/ESP_NBNST
-
 Examples for library NetBIOS (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/NetBIOS/examples/PicoW_NetBIOS
+
+Examples for library NetBIOS (esp32:esp32@3.2.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/NetBIOS/examples/ESP_NBNST
 
 Examples for library NetworkClientSecure (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/NetworkClientSecure/examples/WiFiClientInsecure
@@ -1365,6 +1365,14 @@ Examples for library rp2040 (rp2040:rp2040@4.5.2)
 Examples for library rp2350 (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/rp2350/examples/PSRAMTest
 
+Examples for library SD (rp2040:rp2040@4.5.2)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SD/examples/CardInfo
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SD/examples/Datalogger
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SD/examples/DumpFile
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SD/examples/Files
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SD/examples/listfiles
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SD/examples/ReadWrite
+
 Examples for library SD (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SD/examples/CardInfo
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SD/examples/Datalogger
@@ -1378,43 +1386,10 @@ Examples for library SD (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SD/examples/SD_Test
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SD/examples/SD_time
 
-Examples for library SD (rp2040:rp2040@4.5.2)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SD/examples/CardInfo
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SD/examples/Datalogger
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SD/examples/DumpFile
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SD/examples/Files
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SD/examples/listfiles
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SD/examples/ReadWrite
-
 Examples for library SD_MMC (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SD_MMC/examples/SD2USBMSC
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SD_MMC/examples/SDMMC_Test
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SD_MMC/examples/SDMMC_time
-
-Examples for library SdFat (teensy:avr@1.59.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/AvrAdcLogger
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/BackwardCompatibility
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/bench
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/BufferedPrint
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/DirectoryFunctions
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/ExFatLogger
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/MinimumSizeSdReader
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/OpenNext
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/QuickStart
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/ReadCsvFile
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/rename
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/RtcTimestampTest
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SdErrorCodes
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SdFormatter
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SdInfo
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SoftwareSpi
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensyDmaAdcLogger
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensyRtcTimestamp
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensySdioDemo
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensySdioLogger
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UnicodeFilenames
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UserChipSelectFunction
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UserSPIDriver
 
 Examples for library SdFat (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SdFat/examples/AvrAdcLogger
@@ -1485,6 +1460,31 @@ Examples for library SdFat (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SdFat/examples/UnicodeFilenames
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SdFat/examples/UserChipSelectFunction
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SdFat/examples/UserSPIDriver
+
+Examples for library SdFat (teensy:avr@1.59.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/AvrAdcLogger
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/BackwardCompatibility
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/bench
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/BufferedPrint
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/DirectoryFunctions
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/ExFatLogger
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/MinimumSizeSdReader
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/OpenNext
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/QuickStart
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/ReadCsvFile
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/rename
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/RtcTimestampTest
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SdErrorCodes
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SdFormatter
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SdInfo
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SoftwareSpi
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensyDmaAdcLogger
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensyRtcTimestamp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensySdioDemo
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensySdioLogger
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UnicodeFilenames
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UserChipSelectFunction
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UserSPIDriver
 
 Examples for library SDFS (rp2040:rp2040@4.5.2)
 
@@ -1560,15 +1560,15 @@ Examples for library SoftwareSPI (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SoftwareSPI/examples/FilesSoftwareSPI
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SoftwareSPI/examples/W5500SoftwareSPI
 
+Examples for library SPI (rp2040:rp2040@4.5.2)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SPI/examples/SPItoMyselfAsync
+
 Examples for library SPI (STMicroelectronics:stm32@2.10.1)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/SPI/examples/BarometricPressureSensor
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/SPI/examples/DigitalPotControl
 
 Examples for library SPI (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SPI/examples/SPI_Multiple_Buses
-
-Examples for library SPI (rp2040:rp2040@4.5.2)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/SPI/examples/SPItoMyselfAsync
 
 Examples for library SPI (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SPI/examples/BarometricPressureSensor
@@ -1653,15 +1653,15 @@ Examples for library TFT_ILI9163C (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/TFT_ILI9163C/examples/solid3D
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/TFT_ILI9163C/examples/test
 
-Examples for library Ticker (esp32:esp32@3.2.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Ticker/examples/Blinker
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Ticker/examples/TickerBasic
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Ticker/examples/TickerParameter
-
 Examples for library Ticker (rp2040:rp2040@4.5.2)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/Ticker/examples/Blinker
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/Ticker/examples/TickerBasic
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/Ticker/examples/TickerParameter
+
+Examples for library Ticker (esp32:esp32@3.2.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Ticker/examples/Blinker
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Ticker/examples/TickerBasic
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Ticker/examples/TickerParameter
 
 Examples for library Time (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Time/examples/Processing/SyncArduinoClock
@@ -1898,6 +1898,19 @@ Examples for library VirtualWire (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/VirtualWire/examples/server
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/VirtualWire/examples/transmitter
 
+Examples for library WebServer (rp2040:rp2040@4.5.2)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/AdvancedWebServer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/Filters
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/FSBrowser
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/HelloServer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/HelloServerBearSSL
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/HttpAdvancedAuth
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/HttpBasicAuth
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/PostServer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/SimpleAuthentication
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/UploadHugeFile
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/WebUpdate
+
 Examples for library WebServer (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WebServer/examples/AdvancedWebServer
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WebServer/examples/Filters
@@ -1917,19 +1930,6 @@ Examples for library WebServer (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WebServer/examples/UploadHugeFile
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WebServer/examples/WebServer
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WebServer/examples/WebUpdate
-
-Examples for library WebServer (rp2040:rp2040@4.5.2)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/AdvancedWebServer
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/Filters
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/FSBrowser
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/HelloServer
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/HelloServerBearSSL
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/HttpAdvancedAuth
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/HttpBasicAuth
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/PostServer
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/SimpleAuthentication
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/UploadHugeFile
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/WebServer/examples/WebUpdate
 
 Examples for library WiFi (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/examples/FTM/FTM_Initiator
@@ -1976,10 +1976,6 @@ Examples for library Wire (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Wire/examples/WireScan
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Wire/examples/WireSlave
 
-Examples for library Wire (rp2040:rp2040@4.5.2)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/Wire/examples/TalkingToMyself
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/Wire/examples/TalkingToMyselfAsync
-
 Examples for library Wire (STMicroelectronics:stm32@2.10.1)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Wire/examples/digital_potentiometer
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Wire/examples/i2c_scanner
@@ -1990,6 +1986,10 @@ Examples for library Wire (STMicroelectronics:stm32@2.10.1)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Wire/examples/slave_receiver
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Wire/examples/slave_sender
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Wire/examples/slave_sender_receiver
+
+Examples for library Wire (rp2040:rp2040@4.5.2)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/Wire/examples/TalkingToMyself
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.2/libraries/Wire/examples/TalkingToMyselfAsync
 
 Examples for library Wire (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/digital_potentiometer
