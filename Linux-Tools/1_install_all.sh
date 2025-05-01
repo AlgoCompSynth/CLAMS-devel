@@ -6,12 +6,12 @@ set -e
 ./apt_basic_devel.sh
 
 for option in \
+  c3 \
+  c4 \
   cforth \
-  gforth \
   pforth \
   zForth \
-  c3 \
-  c4
+  gforth
 do
   pushd $option
     ./1_setup.sh
