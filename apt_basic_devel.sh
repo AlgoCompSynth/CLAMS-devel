@@ -19,6 +19,7 @@ export DEBIAN_FRONTEND=noninteractive
   diffstat \
   file \
   gawk \
+  gcc-multilib \
   lsb-release \
   lynx \
   lz4 \
@@ -34,6 +35,7 @@ export DEBIAN_FRONTEND=noninteractive
   python3-wheel \
   screen \
   speedtest-cli \
+  texinfo \
   tmux \
   tree \
   unzip \

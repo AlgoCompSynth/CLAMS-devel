@@ -40,4 +40,14 @@ pushd $POKY_RASPI_PATH/..
   git checkout -t origin/${POKY_VERSION} -b my-${POKY_VERSION}
 popd
 
+mkdir --parents $POKY_OEMBD_PATH
+pushd $POKY_OEMBD_PATH/..
+  echo "Cloning meta-openembedded"
+  rm -fr $POKY_OEMBD_PATH
+  /usr/bin/time git clone $POKY_OEMBD_URL \
+    >> $LOGFILE 2>&1
+  cd $POKY_OEMBD_PATH
+  git checkout -t origin/${POKY_VERSION} -b my-${POKY_VERSION}
+popd
+
 echo "Finished"
