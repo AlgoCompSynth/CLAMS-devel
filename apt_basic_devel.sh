@@ -13,11 +13,15 @@ export DEBIAN_FRONTEND=noninteractive
   apt-file \
   bash-completion \
   build-essential \
+  chrpath \
   cmake \
   curl \
+  diffstat \
   file \
+  gawk \
   lsb-release \
   lynx \
+  lz4 \
   man-db \
   minicom \
   ninja-build \
@@ -35,6 +39,7 @@ export DEBIAN_FRONTEND=noninteractive
   unzip \
   usbutils \
   wget \
+  zstd \
   >> $LOGFILE 2>&1
 
 echo "Finished"
