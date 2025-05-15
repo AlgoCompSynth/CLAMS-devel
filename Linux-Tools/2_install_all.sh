@@ -2,7 +2,6 @@
 
 set -e
 
-./terminal_setup.sh
 ./apt_basic_devel.sh
 
 for option in \
