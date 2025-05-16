@@ -155,7 +155,7 @@ export AMY_URL="--branch 1.0.3 https://github.com/shorepine/amy.git"
 export AMY_PATH="$HOME/Projects/amy"
 
 # Yocto
-export POKY_VERSION="scarthgap"
+export POKY_VERSION="walnascar"
 export POKY_URL="git://git.yoctoproject.org/poky"
 export POKY_PATH="$HOME/poky"
 export POKY_CONFIG_FILE="$POKY_PATH/build/conf/local.conf"

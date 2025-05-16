@@ -32,6 +32,7 @@ export DEBIAN_FRONTEND=noninteractive
   python3-pip \
   python3-setuptools \
   python3-venv \
+  python3-websockets \
   python3-wheel \
   screen \
   speedtest-cli \
