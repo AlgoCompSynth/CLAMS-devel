@@ -1,0 +1,6 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       357M  179M  154M  54% /
+devtmpfs        113M     0  113M   0% /dev
+tmpfs            40K     0   40K   0% /mnt
+tmpfs           114M   92K  114M   1% /run
+tmpfs           114M  120K  114M   1% /var/volatile
