@@ -140,7 +140,7 @@ export MICROPYTHON_URL="--branch $MICROPYTHON_VERSION https://github.com/micropy
 export MICROPYTHON_PATH="$HOME/Projects/micropython"
 
 # Pico-Ice MicroPython
-export PICO_ICE_MICROPYTHON_VERSION="v1.1.2"
+export PICO_ICE_MICROPYTHON_VERSION="v1.1.3b"
 export PICO_ICE_MICROPYTHON_URL="--branch $PICO_ICE_MICROPYTHON_VERSION https://github.com/tinyvision-ai-inc/pico-ice-micropython.git"
 export PICO_ICE_MICROPYTHON_PATH="$HOME/Projects/pico-ice-micropython"
 
