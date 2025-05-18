@@ -69,7 +69,8 @@ do
     ilabs_challenger_rp2350_wifi_ble \
     sparkfun_promicro_rp2350 \
     pico2_w \
-    sparkfun_thingplus_rp2350
+    sparkfun_thingplus_rp2350 \
+    adafruit_feather_rp2350
   do
     export PICO_BOARD=$board
 
