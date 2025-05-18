@@ -2,10 +2,6 @@
 # Change this if you want them stored somewhere else
 export CLAMS_BASE="$HOME/CLAMS_base"
 
-# Container image and name
-export CLAMS_CONTAINER_IMAGE="docker.io/library/debian:stable-backports"
-export CLAMS_CONTAINER_NAME="CLAMS-devel"
-
 # Don't change anything below here!
 
 # make sure PATH has our binaries
