@@ -31,9 +31,9 @@ export FREERTOS_KERNEL_PATH="$PICO_SDK_REPOS/FreeRTOS-Kernel"
 
 ## Utilities
 export PICOTOOL_URL="--recursive --branch ${PICO_SDK_VERSION} https://github.com/raspberrypi/picotool.git"
-export PICOTOOL_PATH="$PICO_SDK_REPOS/picotool"
+export PICOTOOL_PATH="$HOME/Projects/picotool"
 export OPENOCD_URL="--depth=1 https://github.com/raspberrypi/openocd.git"
-export OPENOCD_PATH="$PICO_SDK_REPOS/openocd"
+export OPENOCD_PATH="$HOME/Projects/openocd"
 export DEBUG_PROBE_FIRMWARE="https://github.com/raspberrypi/debugprobe/releases/download/debugprobe-v${PICO_SDK_VERSION}/debugprobe.uf2"
 
 ## RISC-V compiler
