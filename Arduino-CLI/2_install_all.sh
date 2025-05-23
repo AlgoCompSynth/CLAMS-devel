@@ -5,6 +5,7 @@ set -e
 ./apt_basic_devel.sh
 ./arduino_cli.sh
 ./arduino_pico.sh
+./amy.sh
 ./teensyduino.sh
 ./daisyduino.sh
 ./esp32.sh
