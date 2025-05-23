@@ -2,7 +2,7 @@
 
 set -e
 
-./apt_basic_devel.sh
+./apt_audio_base.sh
 ./linux_dependencies.sh
 ./apt_pkg_db_updates.sh
 ./pico_compilers.sh
