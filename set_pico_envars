@@ -25,6 +25,14 @@ export PICO_PLAYGROUND_PATH="$PICO_SDK_REPOS/pico-playground"
 export PIMORONI_PICO_URL="--recursive --branch main https://github.com/pimoroni/pimoroni-pico.git"
 export PIMORONI_PICO_PATH="$PICO_SDK_REPOS/pimoroni-pico"
 
+## Pimoroni PicoVision
+export PICOVISION_PATH="$CLAMS_BASE/picovision"
+export PICOVISION_VERSION="v1.0.2"
+export PICOVISION_MICROPYTHON_URL="https://github.com/pimoroni/picovision/releases/download/${PICOVISION_VERSION}/pimoroni-picovision-${PICOVISION_VERSION}-micropython.uf2"
+export PICOVISION_MICROPYTHON_WIDESCREEN_URL="https://github.com/pimoroni/picovision/releases/download/${PICOVISION_VERSION}/pimoroni-picovision-widescreen-${PICOVISION_VERSION}-micropython.uf2"
+export PICOVISION_MICROPYTHON_EXAMPLES_URL="https://github.com/pimoroni/picovision/releases/download/${PICOVISION_VERSION}/pimoroni-picovision-examples-${PICOVISION_VERSION}.zip"
+export PICOVISION_MICROPYTHON_EXAMPLES_PATH="${PICOVISION_PATH}/pimoroni-picovision-examples-${PICOVISION_VERSION}"
+
 ## FreeRTOS kernel
 export FREERTOS_KERNEL_URL="--recursive --branch main https://github.com/FreeRTOS/FreeRTOS-Kernel.git"
 export FREERTOS_KERNEL_PATH="$PICO_SDK_REPOS/FreeRTOS-Kernel"
