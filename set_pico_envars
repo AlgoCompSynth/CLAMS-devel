@@ -33,6 +33,9 @@ export PICOVISION_MICROPYTHON_WIDESCREEN_URL="https://github.com/pimoroni/picovi
 export PICOVISION_MICROPYTHON_EXAMPLES_URL="https://github.com/pimoroni/picovision/releases/download/${PICOVISION_VERSION}/pimoroni-picovision-examples-${PICOVISION_VERSION}.zip"
 export PICOVISION_MICROPYTHON_EXAMPLES_PATH="${PICOVISION_MICROPYTHON_PATH}/pimoroni-picovision-examples-${PICOVISION_VERSION}"
 
+export PICOVISION_REPO_URL="--recursive --branch main https://github.com/pimoroni/picovision.git"
+export PICOVISION_REPO_PATH="$PICO_SDK_REPOS/picovision"
+
 ## FreeRTOS kernel
 export FREERTOS_KERNEL_URL="--recursive --branch main https://github.com/FreeRTOS/FreeRTOS-Kernel.git"
 export FREERTOS_KERNEL_PATH="$PICO_SDK_REPOS/FreeRTOS-Kernel"
