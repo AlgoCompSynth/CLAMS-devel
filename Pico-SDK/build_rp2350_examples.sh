@@ -22,9 +22,9 @@ function sdk_build {
       if [ "${#SJMAKE}" -gt "0" ]
       then
         echo "Single-job 'make' enabled"
-        /usr/bin/time make -j1 > make.log 2>&1
+        /usr/bin/time make --keep-going -j1 > make.log 2>&1
       else
-        /usr/bin/time make -j`nproc` > make.log 2>&1
+        /usr/bin/time make --keep-going -j`nproc` > make.log 2>&1
       fi
 
       popd > /dev/null
