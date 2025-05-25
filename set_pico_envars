@@ -27,9 +27,6 @@ export PIMORONI_PICO_PATH="$PICO_SDK_REPOS/pimoroni-pico"
 
 ## Pimoroni PicoVision
 export PICOVISION_VERSION="v1.0.2"
-export PICOVISION_PATH="$PICO_SDK_REPOS/picovision"
-export PICOVISION_URL="--recursive --branch ${PICOVISION_VERSION} https://github.com/pimoroni/picovision.git"
-
 export PICOVISION_MICROPYTHON_PATH="$CLAMS_BASE/picovision_micropython"
 export PICOVISION_MICROPYTHON_URL="https://github.com/pimoroni/picovision/releases/download/${PICOVISION_VERSION}/pimoroni-picovision-${PICOVISION_VERSION}-micropython.uf2"
 export PICOVISION_MICROPYTHON_WIDESCREEN_URL="https://github.com/pimoroni/picovision/releases/download/${PICOVISION_VERSION}/pimoroni-picovision-widescreen-${PICOVISION_VERSION}-micropython.uf2"

@@ -5,6 +5,7 @@ set -e
 echo ""
 echo "Setting environment variables"
 source ../set_pico_envars
+cp ../set_pico_envars $HOME
 
 echo "Defining LOGFILE"
 mkdir --parents "$PWD/Logs"
@@ -26,7 +27,6 @@ pushd $PICO_SDK_REPOS
   git clone --quiet $PICO_EXTRAS_URL
   git clone --quiet $PICO_PLAYGROUND_URL
   git clone --quiet $PIMORONI_PICO_URL
-  git clone --quiet $PICOVISION_URL
   git clone --quiet $FREERTOS_KERNEL_URL
 
   echo ""
