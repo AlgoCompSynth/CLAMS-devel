@@ -167,3 +167,8 @@ export POKY_URL="git://git.yoctoproject.org/poky"
 export POKY_PATH="$HOME/poky"
 export POKY_RASPI_URL="https://github.com/agherzan/meta-raspberrypi"
 export POKY_RASPI_PATH="$POKY_PATH/meta-raspberrypi"
+
+# Buildroot
+export BUILDROOT_VERSION="2025.02.3"
+export BUILDROOT_URL="--branch ${BUILDROOT_VERSION} https://gitlab.com/buildroot.org/buildroot.git"
+export BUILDROOT_PATH="$HOME/buildroot"
