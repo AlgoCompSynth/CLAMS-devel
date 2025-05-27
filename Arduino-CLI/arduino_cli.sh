@@ -11,20 +11,10 @@ mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/arduino_cli.log
 rm --force $LOGFILE
 
-echo "Installing arduino-cli via 'curl'"
-mkdir --parents $ARDUINO_CLI_PATH
-export BINDIR=$ARDUINO_CLI_PATH
-curl -fsSL $ARDUINO_CLI_URL | sh
+echo "Installing arduino-cli from arduino-ide"
+ln -sf $ARDUINO_IDE_PATH//resources/app/lib/backend/resources/arduino-cli $HOME/.local/bin
+hash -r
 arduino-cli version
-
-echo "Creating fresh configuration file"
-# https://arduino.github.io/arduino-cli/0.20/getting-started/
-arduino-cli config init --overwrite \
-  >> $LOGFILE 2>&1
-
-echo "Updating index"
-arduino-cli core update-index \
-  >> $LOGFILE 2>&1
 
 echo "Installing bash completion file as 'root'!!"
 arduino-cli completion bash > /tmp/ardunio-cli.sh

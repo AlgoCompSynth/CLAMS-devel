@@ -1,7 +1,5 @@
-Name            Installed Available   Location Description
-AMY Synthesizer 1.0.3     -           user     -
-audio-tools     1.1.1     -           user     -
-DaisyDuino      1.7.0     -           user     -
-MIDI Library    5.0.2     -           user     -
-U8g2            2.35.30   -           user     -
+Name            Installed Available    Location Description
+AMY Synthesizer 1.0.3     -            user     -
+audio-tools     1.1.1     -            user     -
+MIDI Library    5.0.2     -            user     -
 
