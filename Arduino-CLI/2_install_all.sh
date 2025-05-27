@@ -9,5 +9,6 @@ set -e
 ./teensyduino.sh
 ./daisyduino.sh
 ./esp32.sh
+./arduino_audio_tools.sh
 ./list_boards_and_examples.sh
 ./apt_pkg_db_updates.sh

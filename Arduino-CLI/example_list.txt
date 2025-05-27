@@ -150,14 +150,14 @@ Examples for library AMY Synthesizer
   - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/AMY_Synthesizer/examples/AMY_Test_Pico_USB_MIDI_Synth
   - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/AMY_Synthesizer/examples/AMY_Test_Teensy
 
-Examples for library ArduinoOTA (esp32:esp32@3.2.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/ArduinoOTA/examples/BasicOTA
-
 Examples for library ArduinoOTA (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/ArduinoOTA/examples/BasicOTA
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/ArduinoOTA/examples/OTALeds
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/ArduinoOTA/examples/SignedOTA
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/ArduinoOTA/examples/SignedOTA-blink
+
+Examples for library ArduinoOTA (esp32:esp32@3.2.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/ArduinoOTA/examples/BasicOTA
 
 Examples for library Artnet (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Artnet/examples/ArtnetArduinoZeroNeopixel
@@ -256,6 +256,404 @@ Examples for library Audio (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Audio/examples/Tutorial/TestTutorialKit
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Audio/examples/WavFilePlayer
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Audio/examples/WavFilePlayerPause
+
+Examples for library audio-tools
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-effects-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-fft
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-fft-led
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-filter-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-multioutput
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-multioutput-server
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-ram-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-ram-ptichshift-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-sd-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-sd_wav
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-audiokit-tf
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-file_loop-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-generator-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-generator_fromarray-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-generator_inputmixer-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-generator_outputmixer-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-generator_sinfromtable-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-memory_mp3-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-memory_pcm-mixer-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-pins-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-sd_flac-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-sd_mp3-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-sdmmc_wav-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-synth-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-synthbasic1-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-synthbasic2-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-synthbasic3-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-synthstk-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-audiokit/streams-tf-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-basic-api/base-adc-average-mono-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-basic-api/base-adc-measure
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-basic-api/base-adc-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-basic-api/base-file_raw-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-basic-api/base-SynchronizedBufferRTOS
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/basic-a2dp-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/basic-a2dp-eq-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/basic-a2dp-fft
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/basic-a2dp-fft-led
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/basic-a2dp-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/basic-a2dp-mixer-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/basic-adc-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/basic-audiokit-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/basic-file_mp3-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/basic-generator-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/basic-i2s-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/basic-player-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/player-sd_a2dp-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/player-sdfat-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/streams-a2dp-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/streams-a2dp-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/streams-a2dp-spdif
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/streams-generator-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/streams-i2s-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/a2dp/streams-synth-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/esp-now/codec/communication-codec-espnow-receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/esp-now/codec/communication-codec-espnow-receive_measure
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/esp-now/codec/communication-codec-espnow-send
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/esp-now/pcm/communication-espnow-receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/esp-now/pcm/communication-espnow-receive_csv
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/esp-now/pcm/communication-espnow-receive_measure
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/esp-now/pcm/communication-espnow-send
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/esp-now/speed-test/communication-espnow-receive_measure
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/esp-now/speed-test/communication-espnow-send
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/ftp/ftp-client
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/hls/hls-buffer-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/hls/hls-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/player-url-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/player-url_icy-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/player-url_icy-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/player-url_subclass-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-eth_url_mp3_helix-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-http_post
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url-file
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url-measuring
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_aac-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_aac-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_flac-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_flac_foxen-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_mp3-analog
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_mp3-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_mp3-metadata
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_mp3-metadata2
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_mp3-pwm
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_mp3_helix-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_mp3_helix-i2s_32bit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_mp3_mad-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_mts-hex
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_post
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_raw-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_raw-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-client/streams-url_vorbis_i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/player-sd-webserverex_mp3
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-audiokit-webserver_aac
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-audiokit-webserver_mp3
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-audiokit-webserver_wav
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-effect-webserver_wav
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-flite-webserver_wav
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-generator-webserver_aac
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-generator-webserver_mp3
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-generator-webserver_ogg
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-generator-webserver_wav
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-generator-webserverex_wav
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-generator-webserverex_wav1
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-i2s-webserver_wav
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-sam-webserver_wav
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/http-server/streams-tts-webserver_wav
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/ip/communication-ip-receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/ip/communication-ip-receive_measure
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/ip/communication-ip-send
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/lora/communication-lora-receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/lora/communication-lora-send
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/mqtt/communication-mqtt-send
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/rtsp/communication-audiokit-rtsp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/rtsp/communication-codec-rtsp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/rtsp/communication-generator-rtsp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/rtsp/communication-rtsp-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/rtsp/communication-rtsp-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/serial/mp3-custom/receive-mp3
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/serial/mp3-custom/send-mp3
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/serial/mp3-xon-xoff/receive-mp3
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/serial/mp3-xon-xoff/send-mp3
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/serial/mp3/receive-mp3
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/serial/mp3/send-mp3
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/serial/send-8bit-receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/serial/send-adpcm-receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/serial/send-adpcm_framed-receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/serial/send-receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/snapcast/snapclient-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/udp/communication-udp-receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/udp/communication-udp-send
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/usb/adafruit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/usb/microphone
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/vban/player-sdmmc-vban
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/vban/streams-audiokit-vban
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/vban/streams-generator-vban
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-communication/vban/streams-vban-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/cross_band_handy_walkie_talkie
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/esp32-audio-dev-mini
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/esp32s3-mic-cam/button
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/esp32s3-mic-cam/camera
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/esp32s3-mic-cam/color-led
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/esp32s3-mic-cam/led
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/esp32s3-mic-cam/mic
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/esp32s3-mic-cam/psram
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/esp32s3-mic-cam/sd
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/esp32s3-mic-cam/sdmmc
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/lyrat-mini/buttons
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/lyrat-mini/mic
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/lyrat-mini/output
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/lyrat-mini/sd
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-custom-boards/lyrat-mini/sdmmc
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-desktop/generator
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-desktop/min-generator
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-desktop/mp3
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-faust/streams-faust_flute-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-faust/streams-faust_noise-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-faust/streams-generator-faust-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-faust/streams-i2s-faust_copy-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-faust/streams-i2s-faust_guitarix-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-faust/streams-i2s-faust_pitchshift-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/01-TestTone
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/02-TwoTones
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/03-AM1
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/04-AM2
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/05-FM1
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/06-FM2
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/07-Counting1
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/08-Counting2
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/08-Counting3
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/08-Counting4
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/09-Envelopes
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/10-Filters
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/11-Mixing
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/12-SamplePlayer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/13-AdvancedFilters
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/14-MonoSynth
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/15-PolySynth
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/16-Replicant
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/17-Compressor
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/18-DrumMachine
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/19-Enveloping2
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-maximilian/20-FFT
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-mozzi/audio_input
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-mozzi/control_gain
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-mozzi/control_gain-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-pd/streams-generator-pd-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-pd/streams-pd-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-stk/streams-stk-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-stk/streams-stk-desktop
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-stk/streams-stk_allinstruments-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-stk/streams-stk_files-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-stk/streams-stk_generator-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-stk/streams-stk_loop-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-stk/streams-stk_myinstrument-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-stk/streams-stk_sine-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-dsp/examples-stk/streams-stk_synth-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-player/player-callback-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-player/player-littlefs-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-player/player-sd-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-player/player-sd-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-player/player-sdfat-analog
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-player/player-sdfat-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-player/player-sdfat-ffti2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-player/player-sdfat-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-player/player-sdmmc-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-player/player-spiffs-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-adc-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-adc-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-adsr-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator-analog
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator-bin-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator-formatconverter-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator-merge-pwm
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator-pwm
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator-r2r
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator-spdif
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator-timedstream-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator-volume
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator-wm8960
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-generator_fromarray-analog
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-i2s-filter-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-i2s-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-i2s-i2s-2
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-i2s-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-i2s-serial_16bit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-i2s-tf
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-i2s_pdm-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-memory_mp3-analog
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-memory_mp3-metadata
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-memory_mp3-pwm
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-memory_mp3_short-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-memory_mp3_short-i2s-2
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-memory_raw-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-memory_wav-pwm
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-memory_wav-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-mp34dt05-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-sd_mp3-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-sd_wav4-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-sdfat_mp3-metadata
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-stream/streams-tf-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-azure_tts-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-espeak-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-espeak-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-flite-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-flite-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-google-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-sam-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-sam-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-simple_tts-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-simple_tts-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-talkie-a2dp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-talkie-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-tts-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-tts/streams-url_wav-i2s
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-vs1053/player-sd-vs1053
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-vs1053/player-sdfat-vs1053
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-vs1053/streams-generator-vs1053
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-vs1053/streams-midi-vs1053
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-vs1053/streams-midi_lib-vs1053
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-vs1053/streams-midi_memory-vs1053
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-vs1053/streams-url_mp3-vs1053
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/examples-vs1053/streams-vs1053-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/basic-a2dp-vs1053
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/ble/client-as-source/communication-ble-client-send
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/ble/client-as-source/communication-ble-server-receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/ble/server-as-source/communication-ble-client-receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/ble/server-as-source/communication-ble-server-send
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/experiment-ads1015-serial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/ggwave/receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/ggwave/send
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/send-hdlc-receive
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/spi/spi-master
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/spi/spi-slave-esp32
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/streams-generator-freq
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/streams-memory_wav-resample-audiokit
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/sandbox/test-container-avi
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/adc/read-csv
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/adc/read-csv_unsigned
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/adc/read-esp32-multi-channel-csv
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/adc/read-speed
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/basic/24bits-write
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/basic/test-allocator
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/basic/test-buffer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/basic/test-queue
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/basic/test-vector
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-aac-fdk
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-aac-fdk-dec
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-adpcm
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-adpcm-xq
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-aptx
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-base64
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-codec2
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-flac
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-g711_alaw
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-g711_ulaw
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-g721
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-g722
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-g723_24
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-g723_40
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-gsm
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-iLBC
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-l8
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-lc3
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-opus
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-opusogg
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-sbc
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-codec-wav-adpcm
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-compile-all
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-container-binary
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-container-binary-meta
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-container-ogg
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-memory-helix
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-mp3-helix
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-mp3-helix-reading
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-mp3-mad
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-mp3_parser
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/codecs/test-streaming-adapter
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/concurrency/audio-test
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/concurrency/BufferRTOS
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/concurrency/NBuffer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/concurrency/synchNBuffer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/concurrency/synchRingBuffer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/channel-converter-avg
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/channel-converter-bin
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/channel-converter-bindiff
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/channel-converter-decimate
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/channel-converter-diff
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/channel-converter-increase-in
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/channel-converter-increase-out
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/channel-converter-reduce-in
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/channel-converter-reduce-out
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/format-converter-in
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/numberformat-converter
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/numberformat-converter-typed
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/pipeline-in
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/pipeline-out
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/resample-mixer-in
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/test-panning
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/test-resample-in
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/test-resample-out
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/conversion/test-volumestream
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/effects/delay-in
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/effects/delay-out
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/effects/pitch-shift
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/effects/pitch-shift-180
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/effects/pitch-shift-simple
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/etc/callback-write
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/etc/test-ads1015
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/etc/test-audiolibs
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/etc/test-mulit-compilation-units
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/etc/test-pins
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/etc/test-ringbufferfile
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/etc/test-tdm
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/etc/test-write-memory
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/fft/fft-cmsis
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/fft/fft-esp32
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/fft/fft-espressif
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/fft/fft-ifft
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/fft/fft-kiss
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/fft/fft-real
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/fft/fft-topn
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/fft/fft-window
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/filters/test-90deg
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/filters/test-filter
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/filters/test-lowpass
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/filters/test-median-filter
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/performance/file-speeds-sd
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/performance/file-speeds-sdfat
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/performance/file-speeds-sdmmc
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/performance/file-speeds-vfssd
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/performance/file-speeds-vfssdmmc
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/performance/mp3-Speed
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/performance/mp3-SynchronizedBufferRTOS
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/performance/mp3-SynchronizedNBuffer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/performance/mp3-SynchronizedRingBuffer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/performance/sine
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/performance/throttle
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/performance/wifi
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/player/test-index-sd
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/player/test-index-sdfat
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/player/test-index-sdmmc
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/player/test-player
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/player/test-vfs
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/rp2040/buffer2040_1
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/rp2040/buffer2040_2
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/rp2040/mutex
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/rp2040/mutex2040
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/timer/test-timer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/timer/test-timercb_rx
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/timer/test-timercb_tx
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/timer/test-timercbx_rx
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/audio-tools/examples/tests/timer/test-timercbx_tx
 
 Examples for library AudioBufferManager (rp2040:rp2040@4.5.4)
 
@@ -479,25 +877,15 @@ Examples for library EasyTransferI2C (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EasyTransferI2C/examples/EasyTransfer_RX_Example
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EasyTransferI2C/examples/EasyTransfer_TX_Example
 
-Examples for library EEPROM (rp2040:rp2040@4.5.4)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/EEPROM/examples/eeprom_clear
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/EEPROM/examples/eeprom_read
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/EEPROM/examples/eeprom_write
-
-Examples for library EEPROM (STMicroelectronics:stm32@2.10.1)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_clear
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_crc
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_get
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_iteration
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_put
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_read
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_update
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_write
-
 Examples for library EEPROM (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/EEPROM/examples/eeprom_class
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/EEPROM/examples/eeprom_extra
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/EEPROM/examples/eeprom_write
+
+Examples for library EEPROM (rp2040:rp2040@4.5.4)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/EEPROM/examples/eeprom_clear
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/EEPROM/examples/eeprom_read
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/EEPROM/examples/eeprom_write
 
 Examples for library EEPROM (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EEPROM/examples/eeprom_clear
@@ -510,6 +898,16 @@ Examples for library EEPROM (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EEPROM/examples/eeprom_read
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EEPROM/examples/eeprom_update
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/EEPROM/examples/eeprom_write
+
+Examples for library EEPROM (STMicroelectronics:stm32@2.10.1)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_clear
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_crc
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_get
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_iteration
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_put
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_read
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_update
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/EEPROM/examples/eeprom_write
 
 Examples for library Encoder (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Encoder/examples/Basic
@@ -760,6 +1158,14 @@ Examples for library HID_Mouse (rp2040:rp2040@4.5.4)
 
 Examples for library http-parser (rp2040:rp2040@4.5.4)
 
+Examples for library HTTPClient (esp32:esp32@3.2.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/Authorization
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/BasicHttpClient
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/BasicHttpsClient
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/HTTPClientEnterprise
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/ReuseConnection
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/StreamHttpClient
+
 Examples for library HTTPClient (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/HTTPClient/examples/Authorization
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/HTTPClient/examples/BasicHttpClient
@@ -771,30 +1177,22 @@ Examples for library HTTPClient (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/HTTPClient/examples/ReuseConnectionV2
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/HTTPClient/examples/StreamHttpsClient
 
-Examples for library HTTPClient (esp32:esp32@3.2.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/Authorization
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/BasicHttpClient
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/BasicHttpsClient
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/HTTPClientEnterprise
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/ReuseConnection
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPClient/examples/StreamHttpClient
+Examples for library HTTPUpdate (rp2040:rp2040@4.5.4)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/HTTPUpdate/examples/httpUpdate
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/HTTPUpdate/examples/httpUpdateSecure
 
 Examples for library HTTPUpdate (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPUpdate/examples/httpUpdate
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPUpdate/examples/httpUpdateSecure
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPUpdate/examples/httpUpdateSPIFFS
 
-Examples for library HTTPUpdate (rp2040:rp2040@4.5.4)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/HTTPUpdate/examples/httpUpdate
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/HTTPUpdate/examples/httpUpdateSecure
+Examples for library HTTPUpdateServer (esp32:esp32@3.2.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPUpdateServer/examples/WebUpdater
 
 Examples for library HTTPUpdateServer (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/HTTPUpdateServer/examples/SecureBearSSLUpdater
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/HTTPUpdateServer/examples/WebUpdater
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/HTTPUpdateServer/examples/WebUpdaterAuth
-
-Examples for library HTTPUpdateServer (esp32:esp32@3.2.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/HTTPUpdateServer/examples/WebUpdater
 
 Examples for library i2c_t3 (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/i2c_t3/examples/advanced_loopback
@@ -953,10 +1351,6 @@ Examples for library LiquidCrystalFast (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LiquidCrystalFast/examples/TestAllMega
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LiquidCrystalFast/examples/TextDirection
 
-Examples for library LittleFS (esp32:esp32@3.2.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/LittleFS/examples/LITTLEFS_test
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/LittleFS/examples/LITTLEFS_time
-
 Examples for library LittleFS (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LittleFS/examples/ListFiles
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LittleFS/examples/LittleFS_Program_Simple_Datalogger-dates
@@ -976,6 +1370,10 @@ Examples for library LittleFS (teensy:avr@1.59.0)
 Examples for library LittleFS (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/LittleFS/examples/FSUpload
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/LittleFS/examples/SpeedTest
+
+Examples for library LittleFS (esp32:esp32@3.2.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/LittleFS/examples/LITTLEFS_test
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/LittleFS/examples/LITTLEFS_time
 
 Examples for library LowPower (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LowPower/examples/powerDownWakeExternalInterrupt
@@ -1051,17 +1449,6 @@ Examples for library MFRC522 (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MFRC522/examples/rfid_read_personal_data
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MFRC522/examples/rfid_write_personal_data
 
-Examples for library MIDI Library (teensy:avr@1.59.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/AltPinSerial
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/Basic_IO
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/Bench
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/Callbacks
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/DualMerger
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/ErrorCallback
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/Input
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/RPN_NRPN
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/SimpleSynth
-
 Examples for library MIDI Library
   - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/AltPinSerial
   - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/Basic_IO
@@ -1073,11 +1460,22 @@ Examples for library MIDI Library
   - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/RPN_NRPN
   - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/SimpleSynth
 
-Examples for library Mouse (rp2040:rp2040@4.5.4)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Mouse/examples/Circle
+Examples for library MIDI Library (teensy:avr@1.59.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/AltPinSerial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/Basic_IO
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/Bench
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/Callbacks
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/DualMerger
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/ErrorCallback
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/Input
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/RPN_NRPN
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/SimpleSynth
 
 Examples for library Mouse (STMicroelectronics:stm32@2.10.1)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Mouse/examples/ButtonMouseControl
+
+Examples for library Mouse (rp2040:rp2040@4.5.4)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Mouse/examples/Circle
 
 Examples for library MouseAbsolute (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/MouseAbsolute/examples/CircleAbsolute
@@ -1383,6 +1781,14 @@ Examples for library rp2040 (rp2040:rp2040@4.5.4)
 Examples for library rp2350 (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/rp2350/examples/PSRAMTest
 
+Examples for library SD (rp2040:rp2040@4.5.4)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SD/examples/CardInfo
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SD/examples/Datalogger
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SD/examples/DumpFile
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SD/examples/Files
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SD/examples/listfiles
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SD/examples/ReadWrite
+
 Examples for library SD (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SD/examples/CardInfo
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SD/examples/Datalogger
@@ -1396,18 +1802,35 @@ Examples for library SD (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SD/examples/SD_Test
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SD/examples/SD_time
 
-Examples for library SD (rp2040:rp2040@4.5.4)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SD/examples/CardInfo
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SD/examples/Datalogger
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SD/examples/DumpFile
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SD/examples/Files
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SD/examples/listfiles
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SD/examples/ReadWrite
-
 Examples for library SD_MMC (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SD_MMC/examples/SD2USBMSC
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SD_MMC/examples/SDMMC_Test
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SD_MMC/examples/SDMMC_time
+
+Examples for library SdFat (teensy:avr@1.59.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/AvrAdcLogger
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/BackwardCompatibility
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/bench
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/BufferedPrint
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/DirectoryFunctions
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/ExFatLogger
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/MinimumSizeSdReader
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/OpenNext
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/QuickStart
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/ReadCsvFile
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/rename
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/RtcTimestampTest
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SdErrorCodes
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SdFormatter
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SdInfo
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SoftwareSpi
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensyDmaAdcLogger
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensyRtcTimestamp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensySdioDemo
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensySdioLogger
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UnicodeFilenames
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UserChipSelectFunction
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UserSPIDriver
 
 Examples for library SdFat (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SdFat/examples/AvrAdcLogger
@@ -1479,31 +1902,6 @@ Examples for library SdFat (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SdFat/examples/UserChipSelectFunction
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SdFat/examples/UserSPIDriver
 
-Examples for library SdFat (teensy:avr@1.59.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/AvrAdcLogger
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/BackwardCompatibility
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/bench
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/BufferedPrint
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/DirectoryFunctions
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/ExFatLogger
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/MinimumSizeSdReader
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/OpenNext
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/QuickStart
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/ReadCsvFile
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/rename
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/RtcTimestampTest
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SdErrorCodes
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SdFormatter
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SdInfo
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/SoftwareSpi
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensyDmaAdcLogger
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensyRtcTimestamp
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensySdioDemo
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/TeensySdioLogger
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UnicodeFilenames
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UserChipSelectFunction
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SdFat/examples/UserSPIDriver
-
 Examples for library SDFS (rp2040:rp2040@4.5.4)
 
 Examples for library SerialBT (rp2040:rp2040@4.5.4)
@@ -1566,21 +1964,17 @@ Examples for library SoftPWM (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SoftPWM/examples/SoftPWM_LEDHead_Random_Blink
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SoftPWM/examples/SoftPWM_Wiring_HeartBeat
 
-Examples for library SoftwareSerial (teensy:avr@1.59.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SoftwareSerial/examples/SoftwareSerialExample
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SoftwareSerial/examples/TwoPortReceive
-
 Examples for library SoftwareSerial (STMicroelectronics:stm32@2.10.1)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/SoftwareSerial/examples/SoftwareSerialExample
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/SoftwareSerial/examples/TwoPortReceive
 
+Examples for library SoftwareSerial (teensy:avr@1.59.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SoftwareSerial/examples/SoftwareSerialExample
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SoftwareSerial/examples/TwoPortReceive
+
 Examples for library SoftwareSPI (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SoftwareSPI/examples/FilesSoftwareSPI
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SoftwareSPI/examples/W5500SoftwareSPI
-
-Examples for library SPI (STMicroelectronics:stm32@2.10.1)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/SPI/examples/BarometricPressureSensor
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/SPI/examples/DigitalPotControl
 
 Examples for library SPI (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SPI/examples/SPItoMyselfAsync
@@ -1591,6 +1985,10 @@ Examples for library SPI (esp32:esp32@3.2.0)
 Examples for library SPI (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SPI/examples/BarometricPressureSensor
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SPI/examples/DigitalPotControl
+
+Examples for library SPI (STMicroelectronics:stm32@2.10.1)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/SPI/examples/BarometricPressureSensor
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/SPI/examples/DigitalPotControl
 
 Examples for library SPIFFS (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SPIFFS/examples/SPIFFS_Test
@@ -1671,15 +2069,15 @@ Examples for library TFT_ILI9163C (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/TFT_ILI9163C/examples/solid3D
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/TFT_ILI9163C/examples/test
 
-Examples for library Ticker (esp32:esp32@3.2.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Ticker/examples/Blinker
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Ticker/examples/TickerBasic
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Ticker/examples/TickerParameter
-
 Examples for library Ticker (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Ticker/examples/Blinker
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Ticker/examples/TickerBasic
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Ticker/examples/TickerParameter
+
+Examples for library Ticker (esp32:esp32@3.2.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Ticker/examples/Blinker
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Ticker/examples/TickerBasic
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Ticker/examples/TickerParameter
 
 Examples for library Time (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Time/examples/Processing/SyncArduinoClock
@@ -1949,18 +2347,6 @@ Examples for library WebServer (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WebServer/examples/UploadHugeFile
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WebServer/examples/WebUpdate
 
-Examples for library WiFi (rp2040:rp2040@4.5.4)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/BearSSL_CertStore
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/BearSSL_MaxFragmentLength
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/BearSSL_Server
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/BearSSL_ServerClientCert
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/BearSSL_Sessions
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/BearSSL_Validation
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/ScanNetworks
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/Udp
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/WiFiClient
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/WiFiServer
-
 Examples for library WiFi (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/examples/FTM/FTM_Initiator
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/examples/FTM/FTM_Responder
@@ -1986,26 +2372,25 @@ Examples for library WiFi (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/examples/WiFiUDPClient
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/examples/WPS
 
+Examples for library WiFi (rp2040:rp2040@4.5.4)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/BearSSL_CertStore
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/BearSSL_MaxFragmentLength
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/BearSSL_Server
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/BearSSL_ServerClientCert
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/BearSSL_Sessions
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/BearSSL_Validation
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/ScanNetworks
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/Udp
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/WiFiClient
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/WiFiServer
+
 Examples for library WiFiProv (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFiProv/examples/WiFiProv
-
-Examples for library Wire (teensy:avr@1.59.0)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/digital_potentiometer
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/master_reader
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/master_writer
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/Scanner
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/SFRRanger_reader
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/slave_receiver
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/slave_sender
 
 Examples for library Wire (esp32:esp32@3.2.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Wire/examples/WireMaster
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Wire/examples/WireScan
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Wire/examples/WireSlave
-
-Examples for library Wire (rp2040:rp2040@4.5.4)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Wire/examples/TalkingToMyself
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Wire/examples/TalkingToMyselfAsync
 
 Examples for library Wire (STMicroelectronics:stm32@2.10.1)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Wire/examples/digital_potentiometer
@@ -2017,6 +2402,19 @@ Examples for library Wire (STMicroelectronics:stm32@2.10.1)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Wire/examples/slave_receiver
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Wire/examples/slave_sender
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/STMicroelectronics/hardware/stm32/2.10.1/libraries/Wire/examples/slave_sender_receiver
+
+Examples for library Wire (rp2040:rp2040@4.5.4)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Wire/examples/TalkingToMyself
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Wire/examples/TalkingToMyselfAsync
+
+Examples for library Wire (teensy:avr@1.59.0)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/digital_potentiometer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/master_reader
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/master_writer
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/Scanner
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/SFRRanger_reader
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/slave_receiver
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/slave_sender
 
 Examples for library WS2812Serial (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/WS2812Serial/examples/BasicTest
