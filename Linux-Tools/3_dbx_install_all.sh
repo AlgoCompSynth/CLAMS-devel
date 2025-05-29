@@ -2,7 +2,8 @@
 
 set -e
 
-./apt_audio_base.sh
+./linux_circuitpython.sh
+./linux_micropython.sh
 
 for option in \
   c3 \
@@ -17,6 +18,4 @@ do
   popd
 done
 
-./linux_circuitpython.sh
-./linux_micropython.sh
-./apt_pkg_db_updates.sh
+../apt_pkg_db_updates.sh

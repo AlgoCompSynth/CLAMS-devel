@@ -35,6 +35,9 @@ cp ../starship.toml $HOME/.config/starship.toml
 echo "Adding Starship prompt to bash"
 echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
 
+echo "Copying ../set_pico_envars to $HOME"
+cp ../set_pico_envars $HOME/
+
 ../apt_pkg_db_updates.sh
 
 echo ""
