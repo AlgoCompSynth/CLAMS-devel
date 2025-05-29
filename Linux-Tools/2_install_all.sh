@@ -2,7 +2,7 @@
 
 set -e
 
-./apt_basic_devel.sh
+./apt_audio_base.sh
 
 for option in \
   c3 \

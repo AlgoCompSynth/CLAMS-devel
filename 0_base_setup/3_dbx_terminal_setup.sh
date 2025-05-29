@@ -35,6 +35,29 @@ cp starship.toml $HOME/.config/starship.toml
 echo "Adding Starship prompt to bash"
 echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
 
+echo "Defining LOGFILE"
+mkdir --parents $PWD/Logs
+export LOGFILE=$PWD/Logs/pkg_db_updates.log
+rm --force $LOGFILE
+
+echo "Upgrading packages"
+sudo apt-get update \
+  >> $LOGFILE 2>&1
+sudo apt-get upgrade --assume-yes \
+  >> $LOGFILE 2>&1
+
+echo "Updating apt-file database"
+sudo apt-file update \
+  >> $LOGFILE 2>&1
+
+echo "Updating locate database"
+sudo updatedb \
+  >> $LOGFILE 2>&1
+
+echo "Updating manual database"
+sudo mandb \
+  >> $LOGFILE 2>&1
+
 echo ""
 echo "Restart bash to get new Starship prompt"
 

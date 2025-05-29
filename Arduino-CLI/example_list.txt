@@ -1053,10 +1053,6 @@ Examples for library LiquidCrystalFast (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LiquidCrystalFast/examples/TestAllMega
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LiquidCrystalFast/examples/TextDirection
 
-Examples for library LittleFS (rp2040:rp2040@4.5.4)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/LittleFS/examples/FSUpload
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/LittleFS/examples/SpeedTest
-
 Examples for library LittleFS (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LittleFS/examples/ListFiles
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LittleFS/examples/LittleFS_Program_Simple_Datalogger-dates
@@ -1072,6 +1068,10 @@ Examples for library LittleFS (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LittleFS/examples/Test_Integrity/RAM
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LittleFS/examples/Test_Integrity/SPI
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LittleFS/examples/Write_Speed_Test
+
+Examples for library LittleFS (rp2040:rp2040@4.5.4)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/LittleFS/examples/FSUpload
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/LittleFS/examples/SpeedTest
 
 Examples for library LowPower (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/LowPower/examples/powerDownWakeExternalInterrupt
@@ -1126,17 +1126,6 @@ Examples for library MFRC522 (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MFRC522/examples/rfid_read_personal_data
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MFRC522/examples/rfid_write_personal_data
 
-Examples for library MIDI Library
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/AltPinSerial
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/Basic_IO
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/Bench
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/Callbacks
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/DualMerger
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/ErrorCallback
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/Input
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/RPN_NRPN
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/SimpleSynth
-
 Examples for library MIDI Library (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/AltPinSerial
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/Basic_IO
@@ -1147,6 +1136,17 @@ Examples for library MIDI Library (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/Input
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/RPN_NRPN
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/MIDI/examples/SimpleSynth
+
+Examples for library MIDI Library
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/AltPinSerial
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/Basic_IO
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/Bench
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/Callbacks
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/DualMerger
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/ErrorCallback
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/Input
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/RPN_NRPN
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/Arduino/libraries/MIDI_Library/examples/SimpleSynth
 
 Examples for library Mouse (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Mouse/examples/Circle
@@ -1593,12 +1593,12 @@ Examples for library SoftwareSPI (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SoftwareSPI/examples/FilesSoftwareSPI
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SoftwareSPI/examples/W5500SoftwareSPI
 
-Examples for library SPI (rp2040:rp2040@4.5.4)
-  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SPI/examples/SPItoMyselfAsync
-
 Examples for library SPI (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SPI/examples/BarometricPressureSensor
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SPI/examples/DigitalPotControl
+
+Examples for library SPI (rp2040:rp2040@4.5.4)
+  - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SPI/examples/SPItoMyselfAsync
 
 Examples for library SPIFlash (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino-CLI/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SPIFlash/examples/SPIFlash_ReadWrite

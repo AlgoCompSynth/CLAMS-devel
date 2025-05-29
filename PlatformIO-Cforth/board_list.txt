@@ -607,6 +607,7 @@ sg-o_airMon                          ESP32    240MHz       4MB      320KB   SG-O
 watchy                               ESP32    240MHz       4MB      320KB   SQFMI Watchy v2.0
 edgebox-esp-100                      ESP32S3  240MHz       4MB      320KB   Seeed Studio Edgebox-ESP-100
 seeed_xiao_esp32c3                   ESP32C3  160MHz       4MB      320KB   Seeed Studio XIAO ESP32C3
+seeed_xiao_esp32c6                   ESP32C6  160MHz       4MB      320KB   Seeed Studio XIAO ESP32C6
 seeed_xiao_esp32s3                   ESP32S3  240MHz       8MB      320KB   Seeed Studio XIAO ESP32S3
 wesp32                               ESP32    240MHz       4MB      320KB   Silicognition wESP32
 bee_data_logger                      ESP32S3  240MHz       8MB      320KB   Smart Bee Data Logger
@@ -1611,6 +1612,7 @@ nucleo_g071rb                STM32G071RBT6   64MHz        128KB     36KB      Nu
 nucleo_g431kb                STM32G431KBT6   170MHz       128KB     32KB      Nucleo G431KB
 nucleo_g431rb                STM32G431RBT6   170MHz       128KB     32KB      Nucleo G431RB
 nucleo_g474re                STM32G474RET6   170MHz       512KB     128KB     Nucleo G474RE
+nucleo_g491re                STM32G491RET6   170MHz       512KB     112KB     Nucleo G491RE
 olimexino                    STM32F103RBT6   72MHz        128KB     20KB      OLIMEXINO-STM32
 olimexino_stm32f3            STM32F303RCT6   72MHz        256KB     40KB      Olimex OLIMEXINO-STM32F3
 olimex_f103                  STM32F103RBT6   72MHz        128KB     20KB      Olimex STM32-H103
@@ -1755,7 +1757,7 @@ genericSTM32F401RC           STM32F401RCT6   84MHz        256KB     64KB      ST
 genericSTM32F401RD           STM32F401RDT6   84MHz        384KB     96KB      STM32F401RD (96k RAM. 384k Flash)
 genericSTM32F401RE           STM32F401RET6   84MHz        512KB     96KB      STM32F401RE (96k RAM. 512k Flash)
 genericSTM32F405RG           STM32F405RGT6   168MHz       1MB       128KB     STM32F405RG (128k RAM. 1024k Flash)
-genericSTM32F407IGT6         STM32F407IGT6   168MHz       1MB       192KB     STM32F407IG (192k RAM. 1024k Flash)
+genericSTM32F407IGT6         STM32F407IGT6   168MHz       1MB       128KB     STM32F407IG (192k RAM. 1024k Flash)
 genericSTM32F407VET6         STM32F407VET6   168MHz       502.23KB  128KB     STM32F407VE (192k RAM. 512k Flash)
 genericSTM32F407VGT6         STM32F407VGT6   168MHz       1MB       128KB     STM32F407VG (128k RAM. 1024k Flash)
 genericSTM32F410C8           STM32F410C8T6   100MHz       64KB      32KB      STM32F410C8 (32k RAM. 64k Flash)
@@ -1786,7 +1788,7 @@ disco_f750n8                 STM32F750N8H6   216MHz       64KB      340KB     ST
 genericSTM32G431CB           STM32G431CBU6   170MHz       128KB     32KB      STM32G431CB (32k RAM. 128k Flash)
 disco_h735ig                 STM32H735IGK6   550MHz       1MB       432KB     STM32H735G-DK Discovery kit
 disco_h747xi                 STM32H747XIH6   400MHz       2MB       512KB     STM32H747I-DISCO
-genericSTM32H750VB           STM32H750VBT6   480MHz       128KB     1MB       STM32H750VBT6 (1024k RAM. 128k Flash)
+genericSTM32H750VB           STM32H750VBT6   480MHz       128KB     512KB     STM32H750VBT6 (1024k RAM. 128k Flash)
 storm32_v1_31_rc             STM32F103RCT6   72MHz        256KB     48KB      STorM32 BGC v1.31 RC
 seeedArchMax                 STM32F407VET6   168MHz       512KB     192KB     Seeed Arch Max
 wio_3g                       STM32F439VI     180MHz       2MB       256KB     Seeed Wio 3G
