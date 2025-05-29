@@ -1,13 +1,14 @@
 # Building the base container
 
-1. On the host system, run `./1_host_udev_rules.sh`. This
+1. On the host system, run `./0_host_udev_rules.sh`. This
 sets `udev` rules for all the devices I know about. Note
 that because groups and permissions vary among the host,
 container and software, devices must usually be given
 world read and write permission! Yes, this can be a
-security issue - consider this your warning.
+security issue - consider this your warning. You only
+need to do this once.
 
-2. On the host, run `./2_host_clams_dev_base`. This builds
+2. On the host, run `./1_host_clams_dev_base`. This builds
 the base container; all others start from a clone of
 this one. It takes quite a bit of time for this to
 install all the packages. On my Acer Nitro 5 and a
@@ -15,7 +16,7 @@ install all the packages. On my Acer Nitro 5 and a
 minutes.
 
 3. On the host, type `distrobox enter CLAMS-dev-base`.
-Then type `./3_dbx_terminal_setup.sh`. This will
+Then type `./2_dbx_terminal_setup.sh`. This will
 download the "Meslo" nerd font, install the `starship`
 command prompt tool, create a few directories and then
 update all the package databases.
