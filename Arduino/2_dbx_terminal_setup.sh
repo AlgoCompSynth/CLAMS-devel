@@ -1,0 +1,1 @@
+../dbx_terminal_setup.sh

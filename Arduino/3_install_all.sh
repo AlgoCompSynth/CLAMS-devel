@@ -2,8 +2,6 @@
 
 set -e
 
-./apt_audio_base.sh
-./linux_dependencies.sh
 ./arduino_ide.sh
 ./arduino_cli.sh
 ./arduino_pico.sh
@@ -11,4 +9,4 @@ set -e
 ./teensyduino.sh
 ./arduino_audio_tools.sh
 ./list_boards_and_examples.sh
-./apt_pkg_db_updates.sh
+../apt_pkg_db_updates.sh
