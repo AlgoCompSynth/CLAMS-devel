@@ -40,7 +40,4 @@ cp ../set_pico_envars $HOME/
 
 ../apt_pkg_db_updates.sh
 
-echo ""
-echo "Restart bash to get new Starship prompt"
-
 echo "Finished"

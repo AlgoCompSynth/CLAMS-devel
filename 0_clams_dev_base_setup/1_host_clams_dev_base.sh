@@ -26,6 +26,7 @@ distrobox assemble create
 echo "Entering container"
 distrobox enter $CTN_NAME -- ./2_dbx_terminal_setup.sh
 
+echo ""
 echo "Leaving container"
 
 echo "Finished"
