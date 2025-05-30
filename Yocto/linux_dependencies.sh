@@ -14,6 +14,7 @@ export DEBIAN_FRONTEND=noninteractive
   diffstat \
   gawk \
   lz4 \
+  python3-websockets \
   zstd \
   >> $LOGFILE 2>&1
 
