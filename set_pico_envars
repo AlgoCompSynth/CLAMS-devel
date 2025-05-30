@@ -177,3 +177,8 @@ export HOST_POKY_PATH="$HOME/dbx-homes/Yocto/poky"
 export BUILDROOT_VERSION="2025.02.3"
 export BUILDROOT_URL="--branch ${BUILDROOT_VERSION} https://gitlab.com/buildroot.org/buildroot.git"
 export BUILDROOT_PATH="$HOME/buildroot"
+
+# Das-U-Boot
+export DAS_U_BOOT_VERSION="v2025.04"
+export DAS_U_BOOT_URL="--branch ${DAS_U_BOOT_VERSION} https://source.denx.de/u-boot/u-boot.git"
+export DAS_U_BOOT_PATH="$HOME/u-boot"
