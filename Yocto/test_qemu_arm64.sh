@@ -20,8 +20,7 @@ pushd $POKY_PATH
   cp $NEW_CONFIG_FILE conf/local.conf
 
   echo "Building core-image-full-cmdline"
-  /usr/bin/time bitbake core-image-full-cmdline \
-    2>&1 | tee --append $LOGFILE
+  /usr/bin/time bitbake core-image-full-cmdline
 
   echo "Testing core-image-full-cmdline"
   runqemu qemuarm64
