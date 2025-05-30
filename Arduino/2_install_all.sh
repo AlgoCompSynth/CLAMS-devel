@@ -2,6 +2,7 @@
 
 set -e
 
+./linux_dependencies.sh
 ./arduino_ide.sh
 ./arduino_cli.sh
 ./arduino_pico.sh
