@@ -10,7 +10,7 @@ export LOGFILE=$PWD/Logs/install_zepyhr_tools.log
 rm -fr $LOGFILE
 
 echo "Setting environment variables" | tee --append $LOGFILE
-source set_envars
+source ../set_pico_envars
 
 echo "Creating fresh $ZEPHYR_PROJECT" | tee --append $LOGFILE
 rm --force --recursive $ZEPHYR_PROJECT; mkdir --parents $ZEPHYR_PROJECT
