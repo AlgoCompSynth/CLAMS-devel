@@ -1,6 +1,6 @@
 # Distrobox constants
 export DBX_CONTAINER_HOME_PREFIX="$HOME/dbx-homes"
-export BASE_CONTAINER_NAME="CLAMS-dev-base"
+export BASE_CONTAINER_NAME="CLAMS-Dev-Base"
 export BASE_CONTAINER_HOME="$DBX_CONTAINER_HOME_PREFIX/$BASE_CONTAINER_NAME"
 
 # All files will be stored in directories below here
