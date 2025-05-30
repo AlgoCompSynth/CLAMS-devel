@@ -21,10 +21,11 @@ echo ""
 echo ""
 echo ""
 sleep 5
+sed "s/CTN_NAME/$CTN_NAME/" distrobox.template > distrobox.ini
 distrobox assemble create
 
 echo "Entering container"
-distrobox enter $CTN_NAME -- ./2_dbx_terminal_setup.sh
+distrobox enter $CTN_NAME -- ./dbx_terminal_setup.sh
 
 echo ""
 echo "Leaving container"
