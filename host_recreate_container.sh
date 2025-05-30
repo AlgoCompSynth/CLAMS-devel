@@ -10,9 +10,10 @@ echo "CTN_NAME: $CTN_NAME"
 export CTN_HOME=$DBX_CONTAINER_HOME_PREFIX/$CTN_NAME
 echo "CTN_HOME: $CTN_HOME"
 
-echo "Stopping base container"
+echo "Stopping base container:"
 distrobox stop --yes $BASE_CONTAINER_NAME || true
-echo "Stopping any existing container"
+echo ""
+echo "Stopping any existing container:"
 distrobox stop --yes $CTN_NAME || true
 echo "Removing any existing container home"
 rm --force --recursive $CTN_HOME
@@ -31,5 +32,8 @@ echo ""
 echo ""
 sleep 5
 distrobox assemble create
+
+echo "Entering $CTN_NAME"
+distrobox enter $CTN_NAME
 
 echo "Finished"
