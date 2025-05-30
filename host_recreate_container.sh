@@ -23,7 +23,6 @@ echo "Creating distrobox.ini"
 sed "s/BASE_CONTAINER_NAME/$BASE_CONTAINER_NAME/" ../distrobox.template \
   | sed "s/CTN_NAME/$CTN_NAME/" \
   > distrobox.ini
-cat additional_packages >> distrobox.ini
 
 echo "Creating and starting distrobox container"
 echo "This will take some time to install basic packages"

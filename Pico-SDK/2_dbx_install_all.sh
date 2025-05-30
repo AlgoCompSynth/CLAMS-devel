@@ -2,6 +2,7 @@
 
 set -e
 
+./linux_dependencies.sh
 ./pico_compilers.sh
 ./pico_repos.sh
 ./pico_utilities.sh
