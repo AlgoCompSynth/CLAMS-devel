@@ -34,6 +34,8 @@ sleep 5
 distrobox assemble create
 
 echo "Entering $CTN_NAME"
-distrobox enter $CTN_NAME
+distrobox enter $CTN_NAME -- ./2_install_all.sh
+
+echo "Leaving $CTN_NAME"
 
 echo "Finished"

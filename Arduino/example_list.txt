@@ -1593,12 +1593,12 @@ Examples for library SoftwareSPI (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SoftwareSPI/examples/FilesSoftwareSPI
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SoftwareSPI/examples/W5500SoftwareSPI
 
-Examples for library SPI (rp2040:rp2040@4.5.4)
-  - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SPI/examples/SPItoMyselfAsync
-
 Examples for library SPI (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SPI/examples/BarometricPressureSensor
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SPI/examples/DigitalPotControl
+
+Examples for library SPI (rp2040:rp2040@4.5.4)
+  - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/SPI/examples/SPItoMyselfAsync
 
 Examples for library SPIFlash (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/SPIFlash/examples/SPIFlash_ReadWrite
@@ -1825,10 +1825,6 @@ Examples for library WiFi (rp2040:rp2040@4.5.4)
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/WiFiClient
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/WiFi/examples/WiFiServer
 
-Examples for library Wire (rp2040:rp2040@4.5.4)
-  - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Wire/examples/TalkingToMyself
-  - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Wire/examples/TalkingToMyselfAsync
-
 Examples for library Wire (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/digital_potentiometer
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/master_reader
@@ -1837,6 +1833,10 @@ Examples for library Wire (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/SFRRanger_reader
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/slave_receiver
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/Wire/examples/slave_sender
+
+Examples for library Wire (rp2040:rp2040@4.5.4)
+  - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Wire/examples/TalkingToMyself
+  - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/rp2040/hardware/rp2040/4.5.4/libraries/Wire/examples/TalkingToMyselfAsync
 
 Examples for library WS2812Serial (teensy:avr@1.59.0)
   - /var/home/znmeb/dbx-homes/Arduino/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/WS2812Serial/examples/BasicTest
