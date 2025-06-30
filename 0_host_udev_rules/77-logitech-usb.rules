@@ -1,0 +1,7 @@
+
+# Logitech USB plug rules
+
+# ID 046d:c52b Logitech, Inc. Unifying Receiver
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c52b", MODE:="0666"
+# ID 046d:c548 Logitech, Inc. Logi Bolt Receiver
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c548", MODE:="0666"
