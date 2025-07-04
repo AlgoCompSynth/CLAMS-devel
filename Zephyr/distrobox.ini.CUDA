@@ -1,0 +1,8 @@
+init=true
+nvidia=true
+pull=true
+root=false
+replace=true
+start_now=true
+additional_packages="systemd libpam-systemd git time vim"
+additional_packages="libgstreamer-plugins-bad1.0-0"
