@@ -59,6 +59,14 @@ source $ZEPHYR_VENV/bin/activate
       >> $LOGFILE 2>&1
   popd > /dev/null
 
+  pushd $ZEPHYR_WORKSPACE > /dev/null
+    echo "Testing toolchain" | tee --append $LOGFILE
+    west build --pristine --board qemu_x86 samples/hello_world \
+      2>&1 | tee --append $LOGFILE 2>&1
+    west build --pristine --board native_sim samples/hello_world \
+      2>&1 | tee --append $LOGFILE 2>&1
+  popd > /dev/null
+
 deactivate
 
 echo "*** Zephyr Command Line Tools Finished ***" | tee --append $LOGFILE

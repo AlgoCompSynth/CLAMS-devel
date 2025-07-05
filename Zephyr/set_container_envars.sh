@@ -11,6 +11,7 @@ echo "ARCH: $ARCH"
 
 ## Zephyr OS
 export ZEPHYR_PROJECT="$HOME/zephyrproject" # inside the container
+export ZEPHYR_WORKSPACE="$ZEPHYR_PROJECT/zephyr" # inside the container
 export ZEPHYR_VENV="$ZEPHYR_PROJECT/.venv" # inside the container
 export Z_ACTIVATE="source $ZEPHYR_VENV/bin/activate" # inside the container
 
