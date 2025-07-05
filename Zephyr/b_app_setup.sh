@@ -12,7 +12,6 @@ source set_container_envars.sh
 pushd app_scripts > /dev/null
   ./linux_dependencies.sh
   ./zephyr_cli.sh
-  ./unix_micropython.sh
 popd > /dev/null
 
 pushd sys_scripts > /dev/null
