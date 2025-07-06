@@ -10,8 +10,10 @@ source set_container_envars.sh
 
 pushd sys_scripts > /dev/null
   ./apt_system_upgrade.sh
-  ./apt_base_packages.sh
+  ./apt_linux_dependencies.sh
   ./terminal_setup.sh
+  ./zephyr_cli.sh
+  ./build_tests.sh
   ./apt_pkg_db_updates.sh
 popd > /dev/null
 
