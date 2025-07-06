@@ -35,6 +35,8 @@ echo ""
 echo "Copying \$HOME/.ssh into \$DBX_CONTAINER_DIRECTORY"
 cp -rp $HOME/.ssh $DBX_CONTAINER_DIRECTORY
 echo "Copying 'set_container_envars.sh' into \$DBX_CONTAINER_DIRECTORY"
-cp -rp ./set_container_envars.sh $DBX_CONTAINER_DIRECTORY
+cp -p ./set_container_envars.sh $DBX_CONTAINER_DIRECTORY
+echo "Copying 'enter.sh' into \$DBX_CONTAINER_DIRECTORY"
+cp -p ./enter.sh $DBX_CONTAINER_DIRECTORY
 
 echo "* Create Container Finished *"
