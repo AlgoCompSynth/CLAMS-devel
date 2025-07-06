@@ -9,6 +9,9 @@ echo ""
 echo "Setting environment variables"
 source set_container_envars.sh
 
+echo "Clearing logfiles"
+rm --force --recursive app_scripts/Logs
+
 pushd app_scripts > /dev/null
 popd > /dev/null
 

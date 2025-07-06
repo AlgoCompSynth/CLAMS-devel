@@ -49,7 +49,7 @@ source $ZEPHYR_VENV/bin/activate
       >> $LOGFILE 2>&1
 
     echo "Listing supported boards" | tee --append $LOGFILE
-    west boards | tee --append $LOGFILE > $BOARD_LIST
+    west boards | sort | tee --append $LOGFILE > $BOARD_LIST
 
   popd > /dev/null
 

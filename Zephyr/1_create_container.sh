@@ -5,6 +5,7 @@ set -e
 echo ""
 echo "* Create Container *"
 
+rm --force --recursive $PWD/Logs
 mkdir --parents $PWD/Logs
 export LOGFILE=$PWD/Logs/create_container.log
 rm --force $LOGFILE
@@ -38,5 +39,7 @@ echo "Copying 'set_container_envars.sh' into \$DBX_CONTAINER_DIRECTORY"
 cp -p ./set_container_envars.sh $DBX_CONTAINER_DIRECTORY
 echo "Copying 'enter.sh' into \$DBX_CONTAINER_DIRECTORY"
 cp -p ./enter.sh $DBX_CONTAINER_DIRECTORY
+echo "Copying 'sys_scripts/test_boards.sh' into \$DBX_CONTAINER_DIRECTORY"
+cp -p ./sys_scripts/test_boards.sh $DBX_CONTAINER_DIRECTORY
 
 echo "* Create Container Finished *"
