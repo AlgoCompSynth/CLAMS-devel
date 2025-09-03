@@ -607,6 +607,7 @@ sg-o_airMon                          ESP32    240MHz       4MB      320KB   SG-O
 watchy                               ESP32    240MHz       4MB      320KB   SQFMI Watchy v2.0
 edgebox-esp-100                      ESP32S3  240MHz       4MB      320KB   Seeed Studio Edgebox-ESP-100
 seeed_xiao_esp32c3                   ESP32C3  160MHz       4MB      320KB   Seeed Studio XIAO ESP32C3
+seeed_xiao_esp32c6                   ESP32C6  160MHz       4MB      320KB   Seeed Studio XIAO ESP32C6
 seeed_xiao_esp32s3                   ESP32S3  240MHz       8MB      320KB   Seeed Studio XIAO ESP32S3
 wesp32                               ESP32    240MHz       4MB      320KB   Silicognition wESP32
 bee_data_logger                      ESP32S3  240MHz       8MB      320KB   Smart Bee Data Logger
@@ -667,6 +668,8 @@ widora-air                           ESP32    240MHz       16MB     320KB   Wido
 wt32-eth01                           ESP32    240MHz       4MB      320KB   Wireless-Tag WT32-ETH01 Ethernet Module
 xinabox_cw02                         ESP32    240MHz       4MB      320KB   XinaBox CW02
 nscreen-32                           ESP32    240MHz       16MB     320KB   YeaCreate NSCREEN-32
+cezerio_dev_esp32c6                  ESP32C6  160MHz       4MB      320KB   cezerio dev ESP32C6
+cezerio_mini_dev_esp32c6             ESP32C6  160MHz       4MB      320KB   cezerio mini dev ESP32C6
 micros2                              ESP32S2  240MHz       16MB     320KB   microS2
 iotbusio                             ESP32    240MHz       4MB      320KB   oddWires IoT-Bus Io
 iotbusproteus                        ESP32    240MHz       4MB      320KB   oddWires IoT-Bus Proteus
@@ -1108,10 +1111,12 @@ cbu                         BK7231N    120MHz       1.03MB   256KB  CBU Wi-Fi Mo
 generic-bk7231n-qfn32-tuya  BK7231N    120MHz       1.03MB   256KB  Generic - BK7231N (Tuya QFN32)
 generic-bk7231t-qfn32-tuya  BK7231T    120MHz       1.03MB   256KB  Generic - BK7231T (Tuya QFN32)
 generic-bk7252              BK7252     180MHz       1.62MB   512KB  Generic - BK7252
+generic-ln882hki            LN882HK    160MHz       1.17MB   295KB  Generic - LN882HKI
 generic-rtl8710bn-2mb-468k  RTL8710BN  125MHz       468KB    256KB  Generic - RTL8710BN (2M/468k)
 generic-rtl8710bn-2mb-788k  RTL8710BN  125MHz       788KB    256KB  Generic - RTL8710BN (2M/788k)
 generic-rtl8710bx-4mb-980k  RTL8710BX  62MHz        980KB    256KB  Generic - RTL8710BX (4M/980k)
 generic-rtl8720cf-2mb-992k  RTL8720CF  100MHz       992KB    256KB  Generic - RTL8720CF (2M/992k)
+ln-02                       LN882HK    160MHz       1.17MB   295KB  LN-02 Wi-Fi/BLE Module
 lsc-lma35                   BK7231N    120MHz       1.03MB   256KB  LSC LMA35 BK7231N
 lsc-lma35-t                 BK7231T    120MHz       1.03MB   256KB  LSC LMA35 BK7231T
 t102-v1.1                   RTL8710BN  125MHz       788KB    256KB  T102_V1.1
@@ -1125,6 +1130,7 @@ wb2s                        BK7231T    120MHz       1.03MB   256KB  WB2S Wi-Fi M
 wb3l                        BK7231T    120MHz       1.03MB   256KB  WB3L Wi-Fi Module
 wb3s                        BK7231T    120MHz       1.03MB   256KB  WB3S Wi-Fi Module
 wblc5                       BK7231T    120MHz       1.03MB   256KB  WBLC5 Wi-Fi Module
+wl2s                        LN882HK    160MHz       1.17MB   295KB  WL2S Wi-Fi/BLE Module
 wr1                         RTL8710BN  125MHz       788KB    256KB  WR1 Wi-Fi Module
 wr1e                        RTL8710BN  125MHz       788KB    256KB  WR1E Wi-Fi Module
 wr2                         RTL8710BN  125MHz       788KB    256KB  WR2 Wi-Fi Module
@@ -1346,138 +1352,145 @@ nexys_a7         320MHz       16MB     1.16MB  Digilent Nexys A7
 
 Platform: raspberrypi
 ================================================================================
-ID                              MCU     Frequency    Flash    RAM    Name
-------------------------------  ------  -----------  -------  -----  ------------------------------
-akana_r1                        RP2040  133MHz       16MB     256KB  Akana R1
-evn_alpha                       RP2040  133MHz       16MB     256KB  Alpha
-newsan_archi                    RP2040  133MHz       4MB      256KB  Archi
-nanorp2040connect               RP2040  133MHz       2MB      256KB  Arduino Nano RP2040 Connect
-nekosystems_bl2040_mini         RP2040  133MHz       4MB      256KB  BL2040 Mini
-dfrobot_beetle_rp2040           RP2040  133MHz       2MB      256KB  Beetle RP2040
-nullbits_bit_c_pro              RP2040  133MHz       4MB      256KB  Bit-C PRO
-amken_bunny                     RP2040  133MHz       128MB    256KB  BunnyBoard
-challenger_2040_lte             RP2040  133MHz       8MB      256KB  Challenger 2040 LTE
-challenger_2040_lora            RP2040  133MHz       8MB      256KB  Challenger 2040 LoRa
-challenger_2040_nfc             RP2040  133MHz       8MB      256KB  Challenger 2040 NFC
-challenger_2040_sdrtc           RP2040  133MHz       8MB      256KB  Challenger 2040 SD/RTC
-challenger_2040_subghz          RP2040  133MHz       8MB      256KB  Challenger 2040 SubGHz
-challenger_2040_uwb             RP2040  133MHz       8MB      256KB  Challenger 2040 UWB
-challenger_2040_wifi            RP2040  133MHz       8MB      256KB  Challenger 2040 WiFi
-challenger_2040_wifi_ble        RP2040  133MHz       8MB      256KB  Challenger 2040 WiFi/BLE
-challenger_2040_wifi6_ble       RP2040  133MHz       8MB      256KB  Challenger 2040 WiFi6/BLE
-challenger_2350_bconnect        RP2350  150MHz       8MB      512KB  Challenger 2350 BConnect
-challenger_2350_wifi6_ble5      RP2350  150MHz       8MB      512KB  Challenger 2350 WiFi/BLE
-challenger_nb_2040_wifi         RP2040  133MHz       8MB      256KB  Challenger NB 2040 WiFi
-connectivity_2040_lte_wifi_ble  RP2040  133MHz       8MB      256KB  Connectivity 2040 LTE/WiFi/BLE
-melopero_cookie_rp2040          RP2040  133MHz       8MB      256KB  Cookie RP2040
-DudesCab                        RP2040  133MHz       4MB      256KB  DudesCab
-adafruit_feather                RP2040  133MHz       8MB      256KB  Feather RP2040
-adafruit_feather_adalogger      RP2040  133MHz       8MB      256KB  Feather RP2040 Adalogger
-adafruit_feather_can            RP2040  133MHz       8MB      256KB  Feather RP2040 CAN
-adafruit_feather_dvi            RP2040  133MHz       8MB      256KB  Feather RP2040 DVI
-adafruit_feather_prop_maker     RP2040  133MHz       8MB      256KB  Feather RP2040 Prop-Maker
-adafruit_feather_rfm            RP2040  133MHz       8MB      256KB  Feather RP2040 RFM
-adafruit_feather_scorpio        RP2040  133MHz       8MB      256KB  Feather RP2040 SCORPIO
-adafruit_feather_thinkink       RP2040  133MHz       8MB      256KB  Feather RP2040 ThinkINK
-adafruit_feather_usb_host       RP2040  133MHz       8MB      256KB  Feather RP2040 USB Host
-adafruit_feather_rp2350_hstx    RP2350  150MHz       8MB      512KB  Feather RP2350 HSTX
-adafruit_floppsy                RP2040  133MHz       16MB     256KB  Floppsy
-flyboard2040_core               RP2040  133MHz       4MB      256KB  FlyBoard2040Core
-0xcb_helios                     RP2040  133MHz       16MB     256KB  Helios
-electroniccats_huntercat_nfc    RP2040  133MHz       2MB      256KB  HunterCat NFC RP2040
-bridgetek_idm2040_43a           RP2040  133MHz       8MB      256KB  IDM2040-43A
-bridgetek_idm2040_7a            RP2040  133MHz       8MB      256KB  IDM2040-7A
-seeed_indicator_rp2040          RP2040  133MHz       2MB      256KB  INDICATOR RP2040
-cytron_iriv_io_controller       RP2350  150MHz       2MB      512KB  IRIV IO Controller
-sparkfun_iotnode_lorawanrp2350  RP2350  150MHz       16MB     512KB  IoT Node LoRaWAN
-sparkfun_iotredboard_rp2350     RP2350  150MHz       16MB     512KB  IoT RedBoard RP2350
-adafruit_itsybitsy              RP2040  133MHz       8MB      256KB  ItsyBitsy RP2040
-jumperless_v1                   RP2040  133MHz       16MB     256KB  Jumperless
-jumperless_v5                   RP2350  150MHz       16MB     512KB  Jumperless V5
-adafruit_kb2040                 RP2040  133MHz       8MB      256KB  KB2040
-mksthr36                        RP2040  133MHz       1MB      256KB  MKS THR36
-mksthr42                        RP2040  133MHz       1MB      256KB  MKS THR42
-adafruit_macropad2040           RP2040  133MHz       8MB      256KB  MacroPad RP2040
-cytron_maker_nano_rp2040        RP2040  133MHz       2MB      256KB  Maker Nano RP2040
-cytron_maker_pi_rp2040          RP2040  133MHz       2MB      256KB  Maker Pi RP2040
-cytron_maker_uno_rp2040         RP2040  133MHz       2MB      256KB  Maker Uno RP2040
-groundstudio_marble_pico        RP2040  133MHz       8MB      256KB  Marble Pico
-adafruit_metro                  RP2040  133MHz       16MB     256KB  Metro RP2040
-adafruit_metro_rp2350           RP2350  150MHz       16MB     512KB  Metro RP2350
-sparkfun_micromodrp2040         RP2040  133MHz       16MB     256KB  MicroMod RP2040
-viyalab_mizu                    RP2040  133MHz       8MB      256KB  Mizu RP2040
-cytron_motion_2350_pro          RP2350  150MHz       2MB      512KB  Motion 2350 Pro
-arduino_nano_connect            RP2040  133MHz       16MB     256KB  Nano RP2040 Connect
-pimoroni_pga2040                RP2040  133MHz       8MB      256KB  PGA2040
-pimoroni_pga2350                RP2350  150MHz       16MB     512KB  PGA2350
-rpipico                         RP2040  133MHz       2MB      256KB  Pico
-rpipico2                        RP2350  150MHz       4MB      512KB  Pico 2
-rpipico2w                       RP2350  150MHz       4MB      512KB  Pico 2W
-rpipicow                        RP2040  133MHz       2MB      256KB  Pico W
-olimex_pico2xl                  RP2350  150MHz       2MB      512KB  Pico2XL
-olimex_pico2xxl                 RP2350  150MHz       16MB     512KB  Pico2XXL
-datanoisetv_picoadk             RP2040  133MHz       2MB      256KB  PicoADK
-datanoisetv_picoadk_v2          RP2350  150MHz       4MB      512KB  PicoADK v2
-pimoroni_pico_plus_2            RP2350  150MHz       16MB     512KB  PicoPlus2
-pimoroni_pico_plus_2w           RP2350  150MHz       16MB     512KB  PicoPlus2W
-pintronix_pinmax                RP2040  133MHz       4MB      256KB  PinMax
-pimoroni_plasma2040             RP2040  133MHz       2MB      256KB  Plasma2040
-pimoroni_plasma2350             RP2350  150MHz       2MB      512KB  Plasma2350
-sparkfun_promicrorp2040         RP2040  133MHz       16MB     256KB  ProMicro RP2040
-sparkfun_promicrorp2350         RP2350  150MHz       16MB     512KB  ProMicro RP2350
-adafruit_qtpy                   RP2040  133MHz       8MB      256KB  QT Py RP2040
-rakwireless_rak11300            RP2040  133MHz       2MB      256KB  RAK11300
-extelec_rc2040                  RP2040  133MHz       2MB      256KB  RC2040
-artronshop_rp2_nano             RP2040  133MHz       2MB      256KB  RP2 Nano
-MyRP_bot                        RP2040  133MHz       2MB      256KB  RP2040
-generic                         RP2040  133MHz       16MB     256KB  RP2040
-upesy_rp2040_devkit             RP2040  133MHz       2MB      256KB  RP2040 DevKit
-waveshare_rp2040_lcd_0_96       RP2040  133MHz       2MB      256KB  RP2040 LCD 0.96
-waveshare_rp2040_lcd_1_28       RP2040  133MHz       2MB      256KB  RP2040 LCD 1.28
-waveshare_rp2040_matrix         RP2040  133MHz       2MB      256KB  RP2040 Matrix
-waveshare_rp2040_one            RP2040  133MHz       4MB      256KB  RP2040 One
-waveshare_rp2040_pizero         RP2040  133MHz       16MB     256KB  RP2040 PiZero
-waveshare_rp2040_plus_16mb      RP2040  133MHz       16MB     256KB  RP2040 Plus 16MB
-waveshare_rp2040_plus_4mb       RP2040  133MHz       4MB      256KB  RP2040 Plus 4MB
-solderparty_rp2040_stamp        RP2040  133MHz       8MB      256KB  RP2040 Stamp
-waveshare_rp2040_zero           RP2040  133MHz       2MB      256KB  RP2040 Zero
-redscorp_rp2040_eins            RP2040  133MHz       16MB     256KB  RP2040-Eins
-olimex_rp2040pico30             RP2040  133MHz       2MB      256KB  RP2040-Pico30
-olimex_rp2040pico30_16mb        RP2040  133MHz       16MB     256KB  RP2040-Pico30 16MB
-olimex_rp2040pico30_2mb         RP2040  133MHz       2MB      256KB  RP2040-Pico30 2MB
-redscorp_rp2040_promini         RP2040  133MHz       16MB     256KB  RP2040-ProMini
-silicognition_rp2040_shim       RP2040  133MHz       4MB      256KB  RP2040-Shim
-db_rp2350                       RP2350  150MHz       16MB     512KB  RP2350
-generic_rp2350                  RP2350  150MHz       16MB     512KB  RP2350
-solderparty_rp2350_stamp        RP2350  150MHz       16MB     512KB  RP2350 Stamp
-solderparty_rp2350_stamp_xl     RP2350  150MHz       16MB     512KB  RP2350 Stamp XL
-ilabs_rpico32                   RP2040  133MHz       8MB      256KB  RPICO32
-breadstick_raspberry            RP2040  133MHz       16MB     256KB  Raspberry
-pico                            RP2040  133MHz       2MB      256KB  Raspberry Pi Pico
-amken_revelop                   RP2040  133MHz       32MB     256KB  Revelop
-amken_revelop_plus              RP2040  133MHz       32MB     256KB  Revelop Plus
-amken_revelop_es                RP2040  133MHz       16MB     256KB  Revelop eS
-adafruit_stemmafriend           RP2040  133MHz       8MB      256KB  STEMMA Friend RP2040
-sea_picro                       RP2040  133MHz       8MB      256KB  Sea-Picro
-pimoroni_servo2040              RP2040  133MHz       2MB      256KB  Servo2040
-melopero_shake_rp2040           RP2040  133MHz       16MB     256KB  Shake RP2040
-degz_suibo                      RP2040  133MHz       16MB     256KB  Suibo RP2040
-sparkfun_thingplusrp2040        RP2040  133MHz       16MB     256KB  Thing Plus RP2040
-sparkfun_thingplusrp2350        RP2350  150MHz       16MB     512KB  Thing Plus RP2350
-pimoroni_tiny2040               RP2040  133MHz       2MB      256KB  Tiny2040
-pimoroni_tiny2350               RP2350  150MHz       4MB      512KB  Tiny2350
-adafruit_trinkeyrp2040qt        RP2040  133MHz       8MB      256KB  Trinkey RP2040 QT
-wiznet_5100s_evb_pico           RP2040  133MHz       2MB      256KB  W5100S-EVB-Pico
-wiznet_5100s_evb_pico2          RP2350  150MHz       2MB      512KB  W5100S-EVB-Pico2
-wiznet_5500_evb_pico            RP2040  133MHz       2MB      256KB  W5500-EVB-Pico
-wiznet_5500_evb_pico2           RP2350  150MHz       2MB      512KB  W5500-EVB-Pico2
-wiznet_55rp20_evb_pico          RP2040  133MHz       2MB      256KB  W55RP20-EVB-Pico
-wiznet_wizfi360_evb_pico        RP2040  133MHz       2MB      256KB  WizFi360-EVB-Pico
-seeed_xiao_rp2040               RP2040  133MHz       2MB      256KB  XIAO RP2040
-seeed_xiao_rp2350               RP2350  150MHz       2MB      512KB  XIAO RP2350
-sparkfun_xrp_controller         RP2350  150MHz       16MB     512KB  XRP Controller
-sparkfun_xrp_controller_beta    RP2040  133MHz       2MB      256KB  XRP Controller (Beta)
-vccgnd_yd_rp2040                RP2040  133MHz       16MB     256KB  YD RP2040
+ID                                 MCU     Frequency    Flash    RAM    Name
+---------------------------------  ------  -----------  -------  -----  ------------------------------
+akana_r1                           RP2040  133MHz       16MB     256KB  Akana R1
+evn_alpha                          RP2040  133MHz       16MB     256KB  Alpha
+newsan_archi                       RP2040  133MHz       4MB      256KB  Archi
+nanorp2040connect                  RP2040  133MHz       2MB      256KB  Arduino Nano RP2040 Connect
+nekosystems_bl2040_mini            RP2040  133MHz       4MB      256KB  BL2040 Mini
+dfrobot_beetle_rp2040              RP2040  133MHz       2MB      256KB  Beetle RP2040
+nullbits_bit_c_pro                 RP2040  133MHz       4MB      256KB  Bit-C PRO
+amken_bunny                        RP2040  133MHz       128MB    256KB  BunnyBoard
+challenger_2040_lte                RP2040  133MHz       8MB      256KB  Challenger 2040 LTE
+challenger_2040_lora               RP2040  133MHz       8MB      256KB  Challenger 2040 LoRa
+challenger_2040_nfc                RP2040  133MHz       8MB      256KB  Challenger 2040 NFC
+challenger_2040_sdrtc              RP2040  133MHz       8MB      256KB  Challenger 2040 SD/RTC
+challenger_2040_subghz             RP2040  133MHz       8MB      256KB  Challenger 2040 SubGHz
+challenger_2040_uwb                RP2040  133MHz       8MB      256KB  Challenger 2040 UWB
+challenger_2040_wifi               RP2040  133MHz       8MB      256KB  Challenger 2040 WiFi
+challenger_2040_wifi_ble           RP2040  133MHz       8MB      256KB  Challenger 2040 WiFi/BLE
+challenger_2040_wifi6_ble          RP2040  133MHz       8MB      256KB  Challenger 2040 WiFi6/BLE
+challenger_2350_bconnect           RP2350  150MHz       8MB      512KB  Challenger 2350 BConnect
+challenger_2350_wifi6_ble5         RP2350  150MHz       8MB      512KB  Challenger 2350 WiFi/BLE
+challenger_nb_2040_wifi            RP2040  133MHz       8MB      256KB  Challenger NB 2040 WiFi
+connectivity_2040_lte_wifi_ble     RP2040  133MHz       8MB      256KB  Connectivity 2040 LTE/WiFi/BLE
+melopero_cookie_rp2040             RP2040  133MHz       8MB      256KB  Cookie RP2040
+DudesCab                           RP2040  133MHz       4MB      256KB  DudesCab
+adafruit_feather                   RP2040  133MHz       8MB      256KB  Feather RP2040
+adafruit_feather_adalogger         RP2040  133MHz       8MB      256KB  Feather RP2040 Adalogger
+adafruit_feather_can               RP2040  133MHz       8MB      256KB  Feather RP2040 CAN
+adafruit_feather_dvi               RP2040  133MHz       8MB      256KB  Feather RP2040 DVI
+adafruit_feather_prop_maker        RP2040  133MHz       8MB      256KB  Feather RP2040 Prop-Maker
+adafruit_feather_rfm               RP2040  133MHz       8MB      256KB  Feather RP2040 RFM
+adafruit_feather_scorpio           RP2040  133MHz       8MB      256KB  Feather RP2040 SCORPIO
+adafruit_feather_thinkink          RP2040  133MHz       8MB      256KB  Feather RP2040 ThinkINK
+adafruit_feather_usb_host          RP2040  133MHz       8MB      256KB  Feather RP2040 USB Host
+adafruit_feather_rp2350_adalogger  RP2350  150MHz       8MB      512KB  Feather RP2350 Adalogger
+adafruit_feather_rp2350_hstx       RP2350  150MHz       8MB      512KB  Feather RP2350 HSTX
+adafruit_floppsy                   RP2040  133MHz       16MB     256KB  Floppsy
+flyboard2040_core                  RP2040  133MHz       4MB      256KB  FlyBoard2040Core
+adafruit_fruitjam                  RP2350  150MHz       16MB     512KB  Fruit Jam RP2350
+0xcb_helios                        RP2040  133MHz       16MB     256KB  Helios
+electroniccats_huntercat_nfc       RP2040  133MHz       2MB      256KB  HunterCat NFC RP2040
+bridgetek_idm2040_43a              RP2040  133MHz       8MB      256KB  IDM2040-43A
+bridgetek_idm2040_7a               RP2040  133MHz       8MB      256KB  IDM2040-7A
+seeed_indicator_rp2040             RP2040  133MHz       2MB      256KB  INDICATOR RP2040
+cytron_iriv_io_controller          RP2350  150MHz       2MB      512KB  IRIV IO Controller
+sparkfun_iotnode_lorawanrp2350     RP2350  150MHz       16MB     512KB  IoT Node LoRaWAN
+sparkfun_iotredboard_rp2350        RP2350  150MHz       16MB     512KB  IoT RedBoard RP2350
+adafruit_itsybitsy                 RP2040  133MHz       8MB      256KB  ItsyBitsy RP2040
+jumperless_v1                      RP2040  133MHz       16MB     256KB  Jumperless
+jumperless_v5                      RP2350  150MHz       16MB     512KB  Jumperless V5
+adafruit_kb2040                    RP2040  133MHz       8MB      256KB  KB2040
+mksthr36                           RP2040  133MHz       1MB      256KB  MKS THR36
+mksthr42                           RP2040  133MHz       1MB      256KB  MKS THR42
+adafruit_macropad2040              RP2040  133MHz       8MB      256KB  MacroPad RP2040
+cytron_maker_nano_rp2040           RP2040  133MHz       2MB      256KB  Maker Nano RP2040
+cytron_maker_pi_rp2040             RP2040  133MHz       2MB      256KB  Maker Pi RP2040
+cytron_maker_uno_rp2040            RP2040  133MHz       2MB      256KB  Maker Uno RP2040
+groundstudio_marble_pico           RP2040  133MHz       8MB      256KB  Marble Pico
+adafruit_metro                     RP2040  133MHz       16MB     256KB  Metro RP2040
+adafruit_metro_rp2350              RP2350  150MHz       16MB     512KB  Metro RP2350
+sparkfun_micromodrp2040            RP2040  133MHz       16MB     256KB  MicroMod RP2040
+viyalab_mizu                       RP2040  133MHz       8MB      256KB  Mizu RP2040
+cytron_motion_2350_pro             RP2350  150MHz       2MB      512KB  Motion 2350 Pro
+arduino_nano_connect               RP2040  133MHz       16MB     256KB  Nano RP2040 Connect
+pimoroni_pga2040                   RP2040  133MHz       8MB      256KB  PGA2040
+pimoroni_pga2350                   RP2350  150MHz       16MB     512KB  PGA2350
+rpipico                            RP2040  133MHz       2MB      256KB  Pico
+rpipico2                           RP2350  150MHz       4MB      512KB  Pico 2
+rpipico2w                          RP2350  150MHz       4MB      512KB  Pico 2W
+rpipicow                           RP2040  133MHz       2MB      256KB  Pico W
+olimex_pico2xl                     RP2350  150MHz       2MB      512KB  Pico2XL
+olimex_pico2xxl                    RP2350  150MHz       16MB     512KB  Pico2XXL
+datanoisetv_picoadk                RP2040  133MHz       2MB      256KB  PicoADK
+datanoisetv_picoadk_v2             RP2350  150MHz       4MB      512KB  PicoADK v2
+pimoroni_pico_plus_2               RP2350  150MHz       16MB     512KB  PicoPlus2
+pimoroni_pico_plus_2w              RP2350  150MHz       16MB     512KB  PicoPlus2W
+pintronix_pinmax                   RP2040  133MHz       4MB      256KB  PinMax
+pimoroni_plasma2040                RP2040  133MHz       2MB      256KB  Plasma2040
+pimoroni_plasma2350                RP2350  150MHz       2MB      512KB  Plasma2350
+sparkfun_promicrorp2040            RP2040  133MHz       16MB     256KB  ProMicro RP2040
+sparkfun_promicrorp2350            RP2350  150MHz       16MB     512KB  ProMicro RP2350
+adafruit_qtpy                      RP2040  133MHz       8MB      256KB  QT Py RP2040
+rakwireless_rak11300               RP2040  133MHz       2MB      256KB  RAK11300
+extelec_rc2040                     RP2040  133MHz       2MB      256KB  RC2040
+artronshop_rp2_nano                RP2040  133MHz       2MB      256KB  RP2 Nano
+MyRP_bot                           RP2040  133MHz       2MB      256KB  RP2040
+generic                            RP2040  133MHz       16MB     256KB  RP2040
+upesy_rp2040_devkit                RP2040  133MHz       2MB      256KB  RP2040 DevKit
+waveshare_rp2040_lcd_0_96          RP2040  133MHz       2MB      256KB  RP2040 LCD 0.96
+waveshare_rp2040_lcd_1_28          RP2040  133MHz       2MB      256KB  RP2040 LCD 1.28
+waveshare_rp2040_matrix            RP2040  133MHz       2MB      256KB  RP2040 Matrix
+waveshare_rp2040_one               RP2040  133MHz       4MB      256KB  RP2040 One
+waveshare_rp2040_pizero            RP2040  133MHz       16MB     256KB  RP2040 PiZero
+waveshare_rp2040_plus              RP2040  133MHz       4MB      256KB  RP2040 Plus
+waveshare_rp2040_plus_16mb         RP2040  133MHz       16MB     256KB  RP2040 Plus 16MB
+waveshare_rp2040_plus_4mb          RP2040  133MHz       4MB      256KB  RP2040 Plus 4MB
+solderparty_rp2040_stamp           RP2040  133MHz       8MB      256KB  RP2040 Stamp
+waveshare_rp2040_zero              RP2040  133MHz       2MB      256KB  RP2040 Zero
+redscorp_rp2040_eins               RP2040  133MHz       16MB     256KB  RP2040-Eins
+olimex_rp2040pico30                RP2040  133MHz       2MB      256KB  RP2040-Pico30
+redscorp_rp2040_promini            RP2040  133MHz       16MB     256KB  RP2040-ProMini
+silicognition_rp2040_shim          RP2040  133MHz       4MB      256KB  RP2040-Shim
+db_rp2350                          RP2350  150MHz       16MB     512KB  RP2350
+generic_rp2350                     RP2350  150MHz       16MB     512KB  RP2350
+waveshare_rp2350_lcd_0_96          RP2350  150MHz       4MB      512KB  RP2350 LCD 0.96
+waveshare_rp2350_plus              RP2350  150MHz       4MB      512KB  RP2350 Plus
+solderparty_rp2350_stamp           RP2350  150MHz       16MB     512KB  RP2350 Stamp
+solderparty_rp2350_stamp_xl        RP2350  150MHz       16MB     512KB  RP2350 Stamp XL
+waveshare_rp2350_zero              RP2350  150MHz       4MB      512KB  RP2350 Zero
+ilabs_rpico32                      RP2040  133MHz       8MB      256KB  RPICO32
+breadstick_raspberry               RP2040  133MHz       16MB     256KB  Raspberry
+pico                               RP2040  133MHz       2MB      256KB  Raspberry Pi Pico
+amken_revelop                      RP2040  133MHz       32MB     256KB  Revelop
+amken_revelop_plus                 RP2040  133MHz       32MB     256KB  Revelop Plus
+amken_revelop_es                   RP2040  133MHz       16MB     256KB  Revelop eS
+bigtreetech_SKR_Pico               RP2040  133MHz       2MB      256KB  SKR-Pico
+adafruit_stemmafriend              RP2040  133MHz       8MB      256KB  STEMMA Friend RP2040
+sea_picro                          RP2040  133MHz       8MB      256KB  Sea-Picro
+pimoroni_servo2040                 RP2040  133MHz       2MB      256KB  Servo2040
+melopero_shake_rp2040              RP2040  133MHz       16MB     256KB  Shake RP2040
+degz_suibo                         RP2040  133MHz       16MB     256KB  Suibo RP2040
+sparkfun_thingplusrp2040           RP2040  133MHz       16MB     256KB  Thing Plus RP2040
+sparkfun_thingplusrp2350           RP2350  150MHz       16MB     512KB  Thing Plus RP2350
+pimoroni_tiny2040                  RP2040  133MHz       2MB      256KB  Tiny2040
+pimoroni_tiny2350                  RP2350  150MHz       4MB      512KB  Tiny2350
+adafruit_trinkeyrp2040qt           RP2040  133MHz       8MB      256KB  Trinkey RP2040 QT
+wiznet_5100s_evb_pico              RP2040  133MHz       2MB      256KB  W5100S-EVB-Pico
+wiznet_5100s_evb_pico2             RP2350  150MHz       2MB      512KB  W5100S-EVB-Pico2
+wiznet_5500_evb_pico               RP2040  133MHz       2MB      256KB  W5500-EVB-Pico
+wiznet_5500_evb_pico2              RP2350  150MHz       2MB      512KB  W5500-EVB-Pico2
+wiznet_55rp20_evb_pico             RP2040  133MHz       2MB      256KB  W55RP20-EVB-Pico
+wiznet_6300_evb_pico               RP2040  133MHz       2MB      256KB  W6300-EVB-Pico
+wiznet_6300_evb_pico2              RP2350  150MHz       2MB      512KB  W6300-EVB-Pico2
+wiznet_wizfi360_evb_pico           RP2040  133MHz       2MB      256KB  WizFi360-EVB-Pico
+seeed_xiao_rp2040                  RP2040  133MHz       2MB      256KB  XIAO RP2040
+seeed_xiao_rp2350                  RP2350  150MHz       2MB      512KB  XIAO RP2350
+sparkfun_xrp_controller            RP2350  150MHz       16MB     512KB  XRP Controller
+sparkfun_xrp_controller_beta       RP2040  133MHz       2MB      256KB  XRP Controller (Beta)
+vccgnd_yd_rp2040                   RP2040  133MHz       16MB     256KB  YD RP2040
 
 Platform: renesas-ra
 ================================================================================
@@ -1611,6 +1624,7 @@ nucleo_g071rb                STM32G071RBT6   64MHz        128KB     36KB      Nu
 nucleo_g431kb                STM32G431KBT6   170MHz       128KB     32KB      Nucleo G431KB
 nucleo_g431rb                STM32G431RBT6   170MHz       128KB     32KB      Nucleo G431RB
 nucleo_g474re                STM32G474RET6   170MHz       512KB     128KB     Nucleo G474RE
+nucleo_g491re                STM32G491RET6   170MHz       512KB     112KB     Nucleo G491RE
 olimexino                    STM32F103RBT6   72MHz        128KB     20KB      OLIMEXINO-STM32
 olimexino_stm32f3            STM32F303RCT6   72MHz        256KB     40KB      Olimex OLIMEXINO-STM32F3
 olimex_f103                  STM32F103RBT6   72MHz        128KB     20KB      Olimex STM32-H103
@@ -1755,7 +1769,7 @@ genericSTM32F401RC           STM32F401RCT6   84MHz        256KB     64KB      ST
 genericSTM32F401RD           STM32F401RDT6   84MHz        384KB     96KB      STM32F401RD (96k RAM. 384k Flash)
 genericSTM32F401RE           STM32F401RET6   84MHz        512KB     96KB      STM32F401RE (96k RAM. 512k Flash)
 genericSTM32F405RG           STM32F405RGT6   168MHz       1MB       128KB     STM32F405RG (128k RAM. 1024k Flash)
-genericSTM32F407IGT6         STM32F407IGT6   168MHz       1MB       192KB     STM32F407IG (192k RAM. 1024k Flash)
+genericSTM32F407IGT6         STM32F407IGT6   168MHz       1MB       128KB     STM32F407IG (192k RAM. 1024k Flash)
 genericSTM32F407VET6         STM32F407VET6   168MHz       502.23KB  128KB     STM32F407VE (192k RAM. 512k Flash)
 genericSTM32F407VGT6         STM32F407VGT6   168MHz       1MB       128KB     STM32F407VG (128k RAM. 1024k Flash)
 genericSTM32F410C8           STM32F410C8T6   100MHz       64KB      32KB      STM32F410C8 (32k RAM. 64k Flash)
@@ -1786,7 +1800,7 @@ disco_f750n8                 STM32F750N8H6   216MHz       64KB      340KB     ST
 genericSTM32G431CB           STM32G431CBU6   170MHz       128KB     32KB      STM32G431CB (32k RAM. 128k Flash)
 disco_h735ig                 STM32H735IGK6   550MHz       1MB       432KB     STM32H735G-DK Discovery kit
 disco_h747xi                 STM32H747XIH6   400MHz       2MB       512KB     STM32H747I-DISCO
-genericSTM32H750VB           STM32H750VBT6   480MHz       128KB     1MB       STM32H750VBT6 (1024k RAM. 128k Flash)
+genericSTM32H750VB           STM32H750VBT6   480MHz       128KB     512KB     STM32H750VBT6 (1024k RAM. 128k Flash)
 storm32_v1_31_rc             STM32F103RCT6   72MHz        256KB     48KB      STorM32 BGC v1.31 RC
 seeedArchMax                 STM32F407VET6   168MHz       512KB     192KB     Seeed Arch Max
 wio_3g                       STM32F439VI     180MHz       2MB       256KB     Seeed Wio 3G
