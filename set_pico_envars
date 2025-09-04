@@ -11,7 +11,7 @@ export PATH=$PATH:$HOME/.local/bin:$HOME/bin
 export PICO_SDK_REPOS="$CLAMS_BASE/pico_repos"
 
 ## SDK
-export PICO_SDK_VERSION="2.1.1"
+export PICO_SDK_VERSION="2.2.0"
 export PICO_SDK_URL="--recursive --branch ${PICO_SDK_VERSION} https://github.com/raspberrypi/pico-sdk.git"
 export PICO_SDK_PATH="$PICO_SDK_REPOS/pico-sdk"
 
@@ -137,7 +137,7 @@ export GFORTH_PATH="$HOME/Projects/gforth"
 export ZEPHYR_OS_PROJECT="$CLAMS_BASE/zephyr_os_project"
 export ZEPHYR_OS_VENV="$ZEPHYR_OS_PROJECT/.venv"
 export ACTIVATE_ZEPHYR_OS_VENV="$ZEPHYR_OS_VENV/bin/activate"
-export ZEPHYR_OS_SDK_VERSION="0.17.0"
+export ZEPHYR_OS_SDK_VERSION="0.17.4"
 export ZEPHYR_OS_SDK_TARBALL="zephyr-sdk-${ZEPHYR_OS_SDK_VERSION}_linux-x86_64_minimal.tar.xz"
 export ZEPHYR_OS_SDK_REPO="https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v$ZEPHYR_OS_SDK_VERSION"
 export ZEPHYR_OS_SDK_URL="$ZEPHYR_OS_SDK_REPO/$ZEPHYR_OS_SDK_TARBALL"
@@ -146,12 +146,12 @@ export ZEPHYR_OS_SDK_DEST="$HOME/.local"
 
 # CircuitPython
 export CIRCUITPYTHON_VENV="$HOME/circuitpython_venv"
-export CIRCUITPYTHON_VERSION="9.2.7"
+export CIRCUITPYTHON_VERSION="9.2.8"
 export CIRCUITPYTHON_URL="--branch $CIRCUITPYTHON_VERSION https://github.com/adafruit/circuitpython.git"
 export CIRCUITPYTHON_PATH="$HOME/Projects/circuitpython"
 
 # MicroPython
-export MICROPYTHON_VERSION="v1.25.0"
+export MICROPYTHON_VERSION="v1.26.0"
 export MICROPYTHON_URL="--branch $MICROPYTHON_VERSION https://github.com/micropython/micropython.git"
 export MICROPYTHON_PATH="$HOME/Projects/micropython"
 
@@ -161,9 +161,9 @@ export PICO_ICE_MICROPYTHON_URL="--branch $PICO_ICE_MICROPYTHON_VERSION https://
 export PICO_ICE_MICROPYTHON_PATH="$HOME/Projects/pico-ice-micropython"
 
 # Tulip Creative Computer / AMY
-export TULIPCC_URL="--branch v-apr-2025 https://github.com/shorepine/tulipcc.git"
+export TULIPCC_URL="--branch v-aug-2025 https://github.com/shorepine/tulipcc.git"
 export TULIPCC_PATH="$HOME/Projects/tulipcc"
-export AMY_URL="--branch 1.0.3 https://github.com/shorepine/amy.git"
+export AMY_URL="--branch 1.1.4 https://github.com/shorepine/amy.git"
 export AMY_PATH="$HOME/Projects/amy"
 
 # Yocto
@@ -174,6 +174,6 @@ export POKY_RASPI_URL="https://github.com/agherzan/meta-raspberrypi"
 export POKY_RASPI_PATH="$POKY_PATH/meta-raspberrypi"
 
 # Buildroot
-export BUILDROOT_VERSION="2025.02.3"
+export BUILDROOT_VERSION="2025.05.1"
 export BUILDROOT_URL="--branch ${BUILDROOT_VERSION} https://gitlab.com/buildroot.org/buildroot.git"
 export BUILDROOT_PATH="$HOME/buildroot"
