@@ -1,5 +1,5 @@
 Name            Installed Available    Location Description
-AMY Synthesizer 1.0.3     -            user     -
+AMY Synthesizer 1.1.4     -            user     -
 audio-tools     1.1.1     -            user     -
 MIDI Library    5.0.2     -            user     -
 

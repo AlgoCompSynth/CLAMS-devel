@@ -36,4 +36,6 @@ echo "This will take some time."
 echo "It is downloading and installing basic packages."
 echo ""
 echo ""
+distrobox enter "$DBX_CONTAINER_NAME" -- ./1_terminal_setup.sh
+distrobox enter "$DBX_CONTAINER_NAME" -- ./2_install_all.sh
 distrobox enter "$DBX_CONTAINER_NAME"

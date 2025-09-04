@@ -29,6 +29,7 @@ Architeuthis Flux Jumperless         rp2040:rp2040:jumperless_v1
 Architeuthis Flux Jumperless V5      rp2040:rp2040:jumperless_v5
 Arduino Nano RP2040 Connect          rp2040:rp2040:arduino_nano_connect
 ArtronShop RP2 Nano                  rp2040:rp2040:artronshop_rp2_nano
+BIGTREETECH SKR-Pico                 rp2040:rp2040:bigtreetech_SKR_Pico
 Breadstick Raspberry                 rp2040:rp2040:breadstick_raspberry
 BridgeTek IDM2040-43A                rp2040:rp2040:bridgetek_idm2040_43a
 BridgeTek IDM2040-7A                 rp2040:rp2040:bridgetek_idm2040_7a
@@ -45,6 +46,7 @@ Degz Robotics Suibo RP2040           rp2040:rp2040:degz_suibo
 EVN Alpha                            rp2040:rp2040:evn_alpha
 ElectronicCats HunterCat NFC RP2040  rp2040:rp2040:electroniccats_huntercat_nfc
 ExtremeElectronics RC2040            rp2040:rp2040:extelec_rc2040
+GeeekPi RP2040 Plus                  rp2040:rp2040:geeekpi_rp2040_plus
 Generic RP2040                       rp2040:rp2040:generic
 Generic RP2350                       rp2040:rp2040:generic_rp2350
 Generic Sea-Picro                    rp2040:rp2040:sea_picro
@@ -61,6 +63,7 @@ Newsan Archi                         rp2040:rp2040:newsan_archi
 Olimex Pico2XL                       rp2040:rp2040:olimex_pico2xl
 Olimex Pico2XXL                      rp2040:rp2040:olimex_pico2xxl
 Olimex RP2040-Pico30                 rp2040:rp2040:olimex_rp2040pico30
+Pimoroni Explorer                    rp2040:rp2040:pimoroni_explorer
 Pimoroni PGA2040                     rp2040:rp2040:pimoroni_pga2040
 Pimoroni PGA2350                     rp2040:rp2040:pimoroni_pga2350
 Pimoroni PicoPlus2                   rp2040:rp2040:pimoroni_pico_plus_2
@@ -109,15 +112,19 @@ WIZnet W5100S-EVB-Pico2              rp2040:rp2040:wiznet_5100s_evb_pico2
 WIZnet W5500-EVB-Pico                rp2040:rp2040:wiznet_5500_evb_pico
 WIZnet W5500-EVB-Pico2               rp2040:rp2040:wiznet_5500_evb_pico2
 WIZnet W55RP20-EVB-Pico              rp2040:rp2040:wiznet_55rp20_evb_pico
+WIZnet W6300-EVB-Pico                rp2040:rp2040:wiznet_6300_evb_pico
+WIZnet W6300-EVB-Pico2               rp2040:rp2040:wiznet_6300_evb_pico2
 WIZnet WizFi360-EVB-Pico             rp2040:rp2040:wiznet_wizfi360_evb_pico
 Waveshare RP2040 LCD 0.96            rp2040:rp2040:waveshare_rp2040_lcd_0_96
 Waveshare RP2040 LCD 1.28            rp2040:rp2040:waveshare_rp2040_lcd_1_28
 Waveshare RP2040 Matrix              rp2040:rp2040:waveshare_rp2040_matrix
 Waveshare RP2040 One                 rp2040:rp2040:waveshare_rp2040_one
 Waveshare RP2040 PiZero              rp2040:rp2040:waveshare_rp2040_pizero
-Waveshare RP2040 Plus 16MB           rp2040:rp2040:waveshare_rp2040_plus_16mb
-Waveshare RP2040 Plus 4MB            rp2040:rp2040:waveshare_rp2040_plus_4mb
+Waveshare RP2040 Plus                rp2040:rp2040:waveshare_rp2040_plus
 Waveshare RP2040 Zero                rp2040:rp2040:waveshare_rp2040_zero
+Waveshare RP2350 LCD 0.96            rp2040:rp2040:waveshare_rp2350_lcd_0_96
+Waveshare RP2350 Plus                rp2040:rp2040:waveshare_rp2350_plus
+Waveshare RP2350 Zero                rp2040:rp2040:waveshare_rp2350_zero
 iLabs Challenger 2040 LTE            rp2040:rp2040:challenger_2040_lte
 iLabs Challenger 2040 LoRa           rp2040:rp2040:challenger_2040_lora
 iLabs Challenger 2040 NFC            rp2040:rp2040:challenger_2040_nfc
