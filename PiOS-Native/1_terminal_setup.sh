@@ -17,6 +17,7 @@ sudo apt-get install -qqy \
   starship \
   time \
   vim \
+  zram-tools \
   >> $LOGFILE 2>&1
 
 echo "Configuring Starship"
