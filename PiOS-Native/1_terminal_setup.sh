@@ -20,7 +20,7 @@ sudo apt-get install -qqy \
   >> $LOGFILE 2>&1
 
 echo "Configuring Starship"
-cp starship.toml $HOME/.config/starship.toml
+cp ./configs/starship.toml $HOME/.config/starship.toml
 
 echo "Setting bash and vim configuration files"
 cp bash_aliases $HOME/.bash_aliases; source bash_aliases
