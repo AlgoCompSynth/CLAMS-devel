@@ -13,7 +13,7 @@ export ZEPHYR_PROJECT="$HOME/zephyrproject" # inside the container
 export ZEPHYR_WORKSPACE="$ZEPHYR_PROJECT/zephyr" # inside the container
 export ZEPHYR_VENV="$ZEPHYR_PROJECT/.venv" # inside the container
 
-export ZEPHYR_SDK_BASE="zephyr-sdk-0.17.2"
+export ZEPHYR_SDK_BASE="zephyr-sdk-0.17.4"
 export ZEPHYR_SDK_PATH="$HOME/$ZEPHYR_SDK_BASE" # inside the container
 export HOST_ZEPHYR_SDK_PATH="$DBX_CONTAINER_DIRECTORY/$ZEPHYR_SDK_BASE" # inside the host
 export ZEPHYR_OPENOCD_NAME="60-openocd.rules"
