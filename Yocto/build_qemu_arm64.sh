@@ -22,9 +22,6 @@ pushd $POKY_PATH
   echo "Building core-image-full-cmdline"
   /usr/bin/time bitbake core-image-full-cmdline \
     2>&1 | tee --append $LOGFILE
-
-  echo "Testing core-image-full-cmdline"
-  runqemu qemuarm64
 popd
 
 echo "Finished"
