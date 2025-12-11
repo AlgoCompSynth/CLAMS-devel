@@ -26,7 +26,7 @@ echo "Installing apio FPGA udev rules as 'root'!!"
 sudo cp 80-fpga-*.rules $SYSTEM_UDEV_PATH/
 
 echo "Installing teensy udev rules as 'root'!!"
-sudo cp 00-teensy.rules $SYSTEM_UDEV_PATH/
+sudo cp 99-teensy.rules $SYSTEM_UDEV_PATH/
 
 echo "Installing TinyUSB udev rules as 'root'!!"
 sudo cp 99-tinyusb.rules $SYSTEM_UDEV_PATH/
