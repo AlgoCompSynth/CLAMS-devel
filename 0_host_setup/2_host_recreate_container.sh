@@ -4,11 +4,7 @@ set -e
 
 echo ""
 echo "Setting environment variables"
-export DBX_CONTAINER_IMAGE="quay.io/toolbx/ubuntu-toolbox:24.04"
-export DBX_CONTAINER_NAME="CLAMS-devel"
-export DBX_CONTAINER_HOME_PREFIX="$HOME/dbx-homes"
-export DBX_CONTAINER_DIRECTORY="$DBX_CONTAINER_HOME_PREFIX/$DBX_CONTAINER_NAME"
-export DBX_CONTAINER_HOSTNAME=$DBX_CONTAINER_NAME
+source ../set_pico_envars
 
 echo ""
 echo "Removing any existing distrobox container $DBX_CONTAINER_NAME"
