@@ -12,23 +12,19 @@ cp bash_aliases $HOME/.bash_aliases; source bash_aliases
 cp vimrc $HOME/.vimrc
 
 echo "Installing Meslo nerd fonts"
-pushd /tmp
+mkdir --parents $HOME/.fonts
+pushd $HOME/.fonts
 
   echo "Downloading patched MesloLG Nerd fonts"
   rm --force --recursive Meslo*
   curl -sOL https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Meslo.zip
-  mkdir Meslo
-  cd Meslo
-  unzip ../Meslo.zip
+  unzip -qqo Meslo.zip
 
-  echo "Copying to $HOME/.fonts"
-  mkdir --parents $HOME/.fonts
-  cp *.ttf $HOME/.fonts
-
+  rm Meslo.zip
   popd
 
 echo "Installing Starship"
-./install_starship.sh
+./starship.sh
 mkdir --parents $HOME/.config
 cp starship.toml $HOME/.config/starship.toml
 
