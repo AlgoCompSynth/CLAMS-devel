@@ -31,7 +31,7 @@ cp starship.toml $HOME/.config/starship.toml
 echo "Adding Starship prompt to bash"
 echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
 
-echo ""
-echo "Restart bash to get new Starship prompt"
+echo "Installing base devel / audio packages"
+./apt_audio_base.sh
 
 echo "Finished"

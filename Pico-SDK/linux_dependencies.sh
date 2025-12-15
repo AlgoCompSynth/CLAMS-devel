@@ -10,9 +10,13 @@ rm --force $LOGFILE
 echo "Installing Linux build dependencies"
 export DEBIAN_FRONTEND=noninteractive
 /usr/bin/time sudo apt-get install -qqy --no-install-recommends \
+  autoconf \
   automake \
+  libjim-dev \
   libtool \
   libusb-1.0-0-dev \
+  pkgconf \
+  texinfo \
   >> $LOGFILE 2>&1
 
 echo "Finished"

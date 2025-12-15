@@ -69,5 +69,7 @@ export DEBIAN_FRONTEND=noninteractive
   wireplumber-doc \
   zstd \
   >> $LOGFILE 2>&1
+sudo apt-file update \
+  >> $LOGFILE 2>&1
 
 echo "Finished"
