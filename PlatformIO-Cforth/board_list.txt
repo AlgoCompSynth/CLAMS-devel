@@ -1123,6 +1123,7 @@ t102-v1.1                   RTL8710BN  125MHz       788KB    256KB  T102_V1.1
 t103-v1.0                   RTL8710BX  62MHz        788KB    256KB  T103_V1.0
 t112-v1.1                   RTL8710BN  125MHz       788KB    256KB  T112_V1.1
 wa2                         BK7231Q    120MHz       1.03MB   256KB  WA2 Wi-Fi Module
+wb02a                       LN882HK    160MHz       1.17MB   295KB  WB02A Wi-Fi/BLE Module
 wb1s                        BK7231T    120MHz       1.03MB   256KB  WB1S Wi-Fi Module
 wb2l                        BK7231T    120MHz       1.03MB   256KB  WB2L Wi-Fi Module
 wb2l-m1                     BK7231N    120MHz       1.03MB   256KB  WB2L_M1 Wi-Fi Module
@@ -1377,6 +1378,7 @@ challenger_nb_2040_wifi            RP2040  133MHz       8MB      256KB  Challeng
 connectivity_2040_lte_wifi_ble     RP2040  133MHz       8MB      256KB  Connectivity 2040 LTE/WiFi/BLE
 melopero_cookie_rp2040             RP2040  133MHz       8MB      256KB  Cookie RP2040
 DudesCab                           RP2040  133MHz       4MB      256KB  DudesCab
+pimoroni_explorer                  RP2350  150MHz       16MB     512KB  Explorer
 adafruit_feather                   RP2040  133MHz       8MB      256KB  Feather RP2040
 adafruit_feather_adalogger         RP2040  133MHz       8MB      256KB  Feather RP2040 Adalogger
 adafruit_feather_can               RP2040  133MHz       8MB      256KB  Feather RP2040 CAN
@@ -1415,6 +1417,7 @@ adafruit_metro_rp2350              RP2350  150MHz       16MB     512KB  Metro RP
 sparkfun_micromodrp2040            RP2040  133MHz       16MB     256KB  MicroMod RP2040
 viyalab_mizu                       RP2040  133MHz       8MB      256KB  Mizu RP2040
 cytron_motion_2350_pro             RP2350  150MHz       2MB      512KB  Motion 2350 Pro
+soldered_nula_rp2350               RP2350  150MHz       16MB     512KB  NULA RP2350
 arduino_nano_connect               RP2040  133MHz       16MB     256KB  Nano RP2040 Connect
 pimoroni_pga2040                   RP2040  133MHz       8MB      256KB  PGA2040
 pimoroni_pga2350                   RP2350  150MHz       16MB     512KB  PGA2350
@@ -1422,6 +1425,7 @@ rpipico                            RP2040  133MHz       2MB      256KB  Pico
 rpipico2                           RP2350  150MHz       4MB      512KB  Pico 2
 rpipico2w                          RP2350  150MHz       4MB      512KB  Pico 2W
 rpipicow                           RP2040  133MHz       2MB      256KB  Pico W
+olimex_pico2bb48                   RP2350  150MHz       16MB     512KB  Pico2BB48
 olimex_pico2xl                     RP2350  150MHz       2MB      512KB  Pico2XL
 olimex_pico2xxl                    RP2350  150MHz       16MB     512KB  Pico2XXL
 datanoisetv_picoadk                RP2040  133MHz       2MB      256KB  PicoADK
@@ -1445,6 +1449,7 @@ waveshare_rp2040_lcd_1_28          RP2040  133MHz       2MB      256KB  RP2040 L
 waveshare_rp2040_matrix            RP2040  133MHz       2MB      256KB  RP2040 Matrix
 waveshare_rp2040_one               RP2040  133MHz       4MB      256KB  RP2040 One
 waveshare_rp2040_pizero            RP2040  133MHz       16MB     256KB  RP2040 PiZero
+geeekpi_rp2040_plus                RP2040  133MHz       4MB      256KB  RP2040 Plus
 waveshare_rp2040_plus              RP2040  133MHz       4MB      256KB  RP2040 Plus
 waveshare_rp2040_plus_16mb         RP2040  133MHz       16MB     256KB  RP2040 Plus 16MB
 waveshare_rp2040_plus_4mb          RP2040  133MHz       4MB      256KB  RP2040 Plus 4MB
@@ -1457,10 +1462,12 @@ silicognition_rp2040_shim          RP2040  133MHz       4MB      256KB  RP2040-S
 db_rp2350                          RP2350  150MHz       16MB     512KB  RP2350
 generic_rp2350                     RP2350  150MHz       16MB     512KB  RP2350
 waveshare_rp2350_lcd_0_96          RP2350  150MHz       4MB      512KB  RP2350 LCD 0.96
+waveshare_rp2350_pizero            RP2350  150MHz       16MB     512KB  RP2350 PiZero
 waveshare_rp2350_plus              RP2350  150MHz       4MB      512KB  RP2350 Plus
 solderparty_rp2350_stamp           RP2350  150MHz       16MB     512KB  RP2350 Stamp
 solderparty_rp2350_stamp_xl        RP2350  150MHz       16MB     512KB  RP2350 Stamp XL
 waveshare_rp2350_zero              RP2350  150MHz       4MB      512KB  RP2350 Zero
+MyRP_2350B                         RP2350  150MHz       4MB      512KB  RP2350B
 ilabs_rpico32                      RP2040  133MHz       8MB      256KB  RPICO32
 breadstick_raspberry               RP2040  133MHz       16MB     256KB  Raspberry
 pico                               RP2040  133MHz       2MB      256KB  Raspberry Pi Pico
@@ -1472,6 +1479,7 @@ adafruit_stemmafriend              RP2040  133MHz       8MB      256KB  STEMMA F
 sea_picro                          RP2040  133MHz       8MB      256KB  Sea-Picro
 pimoroni_servo2040                 RP2040  133MHz       2MB      256KB  Servo2040
 melopero_shake_rp2040              RP2040  133MHz       16MB     256KB  Shake RP2040
+vicharak_shrike-lite               RP2040  133MHz       4MB      256KB  Shrike-Lite
 degz_suibo                         RP2040  133MHz       16MB     256KB  Suibo RP2040
 sparkfun_thingplusrp2040           RP2040  133MHz       16MB     256KB  Thing Plus RP2040
 sparkfun_thingplusrp2350           RP2350  150MHz       16MB     512KB  Thing Plus RP2350
@@ -1496,6 +1504,7 @@ Platform: renesas-ra
 ================================================================================
 ID             MCU            Frequency    Flash    RAM       Name
 -------------  -------------  -----------  -------  --------  ---------------------
+nano_r4        RA4M1          48MHz        256KB    32KB      Arduino Nano R4
 portenta_c33   R7FA6M5BH2CBG  200MHz       2MB      511.35KB  Arduino Portenta C33
 uno_r4_minima  RA4M1          48MHz        256KB    32KB      Arduino Uno R4 Minima
 uno_r4_wifi    RA4M1          48MHz        256KB    32KB      Arduino Uno R4 WiFi
@@ -1816,6 +1825,8 @@ hy_tinystm103tb              STM32F103TBU6   72MHz        128KB     20KB      Ti
 vake_v1                      STM32F446RET6   180MHz       512KB     128KB     VAkE v1.0
 vccgnd_f103zet6              STM32F103ZET6   72MHz        512KB     64KB      VCCGND F103ZET6 Mini
 vccgnd_f407zg_mini           STM32F407ZGT6   168MHz       1MB       128KB     VCCGND F407ZGT6 Mini
+we_oceanus1_ev               STM32WLE5CCU6   48MHz        256KB     64KB      WE Oceanus-I EV
+we_oceanus1                  STM32WLE5CCU6   48MHz        256KB     64KB      WE Oceanus-I Module
 waveshare_open103z           STM32F103ZET6   72MHz        512KB     64KB      Waveshare Open103Z
 blackpill_f401cc             STM32F401CCU6   84MHz        256KB     64KB      WeAct Studio BlackPill V2.0 (STM32F401CC)
 blackpill_f411ce             STM32F411CEU6   100MHz       512KB     128KB     WeAct Studio BlackPill V2.0 (STM32F411CE)
