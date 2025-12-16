@@ -121,13 +121,9 @@ export PFORTH_PATH="$HOME/Projects/pforth"
 export ZFORTH_URL="https://github.com/zevv/zForth.git"
 export ZFORTH_PATH="$HOME/Projects/zForth"
 
-## c3
-export C3_URL="https://github.com/CCurl/c3.git"
-export C3_PATH="$HOME/Projects/c3"
-
-## c4
-export C4_URL="https://github.com/CCurl/c4.git"
-export C4_PATH="$HOME/Projects/c4"
+## c4a
+export C4A_URL="https://github.com/CCurl/c4a.git"
+export C4A_PATH="$HOME/Projects/c4a"
 
 ## gforth
 export GFORTH_URL="https://github.com/forthy42/gforth.git"
