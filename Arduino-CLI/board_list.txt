@@ -58,8 +58,10 @@ Makerbase MKS THR42                  rp2040:rp2040:mksthr42
 Melopero Cookie RP2040               rp2040:rp2040:melopero_cookie_rp2040
 Melopero Shake RP2040                rp2040:rp2040:melopero_shake_rp2040
 MyMakers RP2040                      rp2040:rp2040:MyRP_bot
+MyMakers RP2350B                     rp2040:rp2040:MyRP_2350B
 Neko Systems BL2040 Mini             rp2040:rp2040:nekosystems_bl2040_mini
 Newsan Archi                         rp2040:rp2040:newsan_archi
+Olimex Pico2BB48                     rp2040:rp2040:olimex_pico2bb48
 Olimex Pico2XL                       rp2040:rp2040:olimex_pico2xl
 Olimex Pico2XXL                      rp2040:rp2040:olimex_pico2xxl
 Olimex RP2040-Pico30                 rp2040:rp2040:olimex_rp2040pico30
@@ -86,6 +88,7 @@ Silicognition RP2040-Shim            rp2040:rp2040:silicognition_rp2040_shim
 Solder Party RP2040 Stamp            rp2040:rp2040:solderparty_rp2040_stamp
 Solder Party RP2350 Stamp            rp2040:rp2040:solderparty_rp2350_stamp
 Solder Party RP2350 Stamp XL         rp2040:rp2040:solderparty_rp2350_stamp_xl
+Soldered Electronics NULA RP2350     rp2040:rp2040:soldered_nula_rp2350
 SparkFun IoT Node LoRaWAN            rp2040:rp2040:sparkfun_iotnode_lorawanrp2350
 SparkFun IoT RedBoard RP2350         rp2040:rp2040:sparkfun_iotredboard_rp2350
 SparkFun MicroMod RP2040             rp2040:rp2040:sparkfun_micromodrp2040
@@ -106,6 +109,7 @@ Teensy LC                            teensy:avr:teensyLC
 Teensy MicroMod                      teensy:avr:teensyMM
 Teensy++ 2.0                         teensy:avr:teensypp2
 VCC-GND YD RP2040                    rp2040:rp2040:vccgnd_yd_rp2040
+Vicharak Shrike-Lite                 rp2040:rp2040:vicharak_shrike-lite
 Viyalab Mizu RP2040                  rp2040:rp2040:viyalab_mizu
 WIZnet W5100S-EVB-Pico               rp2040:rp2040:wiznet_5100s_evb_pico
 WIZnet W5100S-EVB-Pico2              rp2040:rp2040:wiznet_5100s_evb_pico2
@@ -123,6 +127,7 @@ Waveshare RP2040 PiZero              rp2040:rp2040:waveshare_rp2040_pizero
 Waveshare RP2040 Plus                rp2040:rp2040:waveshare_rp2040_plus
 Waveshare RP2040 Zero                rp2040:rp2040:waveshare_rp2040_zero
 Waveshare RP2350 LCD 0.96            rp2040:rp2040:waveshare_rp2350_lcd_0_96
+Waveshare RP2350 PiZero              rp2040:rp2040:waveshare_rp2350_pizero
 Waveshare RP2350 Plus                rp2040:rp2040:waveshare_rp2350_plus
 Waveshare RP2350 Zero                rp2040:rp2040:waveshare_rp2350_zero
 iLabs Challenger 2040 LTE            rp2040:rp2040:challenger_2040_lte
