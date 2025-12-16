@@ -65,12 +65,8 @@ do
     pico2 \
     pimoroni_pico_plus2_rp2350 \
     pimoroni_pico_plus2_w_rp2350 \
-    ilabs_challenger_rp2350_bconnect \
-    ilabs_challenger_rp2350_wifi_ble \
-    sparkfun_promicro_rp2350 \
     pico2_w \
-    sparkfun_thingplus_rp2350 \
-    adafruit_feather_rp2350
+    adafruit_fruit_jam
   do
     export PICO_BOARD=$board
 

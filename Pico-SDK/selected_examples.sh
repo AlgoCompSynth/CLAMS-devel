@@ -23,8 +23,6 @@ pushd $PICO_EXAMPLES_PATH
       >> $LOGFILE 2>&1
     /usr/bin/time zip -9r $CLAMS_BASE/selected_examples.zip `find . -name "hello_*.$suffix"` \
       >> $LOGFILE 2>&1
-    /usr/bin/time zip -9r $CLAMS_BASE/selected_examples.zip `find . -name "flash_*.$suffix"` \
-      >> $LOGFILE 2>&1
     /usr/bin/time zip -9r $CLAMS_BASE/selected_examples.zip `find . -name "tinyusb*.$suffix"` \
       >> $LOGFILE 2>&1
   done

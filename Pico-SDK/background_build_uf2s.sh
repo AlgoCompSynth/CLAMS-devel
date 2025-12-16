@@ -20,7 +20,7 @@ echo "on the logfiles. This takes about an hour on my 32 GB"
 echo "Acer Nitro 5 laptop. It probably requires at least 8 GB of"
 echo "RAM."
 
-/usr/bin/time ./build_rp2040_examples.sh > $PWD/Logs/build_rp2040_examples.log 2>&1 &
-/usr/bin/time ./build_rp2350_examples.sh > $PWD/Logs/build_rp2350_examples.log 2>&1 &
+distrobox enter "$DBX_CONTAINER_NAME" -- /usr/bin/time ./build_rp2040_examples.sh > $PWD/Logs/build_rp2040_examples.log 2>&1 &
+distrobox enter "$DBX_CONTAINER_NAME" -- /usr/bin/time ./build_rp2350_examples.sh > $PWD/Logs/build_rp2350_examples.log 2>&1 &
 
 echo "Finished"
