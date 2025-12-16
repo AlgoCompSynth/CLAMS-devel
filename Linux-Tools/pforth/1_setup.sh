@@ -27,7 +27,7 @@ pushd $PFORTH_PATH
   /usr/bin/time make \
     >> $LOGFILE 2>&1
   cp fth/pforth_standalone $HOME/.local/bin/
-  ln -s $HOME/.local/bin/pforth_standalone $HOME/.local/bin/pforth
+  ln -sf $HOME/.local/bin/pforth_standalone $HOME/.local/bin/pforth
   date +"%F %T" \
     >> $LOGFILE 2>&1
 
