@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+set -e
+
+pushd $HOME/Projects/zForth/
+  ./src/linux/zforth \
+    ./forth/core.zf \
+    ./forth/dict.zf \
+    ./forth/memaccess.zf
+popd
