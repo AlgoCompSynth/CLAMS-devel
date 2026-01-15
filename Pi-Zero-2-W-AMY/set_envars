@@ -5,34 +5,14 @@ export PROJECTS=$HOME/Projects; mkdir --parents $PROJECTS
 export LOGFILES=$HOME/Logfiles; mkdir --parents $LOGFILES
 export LOCALBIN=$HOME/.local/bin; mkdir --parents $LOCALBIN
 
-## cforth
-export CFORTH_URL="https://github.com/MitchBradley/cforth.git"
-export CFORTH_PATH="$HOME/Projects/cforth"
-
-## pforth
-export PFORTH_URL="https://github.com/PhilBurk/pforth.git"
-export PFORTH_PATH="$HOME/Projects/pforth"
-
 ## zForth
 export ZFORTH_URL="https://github.com/zevv/zForth.git"
-export ZFORTH_PATH="$HOME/Projects/zForth"
+export ZFORTH_PATH="$PROJECTS/zForth"
 
 ## c4a
 export C4A_URL="https://github.com/CCurl/c4a.git"
-export C4A_PATH="$HOME/Projects/c4a"
-
-# CircuitPython
-export CIRCUITPYTHON_VENV="$HOME/circuitpython_venv"
-export CIRCUITPYTHON_VERSION="9.2.8"
-export CIRCUITPYTHON_URL="--branch $CIRCUITPYTHON_VERSION https://github.com/adafruit/circuitpython.git"
-export CIRCUITPYTHON_PATH="$HOME/Projects/circuitpython"
-
-# MicroPython
-export MICROPYTHON_VERSION="v1.26.0"
-export MICROPYTHON_URL="--branch $MICROPYTHON_VERSION https://github.com/micropython/micropython.git"
-export MICROPYTHON_PATH="$HOME/Projects/micropython"
-export PICO_ICE_MICROPYTHON_PATH="$HOME/Projects/pico-ice-micropython"
+export C4A_PATH="$PROJECTS/c4a"
 
 # AMY
 export AMY_URL="--branch 1.1.4 https://github.com/shorepine/amy.git"
-export AMY_PATH="$HOME/Projects/amy"
+export AMY_PATH="$PROJECTS/amy"

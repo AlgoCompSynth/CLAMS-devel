@@ -3,16 +3,16 @@
 set -e
 
 echo ""
-echo "Setting environment variables"
-source ../../set_pico_envars
-mkdir --parents $PWD/Logs
-export LOGFILE="$PWD/Logs/setup.log"
+echo "* zForth *"
+source ../set_envars
+export LOGFILE="$LOGFILES/zForth.log"
 rm --force $LOGFILE
 
 echo "Installing Linux dependencies"
 export DEBIAN_FRONTEND=noninteractive
 sudo apt-get install -qqy --no-install-recommends \
-  libreadline-dev
+  libreadline-dev \
+  >> $LOGFILE 2>&1
 
 echo "Cloning fresh zForth project repository"
 mkdir --parents $ZFORTH_PATH
@@ -34,7 +34,7 @@ pushd $ZFORTH_PATH
 
 popd
 
-echo "Installing $HOME/.local/bin/zforth"
-cp zforth $HOME/.local/bin
+echo "Installing $LOCALBIN/zforth"
+cp zforth $LOCALBIN
 
-echo "Finished"
+echo "* Finished zForth *"
