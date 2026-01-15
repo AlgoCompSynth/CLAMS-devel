@@ -9,9 +9,9 @@ export LOCALBIN=$HOME/.local/bin; mkdir --parents $LOCALBIN
 export ZFORTH_URL="https://github.com/zevv/zForth.git"
 export ZFORTH_PATH="$PROJECTS/zForth"
 
-## c4a
-export C4A_URL="https://github.com/CCurl/c4a.git"
-export C4A_PATH="$PROJECTS/c4a"
+## c4
+export C4_URL="https://github.com/CCurl/c4.git"
+export C4_PATH="$PROJECTS/c4"
 
 # AMY
 export AMY_URL="--branch 1.1.4 https://github.com/shorepine/amy.git"
