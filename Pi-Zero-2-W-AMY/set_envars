@@ -5,10 +5,6 @@ export PROJECTS=$HOME/Projects; mkdir --parents $PROJECTS
 export LOGFILES=$HOME/Logfiles; mkdir --parents $LOGFILES
 export LOCALBIN=$HOME/.local/bin; mkdir --parents $LOCALBIN
 
-## zForth
-export ZFORTH_URL="https://github.com/zevv/zForth.git"
-export ZFORTH_PATH="$PROJECTS/zForth"
-
 ## c4
 export C4_URL="https://github.com/CCurl/c4.git"
 export C4_PATH="$PROJECTS/c4"
